@@ -23,7 +23,7 @@ History
 
 The Camera3D library was inspired by my fascination with anaglyphs and my frustration with the no longer functioning RedBlue library. I built this because I wanted to create anaglyphs in Processing_ and I couldn't get the RedBlue library to work again.
 
-The RedBlue library worked in Processing_ 1.5 but stopped working when Processing_ 2.x stopped supporting the Java3D renderer. I did the best I could to get it working again but every attempt failed. After much experimentation and analysis of the Processing_ library code, I discovered a very different approach that could be used to create a new anaglyph library. Camera3D was then born.
+The RedBlue library worked in Processing_ 1.5 but stopped working when Processing_ 2.x stopped supporting the Java3D renderer. I did the best I could to get it working again but every attempt failed. After much experimentation and analysis of the Processing_ library code, I discovered a very different approach that could be used to create a new anaglyph library. The key insight here is that a sketch's *draw* method can be called multiple times per frame. When I realized this, Camera3D was born.
 
 At first Camera3D could only do simple red-cyan bitmask anaglyphs, much like the RedBlue library. As I experimented and researched this subject online, I learned there is much more to anaglyphs than using bitmasks to combine two images. In fact, there are even `published journal papers <http://www.site.uottawa.ca/~edubois/icassp01/anaglyphdubois.pdf>`_ on the subject, outlining sophisticated algorithms for optimal color choices for each pixel. I was hooked.
 
@@ -32,14 +32,14 @@ Today this library can do more than just anaglyphs and stereoscopic animations. 
 Acknowledgements
 ================
 
-I would like to thank `Lee Byron`_ for making the original RedBlue library. Camera3D has little resemblance to RedBlue but did inherit a couple of lines of code from its stereoscopic calculations. More importantly, it provided me with the inspiration to create this. I would also like to thank my fellow campers from `ITP Camp <http://itp.nyu.edu/camp2015/>`_, especially the folks who attended the session I taught on the first Camera3D prototype. The feedback I received was valuable and helped me make this library even easier to use. I would also like to thank `Tomás Laurenzo <http://laurenzo.net/>`_ and Kay Anar for helpful feedback on NVidia 3D.
+I would like to thank `Lee Byron`_ for making the original RedBlue library. Camera3D has little resemblance to RedBlue but does inherit a couple of lines of code from its stereoscopic calculations. More importantly, RedBlue provided me with the inspiration to create this. I would also like to thank my fellow campers from `ITP Camp <http://itp.nyu.edu/camp2015/>`_, especially the folks who attended the session I taught on the first Camera3D prototype. The feedback I received was valuable and helped me make this library even easier to use. I would also like to thank `Tomás Laurenzo <http://laurenzo.net/>`_ and Kay Anar for helpful feedback on working with NVidia 3D.
 
 Features
 ========
 
 Camera3D works with Processing 2.2 and 3.0.
 
-To learn how to use Camera3D, start with the :doc:`tutorial`. Next, have a look at the examples provided to you when you installed Camera3D through Processing_'s Import Library feature. 
+To learn how to use Camera3D, start with the :doc:`tutorial`. Next, have a look at the examples provided to you when you installed Camera3D through Processing_'s Import Library feature.
 
 Below are the built in generators you can use, along with an explanation of how they operate. There's also a :doc:`regular-renderer` that makes Camera3D animations look just like a regular P3D sketch if you need it.
 
@@ -75,7 +75,7 @@ Camera3D supports all of the regular Processing_ camera functions. It also coope
 
 The examples illustrate everything mentioned above as well as provide utility programs to help you explore its potential.
 
-`Javadocs <javadoc/index.html>`_ are available if you need them.
+`Javadocs <javadoc/index.html>`_ are available if you need them. You can find the `source <https://github.com/subject117/Camera3D>`_ and latest `release <https://github.com/subject117/Camera3D/releases>`_ on github.
 
 Finally, some :doc:`miscellaneous-thoughts`. 
 

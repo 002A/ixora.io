@@ -56,3 +56,19 @@ Do **NOT** call Processing camera functions directly. Use Camera3D instead. For 
     ...
 
 Camera3D needs to control the Processing camera settings. If you call Processing camera functions directly they will either do nothing or they will ruin your sketch.
+
+You may want to save frames from an anaglyph sketch and make a movie file out of it. To do this, call Processing's *saveFrame* method from the *postDraw* method, like this:
+
+.. code-block:: java
+
+  void postDraw() {
+    saveFrame("frames/####-animation.tif");
+  }
+
+You'll want to encode the sequence of images into a movie file. You can use Processing's Movie Maker tool, but that does not give you the option to control how the movie is encoded or what the bitrate is. Video encoding can alter the images slightly, which is normally fine, but for an anaglyph, small changes can introduce undesirable artifacts.
+
+To make the animation for my `holiday cards <link://slug/happy-holidays-2015>`_ I used *avconv* with the below parameters. The output was larger than the Movie Maker tool's output but seemed to be higher quality.
+
+.. code-block:: bash
+
+    $ avconv -framerate 30 -i %05d-tree.tif -vb 10M -vcodec libx264 tree.mpg

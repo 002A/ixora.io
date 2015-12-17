@@ -1,4 +1,4 @@
-.. title: Glasses
+.. title: 3D Glasses
 .. slug: glasses
 .. date: 2015-11-04 14:50:24 UTC-05:00
 .. tags: 
