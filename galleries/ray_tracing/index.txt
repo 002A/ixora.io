@@ -1,0 +1,17 @@
+.. title: Ray Tracing
+.. slug: ray_tracing
+.. date: 2015-05-18 23:38:46 UTC-04:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+Like a lot of nerdy guys in the late 90's, was enamored with the 3D rendering program Pov-Ray_. I had so much fun designing 3D objects and playing around with the lighting and texture effects. I started when I was a senior in college at RPI and continued until around the time I went to grad school. The gallery below is a collection of my work over the years.
+
+Occasionally I would compete in the `Internet Ray Tracing Competition <http://www.irtc.org/>`_. My entry into the `Spectacular Landscapes <http://www.irtc.org/stills/2002-10-31.html>`_ contest, "`A Sunrise </galleries/ray_tracing/a_sunrise.jpg>`_," came in `9th place <http://www.irtc.org/stills/2002-10-31/results.txt>`_. That made me so happy.
+
+I don't use Pov-Ray any more but I spend quite a bit of time on other creative applications of technology. Browse the rest of this site to see more.
+
+.. _Pov-Ray: http://www.povray.org/
+

@@ -1,0 +1,28 @@
+.. title: Projects
+.. slug: index
+.. date: 2015-04-20 00:54:49 UTC-04:00
+.. tags: 
+.. category: 
+.. link:
+.. description: 
+.. type: text
+
+Here are some things that make me happy.
+
+:doc:`iowa-electronic-markets`
+
+  In 2008 I built a fully automated computer program that could make (real) money on its own by trading securities in a small market called the Iowa Electronic Markets. The securities were linked to 2008 Presidential election. In 2012 I published a research paper explaining the results and details about how the system worked.
+
+`Camera-3D <link://section_index/projects/camera-3D>`_
+
+  Processing_ is a Java application popular with artists and creative technologists like myself. Processing allows users to build extensions to expand the application's features and to share those tools with the community. I built one such extension called Camera3D. My code enables users to employ various 3D algorithms with ordinary 3D OpenGL processing sketches to provide viewers with an illusion of depth. The collection of techniques include anaglyphs (think red-cyan glasses), tools for creating  and split depth optical illusions.
+
+:doc:`mouse-tracings`
+
+  A data representation project using live or recorded mouse and keyboard activity. Characteristics such as mouse position and keystrokes are manifested as colored lines and shapes. The background of my computer is created in real-time in response to user input. When I turn on my computer the background is black, but it quickly evolves into a unique visualization depicting my interaction with the computer.
+
+:doc:`connect-the-dots`
+
+  I have an odd fascination with connect the dots puzzles. I have designed a bunch of these over the years and have used them for the front cover of my holiday cards and the back of my personal cards. I think they are a great way to engage people in a creative manner using something that people don't usually pay much attention to.
+
+.. _Processing: http://processing.org/

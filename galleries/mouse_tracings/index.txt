@@ -1,0 +1,11 @@
+.. title: Mouse Tracings
+.. slug: mouse-tracings
+.. date: 2015-05-18 23:38:46 UTC-04:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+Read about this project on the :doc:`mouse-tracings` project page.
+
