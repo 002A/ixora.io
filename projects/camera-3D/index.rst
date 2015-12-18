@@ -2,9 +2,9 @@
 .. slug: index
 .. date: 2015-06-17 14:41:01 UTC-04:00
 .. tags: processing
-.. category: 
-.. link: 
-.. description: 
+.. category:
+.. link:
+.. description:
 .. type: text
 
 Introduction
@@ -64,9 +64,9 @@ Below are the built in generators you can use, along with an explanation of how 
     - :doc:`split-frame` - Side-by-Side, Over-Under, and Interlaced (see the :doc:`nvidia-3d` page)
 
     - :doc:`barrel-distortion` - for Oculus Rift or Google Cardboard
-    
+
   * Optical Illusions
-  
+
     - :doc:`split-depth-illusion`
 
 For each of the Generators you can accept the default settings or configure them as you please. You can also make your own custom generators. Debug functionality is built into Camera3D to support your development efforts.
@@ -77,7 +77,7 @@ The examples illustrate everything mentioned above as well as provide utility pr
 
 `Javadocs <javadoc/index.html>`_ are available if you need them. You can find the `source <https://github.com/subject117/Camera3D>`_ and latest `release <https://github.com/subject117/Camera3D/releases>`_ on github.
 
-Finally, some :doc:`miscellaneous-thoughts`. 
+Finally, some :doc:`miscellaneous-thoughts`.
 
 Future Features
 ===============
