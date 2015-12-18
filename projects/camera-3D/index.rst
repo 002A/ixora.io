@@ -92,6 +92,8 @@ There are many more 3D and VR technologies available that I don't know about. On
 
 The library is designed in such a way that you can easily make your own custom generators. If you have access to a unique technology you will probably be able to integrate it into this library. If you make something that other people can also make use of, please let me know and I will incorporate it into a future release. I am eager to see what the community builds with this.
 
+I've already been asked to port Camera3D to P5. I don't know enough about P5 to know how well that will work, but I certainly will look into it and give it a try.
+
 Finally, I'd like to say that I endeavor to make this library an example of high quality 3D Stereoscopic tools. There are increasingly sophisticated algorithms for doing these things and I don't claim to be an expert on any of them. If there is something I am doing that is incorrect or can be better, please let me know and I will do my best to improve the library.
 
 .. _Processing: http://processing.org/
