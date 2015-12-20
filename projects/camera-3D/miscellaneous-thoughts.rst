@@ -71,4 +71,4 @@ To make the animation for my `holiday cards <link://slug/happy-holidays-2015>`_ 
 
 .. code-block:: bash
 
-    $ avconv -framerate 30 -i %05d-tree.tif -vb 10M -vcodec libx264 tree.mpg
+    $ avconv -i spf.mp3 -framerate 29.97 -i %05d-tree.tif -acodec mp3 -vb 10M -vcodec libx264 tree.mpg

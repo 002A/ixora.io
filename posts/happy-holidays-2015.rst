@@ -17,4 +17,10 @@ This is a 3D animation I made for my holiday cards. Put on your :doc:`glasses` a
 
 Animation built with by Processing_ and `Camera-3D <link://section_index/projects/camera-3D>`_.
 
+Dance of the Sugar Plum Fairies by Kevin MacLeod is licensed under a `Creative Commons Attribution license <https://creativecommons.org/licenses/by/4.0/>`_.
+
+Source: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100270
+
+Artist: http://incompetech.com/
+
 .. _Processing: http://processing.org/
