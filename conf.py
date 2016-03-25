@@ -131,7 +131,9 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "monospace" #  "bootstrap3-jinja"
+# THEME = "monospace" #  "bootstrap3-jinja"
+THEME="material-theme"
+
 
 # Below this point, everything is optional
 
@@ -968,7 +970,10 @@ LOGGING_HANDLERS = {
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+# GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT = {
+    'header_color': 'danger'
+}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be

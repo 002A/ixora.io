@@ -17,5 +17,7 @@ I fixed my laptop and can now record videos of myself playing piano again. Here'
 
 I made a few minor mistakes here and there but overall I am very happy about it. The broken cords make this a difficult piece to play.
 
-More to come. Next I am going to change the theme of this website. Stay tuned...
+Also, I updated this website theme! Much better than the previous one.
+
+More to come....
 
