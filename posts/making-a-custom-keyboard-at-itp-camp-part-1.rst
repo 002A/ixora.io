@@ -4,7 +4,7 @@
 .. tags: art, technology
 .. category:
 .. link:
-.. description: custom keyboard
+.. description: custom keyboard at ITP
 .. type: text
 
 I spent the month of June at `ITP Camp <http://itp.nyu.edu/camp/>`_. It's my third summer in a row there, and as always, I had a blast. This year one of the sessions I attended was for building a custom keyboard (for a computer). It was taught by `Claire Kearney-Volpe <http://www.takinglifeseriously.com/index.html>`_ and `Ben Light <http://blightdesign.com/>`_.
