@@ -7,11 +7,11 @@
 .. description: custom keyboard at ITP Camp
 .. type: text
 
-I spent the month of June at `ITP Camp <http://itp.nyu.edu/camp/>`_. It's my third summer in a row there, and as always, I had a blast. This year one of the sessions I attended was for building a custom keyboard (for a computer). It was taught by `Claire Kearney-Volpe <http://www.takinglifeseriously.com/index.html>`_ and `Ben Light <http://blightdesign.com/>`_.
+I spent the month of June at `ITP Camp <http://itp.nyu.edu/camp/>`_. It's my third summer in a row there, and as always, I had a blast. This year I attended a session on building a custom computer keyboard. It was taught by `Claire Kearney-Volpe <http://www.takinglifeseriously.com/index.html>`_ and `Ben Light <http://blightdesign.com/>`_.
 
 In the class we met with several members of `United Cerebral Palsy <http://ucp.org/>`_ and discussed their experiences using computer keyboards. Traditional keyboards often do not meet the needs of disabled people. We talked about ways we could re-design a keyboard to make computers more accessible and meet their usability needs.
 
-I worked with a woman named Shaniqua. She didn't like the traditional key arrangement of a QWERTY keyboard and often had difficulty finding the next key she needed to type. There were some keys she didn't use at all and she thought the keys were too close together.
+I worked with a woman named Shaniqua. She didn't like the traditional key arrangement of a QWERTY keyboard and often found it difficult to find the next key she needed to type. There were some keys she didn't use at all and she thought the keys were too close together.
 
 .. image:: /images/custom_keyboard/keyboard_design.jpg
    :align: center
