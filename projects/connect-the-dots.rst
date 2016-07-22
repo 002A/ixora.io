@@ -2,13 +2,13 @@
 .. slug: connect-the-dots
 .. date: 2015-04-20 00:44:30 UTC-04:00
 .. tags: processing, art
-.. category: 
-.. link: 
-.. description: 
+.. category:
+.. link:
+.. description:
 .. type: text
 
 One of my first Processing_ projects was a series of connect the dots style animations, like this:
-    
+
 .. vimeo:: 83177140
   :height: 360
   :width: 506
@@ -17,8 +17,8 @@ As the project grew I also made printable designs. I used these designs for the 
 
 To facilitate the work positioning the dots, I built an Inkscape extension in Python. It extracts path information from the SVG file and creates the correct input file for my Processing program. Using this tool, I can make new designs in an hour or two.
 
-The animations can be found on Vimeo. 
-    
+The animations can be found on Vimeo.
+
 * `Merry Christmas <https://vimeo.com/114411094>`_
 * `Happy Holidays <https://vimeo.com/114411031>`_
 * `A Duck <https://vimeo.com/83177140>`_
@@ -40,5 +40,6 @@ And the pdf files. Fun for the whole family!
 * `Monkey </downloads/connect-the-dots/monkey.pdf>`_
 * `T-Rex </downloads/connect-the-dots/t-rex.pdf>`_
 * `Triceratops </downloads/connect-the-dots/triceratops.pdf>`_
+* `Pterodactyl </downloads/connect-the-dots/pterodactyl.pdf>`_
 
 .. _Processing: http://processing.org/
