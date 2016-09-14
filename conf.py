@@ -132,8 +132,8 @@ NAVIGATION_LINKS = {
 
 # Name of the theme to use.
 # THEME = "monospace" #  "bootstrap3-jinja"
-THEME="material-theme"
-
+# THEME="material-theme"
+THEME = "bootstrap3-jinja"
 
 # Below this point, everything is optional
 

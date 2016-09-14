@@ -37,7 +37,7 @@ I would like to thank `Lee Byron`_ for making the original RedBlue library. Came
 Features
 ========
 
-Camera3D works with Processing 2.2 and 3.0.
+Camera3D works with Processing 2.2 and 3.x.
 
 To learn how to use Camera3D, start with the :doc:`tutorial`. Next, have a look at the examples provided to you when you installed Camera3D through Processing_'s Import Library feature.
 
