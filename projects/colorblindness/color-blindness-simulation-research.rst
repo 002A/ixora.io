@@ -218,7 +218,7 @@ We can do this for every pixel in the Processing sketch. After re-applying gamma
 
 Let's test this to see how it works:
 
-.. image:: /images/colorblindness/grocery_store_original.jpg
+.. image:: /images/colorblindness/grocery_store.jpg
    :width: 48%
    :align: left
 .. image:: /images/colorblindness/grocery_store_bad_sim.jpg
