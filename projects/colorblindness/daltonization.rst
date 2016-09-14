@@ -46,7 +46,7 @@ How well does Daltonization work? It isn't perfect but it can help. Consider thi
 
 .. raw:: html
 
-  <table><tr><td>
+  <table align="center"><tr><td>
 
 .. image:: /images/colorblindness/ishihara_plate_45.jpg
   :align: center
