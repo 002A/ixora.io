@@ -23,7 +23,7 @@ The above chart plots the normalized stimulation levels of the cones when they a
 LMS Color Space
 ---------------
 
-To simulate color blindness, we need to think about colors in terms of stimulations to the L, M, and S cones in the human eye. To help us do that, we will convert our colors from the RGB color space we use in Processing to a new color space called LMS.
+To simulate color blindness, we need to think about colors in terms of stimulations to the L, M, and S cones in the human eye. To help us do that, we will convert our colors from the `sRGB <https://en.wikipedia.org/wiki/SRGB>`_ color space we use in Processing to a new color space called `LMS <https://en.wikipedia.org/wiki/LMS_color_space>`_.
 
 The first step in this process is to remove the gamma correction applied to Processing_'s colors. The red, green, and blue values are represented internally as integers in the range :math:`[0, 255]`. In this color representation a value of 200 appears to humans as twice as intense as a value of 100, but this does not correspond to a doubling of the light's energy in the physical world. Gamma correction transforms color intensities in the physical world into an arrangement that appears more uniform to humans. Gamma correction is important but we need to remove it to do math on numerical color values.
 
@@ -57,7 +57,7 @@ After removing gamma correction, each of the resulting Linear RGB values are flo
   b_{c}
   \end{bmatrix}
 
-This color in the Linear RGB color space can be converted to the XYZ color space using a transformation matrix :math:`M_{sRGB}` obtained from `www.brucelindbloom.com <http://www.brucelindbloom.com/index.html?WorkingSpaceInfo.html>`_.
+This color in the Linear RGB color space can be converted to the XYZ color space using a transformation matrix :math:`M_{sRGB}` obtained from `www.brucelindbloom.com <http://www.brucelindbloom.com/index.html?WorkingSpaceInfo.html>`_. This sRGB matrix is derived from the XYZ values of the `3 primaries <https://en.wikipedia.org/wiki/SRGB#The_sRGB_gamut>`_ used in this color space.
 
 .. math::
 
@@ -197,7 +197,7 @@ This seems like a reasonable way to simulate missing L cones, right? This change
 
 This modified color in LMS color space can then be converted back to Linear RGB using :math:`T^{-1}` and gamma correction re-applied.
 
-Therefore the color blindness simulation process is simply some matrix multiplications to transform a Processing color :math:`c` to the simulated color :math:`c'`.
+Therefore the color blindness simulation process is simply some matrix multiplications to transform a Processing color :math:`c` to the simulated color :math:`c'` (with gamma calculations at the beginning and end.)
 
 .. math::
 
@@ -444,7 +444,7 @@ A widely cited paper in this area is `Digital Video Colourmaps for Checking the 
 
 That paper solves the equations using a slightly different approach. They make the assumption that white, blue, and black are all unchanged by the simulation. These three colors define a single plane through the 3-dimensional LMS color space. They calculate the parameters for that plane by taking the cross product of 2 vectors pointing from black to both white and blue. They are doing the same thing that I am doing here, which is reducing a 3 dimensional space down to 2 dimensions under the constraint that the plane must pass through a few specific colors (points) in the LMS color space. It arrives at the same result but is maybe less intuitive. It should be clear that a colorblind person's color vision must be represented as 2 dimensional surface because they only have 2 functioning cones. Our calculations above were essentially about finding the proper orientation of that plane in the 3 dimensional LMS color space.
 
-The paper uses a XYZ to LMS transformation matrix from a seminal paper by color scientists `Smith and Pokorny <http://vision.psychol.cam.ac.uk/jdmollon/papers/colourmaps.pdf>`_. These transformation matrices must be measured empirically. I used a more current model for my calculations. I would have preferred to use `CIECAM02 <https://en.wikipedia.org/wiki/LMS_color_space#CIECAM02>`_ instead but that model doesn't have the property of keeping the calculated LMS values in the range :math:`[0, 1]`. It is possible that I am confused about something here, and I think it might have something to do with white balance. In any case, keeping the numbers in that range is useful for some of the other things I am doing and the simulation results are exactly the same anyway, so I think using the `Hunt model <https://en.wikipedia.org/wiki/LMS_color_space#Hunt.2C_RLAB>`_ is reasonable.
+The paper uses a XYZ to LMS transformation matrix from a seminal paper by color scientists `Smith and Pokorny <http://vision.psychol.cam.ac.uk/jdmollon/papers/colourmaps.pdf>`_. These transformation matrices must be measured empirically. I used the more current `Hunt-Pointer-Estevez <https://en.wikipedia.org/wiki/LMS_color_space#Hunt.2C_RLAB>`_ transformation matrix :math:`M_{HPE}`.
 
 Achromatopsia (Monochromatism)
 ------------------------------
