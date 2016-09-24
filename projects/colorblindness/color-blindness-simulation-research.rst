@@ -279,9 +279,9 @@ This argument would be correct, *if such a color were to exist*. Have another lo
 
 Of course one can imagine LMS color values where this is not the case, but when that hypothetical LMS color is converted back to Linear RGB space with the inverse transformation matrix :math:`T^{-1}`, the result will be a color with values outside the required range :math:`[0, 1]`. I would call this an infeasible color. That color may actually exist and be visible to humans but it will be outside the `standard RGB <https://en.wikipedia.org/wiki/SRGB>`_ color gamut. It may also be outside the color region that is visible to humans, in the scary world of `imaginary colors <https://en.wikipedia.org/wiki/Impossible_color#Imaginary_colors>`_. In any case, this isn't a color you will see on your computer screen.
 
-Since maximum stimulation to the S and M cones is unique to the color white, the assumption must be valid.
-
 You can experiment with this by doing the math yourself, or by using the LMS Color Model example code provided with the ColorBlindness library.
+
+Since maximum stimulation to the S and M cones is unique to the color white, the assumption must be valid.
 
 In Linear RGB space, the color white is a vector of ones. This must also be converted to the LMS color space:
 
