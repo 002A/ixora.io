@@ -7,7 +7,7 @@
 .. description:
 .. type: text
 
-Daltonization is a color correction technique that attempts to adjust colors in such a way that there are less color combinations that would be confusing to a color blind person. In some cases it can improve an image to make it more accessible to someone with a color deficiency.
+Daltonization is a color correction technique that attempts to adjust colors in such a way that there are less color combinations that would be confusing to a color blind person. It isn't perfect but in some cases it can improve an image to make it more accessible to someone with a color vision deficiency.
 
 Like :doc:`color-blindness-simulation`, this feature is designed to quickly transform each frame of your sketch so that the overhead from the library does not impact your `frame rate <https://www.processing.org/reference/frameRate.html>`_.
 

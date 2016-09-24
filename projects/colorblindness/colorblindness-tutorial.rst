@@ -7,7 +7,7 @@
 .. description:
 .. type: text
 
-This is a simple tutorial showing you how to use the ColorBlindness library.
+This is a simple tutorial to show you how to use the ColorBlindness library.
 
 First, import the library:
 
@@ -46,7 +46,7 @@ To complete the tutorial, add any draw method. Here's a simple ``draw`` method t
 
 Finally, an optional ``postDraw`` method. This is useful if you want to draw something to the sketch `after` the ColorBlindness library modifies your sketch. If you don't need this feature, don't use it.
 
-In this example I am drawing a red border around the edge of the frame so you can see the ``postDraw`` method doing something. The Protanopia simulation would change this color to something else if this code was in the draw method.
+In this example I am drawing a red border around the edge of the frame so you can see the ``postDraw`` method do something. The Protanopia simulation would change this color to something else if this code was moved to the draw method.
 
 .. code-block:: java
 
@@ -69,4 +69,4 @@ Here's the result. Notice the squares are not representing some of the possible 
   :width: 500
 
 
-You can also do more complex customizations if you want, including implementing your own ideas about how color blindness simulation should be done. Look at the example code for more information.
+You can also do complex customizations if you want, including implementing your own ideas about how color blindness simulation should be done. Look at the example code for more information.

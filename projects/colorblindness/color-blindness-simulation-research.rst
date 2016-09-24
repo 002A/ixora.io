@@ -57,7 +57,7 @@ After removing gamma correction, each of the resulting Linear RGB values are flo
   b_{c}
   \end{bmatrix}
 
-This color in the Linear RGB color space can be converted to the XYZ color space using a transformation matrix :math:`M_{sRGB}` obtained from `www.brucelindbloom.com <http://www.brucelindbloom.com/index.html?WorkingSpaceInfo.html>`_. This sRGB matrix is derived from the XYZ values of the `3 primaries <https://en.wikipedia.org/wiki/SRGB#The_sRGB_gamut>`_ used in this color space.
+This color in the Linear RGB color space can be converted to the XYZ color space using a transformation matrix :math:`M_{sRGB}` obtained from `www.brucelindbloom.com <http://www.brucelindbloom.com/index.html?WorkingSpaceInfo.html>`_. This sRGB matrix is calculated from the XYZ values of the `3 primaries <https://en.wikipedia.org/wiki/SRGB#The_sRGB_gamut>`_ used in this color space.
 
 .. math::
 
@@ -250,24 +250,13 @@ The problem is with the simulation matrix :math:`S`. Let's consider a different 
 
 Instead of setting :math:`l_{c}=0`, we will make it a function of :math:`m_{c}` and :math:`s_{c}`. We will solve for :math:`a` and :math:`b` under the constraint that the colors white and pure blue need to stay the same. Referring to the spectral sensitivity chart at the top of this page, it seems reasonable to make the assumption that a Protanope's missing L cones will not impact their ability to see the color blue.
 
-In Linear RGB space, the color white is a vector of ones. This must be converted to the LMS color space:
+The choice to use blue is not arbitrary. It makes sense that we need to pick a color that is far away from the peak of the L cone response curve on the spectral sensitivity chart, but why not purple, which is to the left of blue?
 
-.. math::
+To answer this question, you must first understand what color is being represented at that end of the chart. Recall that purple is not a `spectral color <https://en.wikipedia.org/wiki/Rainbow#Number_of_colours_in_spectrum_or_rainbow>`_, but violet is. So the color being represented there is actually violet. But `violet <https://en.wikipedia.org/wiki/Shades_of_violet#Variations_of_spectral_violet>`_ is outside the color gamut of the `standard RGB color space <https://en.wikipedia.org/wiki/SRGB>`_, and therefore cannot be accurately portrayed by your computer screen or encoded into the image you see on this page. The best approximation for the color to put there is `purple <https://en.wikipedia.org/wiki/Shades_of_purple>`_, and if you analyze those pixels in your favorite image editor, you will see that those pixels are in fact purple. This might seem a bit confusing at first, but it will make more sense once you understand that no computer monitor or color printer can represent the full range of colors visible to humans. It also means that images like `this one <https://en.wikipedia.org/wiki/SRGB#/media/File:Cie_Chart_with_sRGB_gamut_by_spigget.png>`_ are a little bit hand-wavy in that none of the colors outside the sRGB triangle are actually represented correctly.
 
-  T
-  \begin{bmatrix}
-  1 \\
-  1 \\
-  1
-  \end{bmatrix}
-  =
-  \begin{bmatrix}
-  l_{w} \\
-  m_{w} \\
-  s_{w}
-  \end{bmatrix}\\
+Purple is a combination of red and blue, and since it contains red, it cannot be used. Violet can't be used because we can't actually specify it in the sRGB space. Since we can only use colors that can be represented in the standard RGB color space, the blue primary color is the best choice.
 
-The blue primary values in Linear RGB space are :math:`r_{b}=g_{b}=0` and :math:`b_{b}=1`. This must also be converted to the LMS color space:
+The blue primary values in Linear RGB space are :math:`r_{b}=g_{b}=0` and :math:`b_{b}=1`. This must be converted to the LMS color space:
 
 .. math::
 
@@ -284,28 +273,24 @@ The blue primary values in Linear RGB space are :math:`r_{b}=g_{b}=0` and :math:
   s_{b}
   \end{bmatrix}
 
-Applying the simulation matrix :math:`S_{p}` yields:
+In Linear RGB space, the color white is a vector of ones. This must also be converted to the LMS color space:
 
 .. math::
 
+  T
   \begin{bmatrix}
-  0 & a & b \\
-  0 & 1 & 0 \\
-  0 & 0 & 1
+  1 \\
+  1 \\
+  1
   \end{bmatrix}
+  =
   \begin{bmatrix}
   l_{w} \\
   m_{w} \\
   s_{w}
-  \end{bmatrix}
-  =
-  \begin{bmatrix}
-  am_{w}+bs_{w} \\
-  m_{w} \\
-  s_{w}
-  \end{bmatrix}
+  \end{bmatrix}\\
 
-and for blue:
+Applying the simulation matrix :math:`S_{p}` yields:
 
 .. math::
 
@@ -326,12 +311,33 @@ and for blue:
   s_{b}
   \end{bmatrix}
 
+similarly, for white:
+
+.. math::
+
+  \begin{bmatrix}
+  0 & a & b \\
+  0 & 1 & 0 \\
+  0 & 0 & 1
+  \end{bmatrix}
+  \begin{bmatrix}
+  l_{w} \\
+  m_{w} \\
+  s_{w}
+  \end{bmatrix}
+  =
+  \begin{bmatrix}
+  am_{w}+bs_{w} \\
+  m_{w} \\
+  s_{w}
+  \end{bmatrix}
+
 We need to find the :math:`a` and :math:`b` values so that these equations hold true:
 
 .. math::
 
-  l_{w} = am_{w} + bs_{w} \\
-  l_{b} = am_{b} + bs_{b}
+  l_{b} = am_{b} + bs_{b} \\
+  l_{w} = am_{w} + bs_{w}
 
 If this is true, the simulation matrix won't change the :math:`l`, :math:`m`, or :math:`s` values for white or the blue primary color. When those LMS colors are converted back to Linear RGB space with :math:`T^{-1}`, they will be the same as when they started. We should get a better result in our simulation because the color blindness simulation won't alter white or blue.
 
@@ -411,7 +417,7 @@ Simulating Deuteranopia can be done using a similar approach. Deuteranopes are m
   0 & 0 & 1
   \end{bmatrix}
 
-Repeating the above procedure with the same assumptions results in this simulation matrix:
+Repeating the above procedure with the same assumptions will result in this simulation matrix:
 
 .. math::
 
@@ -440,11 +446,11 @@ Interestingly, I found many color blindness daltonization tools that incorrectly
 
 Since color blindness simulations are hard to understand or verify, I suspect that programmers are copying algorithms from elsewhere without understanding exactly how they work or where the numbers come from. I am writing this documentation here as an attempt to correct that.
 
-A widely cited paper in this area is `Digital Video Colourmaps for Checking the Legibility of Displays by Dichromats <http://vision.psychol.cam.ac.uk/jdmollon/papers/colourmaps.pdf>`_ by Vienot, Brettel, and Mollon. I studied this paper closely to understand the math behind color blindness simulations. You will notice that the paper calculates the simulation matrices for Protanopia and Deuteranopia only. A reader might have used the results of step 4 to make a Tritanopia simulation matrix without understanding the assumptions that went into those calculations.
+A widely cited paper in this area is `Digital Video Colourmaps for Checking the Legibility of Displays by Dichromats <http://vision.psychol.cam.ac.uk/jdmollon/papers/colourmaps.pdf>`_ by Vienot, Brettel, and Mollon. I studied this paper closely to understand the math behind color blindness simulations. You will notice that the paper calculates the simulation matrices for Protanopia and Deuteranopia only. A reader might have used the results of step 4 to make a Tritanopia simulation matrix without fully understanding the assumptions that went into those calculations.
 
-That paper solves the equations using a slightly different approach. They make the assumption that white, blue, and black are all unchanged by the simulation. These three colors define a single plane through the 3-dimensional LMS color space. They calculate the parameters for that plane by taking the cross product of 2 vectors pointing from black to both white and blue. They are doing the same thing that I am doing here, which is reducing a 3 dimensional space down to 2 dimensions under the constraint that the plane must pass through a few specific colors (points) in the LMS color space. It arrives at the same result but is maybe less intuitive. It should be clear that a colorblind person's color vision must be represented as 2 dimensional surface because they only have 2 functioning cones. Our calculations above were essentially about finding the proper orientation of that plane in the 3 dimensional LMS color space.
+That paper solves the equations using a slightly different approach. They make the assumption that white, blue, and black are all unchanged by the simulation. These three colors define a single plane through the 3-dimensional LMS color space. They calculate the parameters for that plane by taking the cross product of 2 vectors pointing from black to both white and blue. They are doing the same thing that I am doing here, which is reducing a 3 dimensional space down to 2 dimensions under the constraint that the plane must pass through a few specific colors (points) in the LMS color space. It arrives at the same result but is maybe less intuitive. It should be clear that a colorblind person's color vision must be represented as a 2 dimensional surface because they only have 2 functioning cones. Our calculations above were essentially about finding the proper orientation of that plane in the 3 dimensional LMS color space. Color blindness simulation is then a process of mapping colors in the 3 dimensional space onto that plane.
 
-The paper uses a XYZ to LMS transformation matrix from a seminal paper by color scientists `Smith and Pokorny <http://vision.psychol.cam.ac.uk/jdmollon/papers/colourmaps.pdf>`_. These transformation matrices must be measured empirically. I used the more current `Hunt-Pointer-Estevez <https://en.wikipedia.org/wiki/LMS_color_space#Hunt.2C_RLAB>`_ transformation matrix :math:`M_{HPE}`.
+The paper also uses a XYZ to LMS transformation matrix from a seminal paper by color scientists `Smith and Pokorny <http://vision.psychol.cam.ac.uk/jdmollon/papers/colourmaps.pdf>`_. These transformation matrices must be measured empirically. I used the more current `Hunt-Pointer-Estevez <https://en.wikipedia.org/wiki/LMS_color_space#Hunt.2C_RLAB>`_ transformation matrix :math:`M_{HPE}`.
 
 Achromatopsia (Monochromatism)
 ------------------------------
@@ -525,7 +531,7 @@ The ColorBlindness library uses this simulation vector for achromatopsia or rod 
   0.072186
   \end{bmatrix}\\
 
-I can't independently verify this myself because the spectral sensitivity of the rod cells is different from any of the cone cells so the LMS color space can't help me calculate the simulation vector. Nevertheless, when I look at the below chart I can see that it is closest to the M cones.
+I can't independently verify this myself because the spectral sensitivity of the rod cells is different from any of the cone cells so the LMS color space can't help me calculate the simulation vector. Nevertheless, when I look at the below chart I can see that rod sensitivity is closest to that of M cones.
 
 .. image:: /images/colorblindness/rod_cone_color_sensitivities.jpg
   :width: 50%
