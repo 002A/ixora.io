@@ -57,7 +57,7 @@ Below is the image as seen by someone with protanomaly, or partial protanopia:
   :align: center
 
 
-Deuteranopia is also referred to as `red-green color blindness <https://en.wikipedia.org/wiki/Color_blindness#Red.E2.80.93green_color_blindness>`_. The resulting color deficiency is similar to Protanopia:
+Deuteranopia is also referred to as `red-green color blindness <https://en.wikipedia.org/wiki/Color_blindness#Red.E2.80.93green_color_blindness>`_. The resulting color deficiency is similar to Protanopia but without the dimming effect to reds:
 
 .. image:: /images/colorblindness/fall_trees_deuteranopia.jpg
   :width: 50%

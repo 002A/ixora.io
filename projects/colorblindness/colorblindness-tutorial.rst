@@ -31,7 +31,9 @@ In the ``setup`` method, create an instance of the ColorBlindness library. The `
   }
 
 
-The above two lines of code are all that is necessary to simulate color blindness. Add those two lines to any sketch and you will simulate Protanopia. The only hard part is remembering how to correctly spell `Protanopia`.
+The above two lines of code are all that is necessary to simulate color blindness. Add those two lines to any ``setup`` method and you will simulate Protanopia. The only hard part is remembering how to correctly spell `Protanopia`.
+
+Note that when you start the sketch there will be a lag of a second or two while the library pre-calculates the color transformations. This is necessary for performance reasons.
 
 To complete the tutorial, add any draw method. Here's a simple ``draw`` method that draws random colored squares.
 
@@ -44,7 +46,7 @@ To complete the tutorial, add any draw method. Here's a simple ``draw`` method t
   }
 
 
-Finally, an optional ``postDraw`` method. This is useful if you want to draw something to the sketch `after` the ColorBlindness library modifies your sketch. If you don't need this feature, don't use it.
+Finally, an optional ``postDraw`` method. This is useful if you want to draw something to the sketch `after` the ColorBlindness library modifies the frame. If you don't need this feature, don't use it.
 
 In this example I am drawing a red border around the edge of the frame so you can see the ``postDraw`` method do something. The Protanopia simulation would change this color to something else if this code was moved to the draw method.
 

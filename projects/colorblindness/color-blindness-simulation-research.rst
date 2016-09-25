@@ -197,7 +197,7 @@ This seems like a reasonable way to simulate missing L cones, right? This change
 
 This modified color in LMS color space can then be converted back to Linear RGB using :math:`T^{-1}` and gamma correction re-applied.
 
-Therefore the color blindness simulation process is simply some matrix multiplications to transform a Processing color :math:`c` to the simulated color :math:`c'` (with gamma calculations at the beginning and end.)
+Therefore the color blindness simulation process is simply some matrix multiplications to transform a Processing color :math:`c` to the simulated color :math:`c'`, with gamma calculations at the beginning and end.
 
 .. math::
 
@@ -248,13 +248,13 @@ The problem is with the simulation matrix :math:`S`. Let's consider a different 
   s_{c}
   \end{bmatrix}
 
-Instead of setting :math:`l_{c}=0`, we will make it a function of :math:`m_{c}` and :math:`s_{c}`. We will solve for :math:`a` and :math:`b` under the constraint that the colors white and pure blue need to stay the same. Referring to the spectral sensitivity chart at the top of this page, it seems reasonable to make the assumption that a Protanope's missing L cones will not impact their ability to see the color blue.
+Instead of setting :math:`l_{c}=0`, we will make it a function of :math:`m_{c}` and :math:`s_{c}`. We will solve for :math:`a` and :math:`b` under the constraint that the colors white and blue need to stay the same. Referring to the spectral sensitivity chart at the top of this page, it seems reasonable to make the assumption that a Protanope's missing L cones will not impact their ability to see the color blue.
 
 The choice to use blue is not arbitrary. It makes sense that we need to pick a color that is far away from the peak of the L cone response curve on the spectral sensitivity chart, but why not purple, which is to the left of blue?
 
 To answer this question, you must first understand what color is being represented at that end of the chart. Recall that purple is not a `spectral color <https://en.wikipedia.org/wiki/Rainbow#Number_of_colours_in_spectrum_or_rainbow>`_, but violet is. So the color being represented there is actually violet. But `violet <https://en.wikipedia.org/wiki/Shades_of_violet#Variations_of_spectral_violet>`_ is outside the color gamut of the `standard RGB color space <https://en.wikipedia.org/wiki/SRGB>`_, and therefore cannot be accurately portrayed by your computer screen or encoded into the image you see on this page. The best approximation for the color to put there is `purple <https://en.wikipedia.org/wiki/Shades_of_purple>`_, and if you analyze those pixels in your favorite image editor, you will see that those pixels are in fact purple. This might seem a bit confusing at first, but it will make more sense once you understand that no computer monitor or color printer can represent the full range of colors visible to humans. It also means that images like `this one <https://en.wikipedia.org/wiki/SRGB#/media/File:Cie_Chart_with_sRGB_gamut_by_spigget.png>`_ are a little bit hand-wavy in that none of the colors outside the sRGB triangle are actually represented correctly.
 
-Purple is a combination of red and blue, and since it contains red, it cannot be used. Violet would be a good choice but we can't actually specify it in sRGB space, so it can't be used. Since we can only use colors that can be represented in the standard RGB color space, the blue primary color is the best choice.
+Purple is a combination of red and blue, and since it contains red, it can't be used here. Violet would be a good choice but we can't actually specify it in sRGB space, so it can't be used. Since we can only use colors that can be represented in the standard RGB color space, the blue primary color is the best choice.
 
 The blue primary values in Linear RGB space are :math:`r_{b}=g_{b}=0` and :math:`b_{b}=1`. This must be converted to the LMS color space:
 
@@ -279,7 +279,7 @@ This argument would be correct, *if such a color were to exist*. Have another lo
 
 Of course one can imagine LMS color values where this is not the case, but when that hypothetical LMS color is converted back to Linear RGB space with the inverse transformation matrix :math:`T^{-1}`, the result will be a color with values outside the required range :math:`[0, 1]`. I would call this an infeasible color. That color may actually exist and be visible to humans but it will be outside the `standard RGB <https://en.wikipedia.org/wiki/SRGB>`_ color gamut. It may also be outside the color region that is visible to humans, in the scary world of `imaginary colors <https://en.wikipedia.org/wiki/Impossible_color#Imaginary_colors>`_. In any case, this isn't a color you will see on your computer screen.
 
-You can experiment with this by doing the math yourself, or by using the LMS Color Model example code provided with the ColorBlindness library.
+You can experiment with this by doing the math yourself or by using the LMS Color Model example code provided with the ColorBlindness library.
 
 Since maximum stimulation to the S and M cones is unique to the color white, the assumption must be valid.
 
