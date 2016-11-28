@@ -15,9 +15,9 @@ My first Processing_ project was a series of connect-the-dots animations, like t
   :height: 360
   :width: 506
 
-As the project grew I also made printable designs. I used these designs for the covers of my holiday cards and the back of my personal cards.
+As the project grew I also made printable designs. I use these designs for the front of my holiday cards and the back of my personal cards.
 
-To facilitate the work positioning the dots, I built an Inkscape extension in Python. It extracts path information from a SVG file and creates the correct input file for my Processing program. Using this tool, I can make new designs in an hour or two.
+To facilitate the design efforts positioning the dots, I built an Inkscape extension in Python. It extracts path information from a SVG file and creates the correct input file for my Processing program. Using this tool, I can make new designs in an hour or two.
 
 The animations can be found on Vimeo.
 

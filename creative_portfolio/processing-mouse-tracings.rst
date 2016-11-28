@@ -9,7 +9,7 @@
 
 The Mouse Tracings project is a data representation project involving measurements of window, keyboard and mouse activity on my desktop computer at home.
 
-I wrote Python scripts to collect user interface data. For over a year, every time I turned on my computer the Python code would record the mouse position, right and left clicks, mouse wheel use, and key presses. It would also keep track of the active window, identifying the active application.
+I wrote Python scripts to collect user interface data. For over a year, every time I turned on my computer the Python code would record the mouse locations, right and left clicks, mouse wheel use, and key presses. It would also keep track of the active window, identifying the active application.
 
 .. image:: /images/mouse_tracings_small/mouse_trace_by_application_0_2014.10.12_23.38.32_small.png
    :align: center
@@ -37,6 +37,6 @@ The colors are selected in two ways. The first is by coloring everything based o
 
 You can see the complete collection `here </galleries/mouse_tracings/>`_.
 
-Finally, I set up my computer to draw these images in real time and display the latest image as the background of my computer. Every 10 seconds the Processing sketch re-reads the data files and creates a visualization of my activity since the computer has been turned on. When I turn on my computer the background is blank. As I use it, the background evolves and explodes with color. Before I turn my computer off, I can see the artwork I have created as a mere by-product of my interaction with my machine.
+Finally, I set up my computer to draw these images in real time and display the latest image as the background of my computer. Every 10 seconds the Processing sketch re-reads the data files and creates a visualization of my activity since the computer has been turned on. When I turn on my computer the background is blank. As I use it, the background evolves and explodes with color. Before I turn off my computer, I can see the artwork I have created as a mere by-product of my interaction with my machine.
 
-In the future I would like to expand this project to include animations, showing how the images grow over time. Also, the data can be represented in completely different ways. Since I have a long history of data, I can make heat maps of the probability distribution of the mouse position. Less artistic projects include scientific study of the efficiency of my computer interactions and quantitative measurements of input speeds with tests of alternate computer accessories, such as a gaming keyboard and mouse.
+In the future I would like to expand this project to include animations, showing how the images grow over time. Also, the data can be represented in completely different ways. Since I have a long history of data, I can make heat maps of the probability distribution of the mouse location. Less artistic projects include scientific study of the efficiency of my computer interactions and quantitative measurements of input speeds with tests of alternate computer accessories, such as a gaming keyboard and mouse.

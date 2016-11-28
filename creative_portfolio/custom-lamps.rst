@@ -9,7 +9,7 @@
 
 I made custom lamps out of glass bottles.
 
-At ITP Camp I learned how to drill holes in a glass bottle using the drill press and diamond tipped drill bits. I learned from another camper who showed me the basic technique and the proper drill bits to bore through glass. The process requires a lot of patience to minimize the risk of bottle breakage.
+At ITP Camp I learned how to drill a hole into a glass bottle using a drill press and diamond tipped drill bits. I learned from another camper who showed me the basic technique and the proper drill bits to bore through glass. The process requires a lot of patience to minimize the risk of bottle breakage.
 
 After making holes big enough for a power cord, I designed what I wanted the lamps to look like. I found mauve lamp shades and bought matching fish tank gravel to fill the inside of the bottles.
 

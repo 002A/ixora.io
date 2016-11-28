@@ -17,7 +17,7 @@ Here are some videos of me playing a few songs.
 
 .. youtube:: Z4ur3kDkfnk
 
-*Erik Satie - Gnossienne #3*. Satie is my favorite composer. I can play the first 4 Gnossiennes and the Gymnopedies.
+*Erik Satie - Gnossienne #3*. Satie is my favorite composer. I can play the first four Gnossiennes and the Gymnopedies.
 
 .. youtube:: TthYmI4p1gY
 

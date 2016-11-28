@@ -18,7 +18,7 @@ This library offers users a variety of 3D effects, including:
 
 The key insight of Camera3D's design is that a sketch's *draw* method can be called multiple times per frame. The library can render the same scene multiple times with different camera settings and then combine the frames into a composite image. This is useful for 3D techniques because of our binocular vision but it can be used for other purposes as well. The library is fully customizable and can support users that want to implement their own 3D effects or any other idea that requires composite frames.
 
-The library is easy to use. After importing the library, the user only needs to add a few extra lines of code to their ``setup`` methods to employ any of the included tools in their sketch.
+The library is easy to use. After importing the library, the user only needs to add a few extra lines of code to their ``setup`` methods to employ any of the included tools in their sketch. Below is a simple example of how it could be used.
 
 .. code-block:: java
 
@@ -37,9 +37,9 @@ That's all that is needed to turn a simple rotating cube into this:
 
 .. vimeo:: 144716554
 
-You'll need red-cyan 3D glasses to see that properly.
+You'll need red-cyan 3D glasses to see the rotating cube properly.
 
-Here is an example of a split depth illusion. The white occlusion plane tricks the brain into thinking that objects in front of the plane are closer than objects that are behind it.
+Here is an example of a split depth illusion. The white occlusion plane tricks the brain into thinking that objects in front of the plane are closer than objects that are behind it. These are inspired by `split depth gifs <http://giphy.com/search/split-depth-gifs>`_.
 
 .. vimeo:: 145787362
 
