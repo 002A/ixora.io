@@ -53,6 +53,6 @@ Last year my Holiday cards had a 3D tree on the cover, designed with Camera3D. I
 
 If you don't have red-cyan glasses handy, view `this <https://vimeo.com/149537951>`_ version instead.
 
-For the future of this library I would like to continue to explore new 3D effects to expand the capabilities of the library. I also need to port the library to p5. The split depth illusion in particular could be amazing on a web page!
+For the future of this library I would like to continue to explore new 3D effects to expand the capabilities of the library. I also need to port the library to p5. The split depth illusion in particular will be amazing on a web page!
 
 .. _Processing: http://processing.org/

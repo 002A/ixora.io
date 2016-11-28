@@ -49,7 +49,7 @@ The ColorBlindness documentation is available `online <link://section_index/proj
 
 Note that the ColorBlindness library is closely related to my `Camera3D library <link://slug/processing-camera-3D>`_. This library is actually a stripped down fork of the Camera3D code.
 
-In the future I would like to port this library to p5. Below is a working proof of concept, demonstrating that it is possible to simulate colorblindness in real-time in p5. The upper half of the sketch is simulating color blindness with a frame rate (on my machine) of 60 frames per second. Web tools made in p5 could reach a wider audience and educate more people about the realities of color blindness. The p5 library will be just as easy to use as the Processing library is, with all the same features.
+In the future I would like to port this library to p5. Below is a working proof of concept, demonstrating that it is possible to simulate colorblindness in real-time in p5. The upper half of the sketch is simulating color blindness with a frame rate (on my machine) of 60 frames per second. Web tools made in p5 could reach a wider audience and educate more people about the realities of color blindness. The p5 library will be just as easy to use as the Processing library with all the same features.
 
 .. raw:: html
 

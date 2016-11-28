@@ -7,7 +7,9 @@
 .. description:
 .. type: text
 
-The Mouse Tracings project is a data representation project involving measurements of window, keyboard and mouse activity on my desktop computer at home. I wrote Python scripts to collect the data. For over a year, every time I turned on my computer the Python code would record the mouse position, right and left clicks, mouse wheel use, and key presses. It would also keep track of the active window, identifying the active application.
+The Mouse Tracings project is a data representation project involving measurements of window, keyboard and mouse activity on my desktop computer at home.
+
+I wrote Python scripts to collect user interface data. For over a year, every time I turned on my computer the Python code would record the mouse position, right and left clicks, mouse wheel use, and key presses. It would also keep track of the active window, identifying the active application.
 
 .. image:: /images/mouse_tracings_small/mouse_trace_by_application_0_2014.10.12_23.38.32_small.png
    :align: center

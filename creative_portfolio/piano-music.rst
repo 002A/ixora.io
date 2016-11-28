@@ -21,6 +21,6 @@ Here are some videos of me playing a few songs.
 
 .. youtube:: TthYmI4p1gY
 
-*Pachelbel's Canon in D*. I played this song at my brother's wedding a few weeks ago.
+*Pachelbel's Canon in D*. I played this song at my brother's wedding in October.
 
 .. youtube:: ZcTRDxM8-00
