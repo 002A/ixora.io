@@ -16,9 +16,9 @@ This library offers users a variety of 3D effects, including:
 * Barrel Distortion: for Google Cardboard or Oculus Rift
 * Split Depth Illusion: an optical illusion employing occlusion planes
 
-The key insight of Camera3D's design is that a sketch's *draw* method can be called multiple times per frame. The library can render the same scene multiple times with different camera settings and then combine the frames into a composite image. This is useful for 3D techniques because of our binocular vision but it can be used for other purposes as well. The library is fully customizable and can support users that want to implement their own 3D effects or any other idea that requires composite frames.
+The key insight of Camera3D's design is that a sketch's ``draw`` method can be called multiple times per frame. The library can render the same scene multiple times with different camera settings and then combine the frames into a composite image. This is useful for 3D techniques because of our binocular vision but it can be used for other purposes as well. The library is fully customizable and can support users that want to implement their own 3D effects or any other idea that requires composite frames.
 
-The library is easy to use. After importing the library, the user only needs to add a few extra lines of code to their ``setup`` methods to employ any of the included tools in their sketch. Below is a simple example of how it could be used.
+The library is easy to use. After importing the library, the user only needs to add a few extra lines of code to their ``setup`` methods to employ any of the included tools in their sketch. Below is a simple example demonstrating how it can be used.
 
 .. code-block:: java
 
@@ -43,7 +43,7 @@ Here is an example of a split depth illusion. The white occlusion plane tricks t
 
 .. vimeo:: 145787362
 
-The Processing library comes with example code that explains how to use it and demonstrates the capabilities of the library. Please have a look at the example code to learn more about what this library can do.
+The Processing library comes with example code that explains how to use it and demonstrates the capabilities of the library. Please install it and have a look at the example code to learn more about what this library can do.
 
 The Camera3D documentation is available `online <link://section_index/projects/camera-3D>`_ along with the `github repo <https://github.com/subject117/Camera3D>`_.
 

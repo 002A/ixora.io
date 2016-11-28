@@ -11,11 +11,11 @@ I wrote a computer program that can make money on its own by betting on the outc
 
 My computer program buys and sells special securities linked to the outcome of political elections. The real money securities are a part of the Iowa Electronic Markets (IEM), run by the business school at the University of Iowa. Securities linked to the Democratic and Republican candidates are worth $1 or $0 after the election depending on which candidate received the most votes. This market is called a *prediction market*, allowing traders to buy and sell securities based on their belief about the outcome of the election, leading to market prices that are a forecast of that outcome.
 
-The computer knows nothing about politics or elections. Instead, it follows a mathematical model that decides when to buy and sell each security from observed price data. It is a 'market maker,' functioning very much like a bookie taking bets. The program would make thousands of bets, earning a profit of a few pennies each time. I have been doing this in every presidential election since 2004.
+The computer knows nothing about politics or elections. Instead, it follows a mathematical model that decides when to buy and sell each security from observed price data. It is a 'market maker,' functioning very much like a bookie taking bets. The program makes thousands of bets, earning a profit of a few pennies each time. I have been doing this in every presidential election since 2004.
 
 In 2004 my program was built in Excel/VBA and Perl and made a profit of only $11. Undeterred, I returned in 2008 with a new system built in Java that made a $550 profit from an initial investment of $150. In 2012 I made some technical improvements with Java and Scala, and in this past election I made $600 with a system rebuilt from scratch in Python. Profits are always donated to charity.
 
-Several years ago I published a research paper in an academic journal explaining the details of my market maker and the results from trading in the 2008 election. That research paper is available on the `Algorithmic Finance`_ journal page. The paper is long and mathematical so I won't ask you to read all of it, but please take a moment to quickly skim through it. The abstract is available below.
+Several years ago I published a research paper in an academic journal explaining the details of my market maker and the results from trading in the 2008 election. That research paper is available on the `Algorithmic Finance`_ journal page. The paper is long and mathematical so I won't ask you to read all of it, but please take a moment to quickly skim through the pages. The abstract is available below.
 
 Abstract
 
