@@ -565,7 +565,7 @@ A Rod Monochromat essentially has only their night vision available to them to s
 Experimentation in Processing
 -----------------------------
 
-In any case, this library is fully customizable and you are free to adjust the transformation matrices and simulation matrices and vectors as you see fit. Refer to the CustomParameters sketch in the ColorBlindness Tutorial example code. For convenience, there is also a built-in custom deficiency setting to facilitate experimentation. Below is an example of how to use it to simulate green-cone monochromacy. You can set it to whatever you want without altering the other matrices.
+In any case, this library is fully customizable and you are free to adjust the transformation matrices and simulation matrices and vectors as you see fit. Refer to the CustomParameters sketch in the ColorBlindness Tutorial example code. For your convenience, there is also a built-in custom deficiency setting to facilitate experimentation. Below is an example of how to use it to simulate green-cone monochromacy. You can set it to whatever you want without altering the other matrices.
 
 .. code-block:: java
 

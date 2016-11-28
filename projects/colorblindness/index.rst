@@ -22,7 +22,7 @@ I have three goals for my ColorBlindness library:
 
 2. Interactive and educational visualizations for understanding color blindness.
 
-3. Pseudoisochromatic art. Normally the expression of visual art is made with trichromats in mind, with color blind people partly or completely missing out on the visual experience being expressed. Pseudoisochromatic art turns that around by creating visual art that only a color blind person can properly see and understand.
+3. Pseudoisochromatic art. Normally the expression of visual art is made with trichromats in mind, with color blind people partially or completely missing out on the visual experience being expressed. Pseudoisochromatic art turns that around by creating visual art that only a color blind person can properly see and understand.
 
 My hope is for this library to help educate the Processing community about color blindness and to create new opportunities for artistic expression.
 

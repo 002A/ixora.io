@@ -1,13 +1,15 @@
-.. title: Connect the Dots
-.. slug: connect-the-dots
-.. date: 2015-04-20 00:44:30 UTC-04:00
-.. tags: processing, art
+.. title: Processing: Connect The Dots
+.. slug: processing-connect-the-dots
+.. date: 2016-11-24 12:07:33 UTC-05:00
+.. tags:
 .. category:
 .. link:
 .. description:
 .. type: text
 
-One of my first Processing_ projects was a series of connect the dots style animations, like this:
+I built a Processing program to design and animate connect-the-dots type puzzles.
+
+My first Processing_ project was a series of connect-the-dots animations, like this:
 
 .. vimeo:: 83177140
   :height: 360
@@ -20,14 +22,12 @@ To facilitate the work positioning the dots, I built an Inkscape extension in Py
 The animations can be found on Vimeo.
 
 * `Merry Christmas <https://vimeo.com/114411094>`_
-* `Happy Holidays <https://vimeo.com/114411031>`_
+* `Happy Holidays <https://vimeo.com/114411031>`_ (my favorite!)
 * `A Duck <https://vimeo.com/83177140>`_
 * `A Red Rose <https://vimeo.com/83176743>`_
 * `Rudolph the Red-Nosed Reindeer <https://vimeo.com/83174857>`_
 
-The `rose animation <https://vimeo.com/83176743>`_ was featured as the "Wonder of the Day" on `wonderopolis.org <http://wonderopolis.org/wonder/how-do-you-connect-the-dots>`_ and has been viewed by a few thousand 3rd graders.
-
-And the pdf files. Fun for the whole family!
+There are also static pdf files:
 
 * `Bull </downloads/connect-the-dots/bull.pdf>`_
 * `Break-dancer </downloads/connect-the-dots/break_dance.pdf>`_
@@ -41,5 +41,7 @@ And the pdf files. Fun for the whole family!
 * `T-Rex </downloads/connect-the-dots/t-rex.pdf>`_
 * `Triceratops </downloads/connect-the-dots/triceratops.pdf>`_
 * `Pterodactyl </downloads/connect-the-dots/pterodactyl.pdf>`_
+
+A silly idea I have is to make a whole collection of these and publish them in a book.
 
 .. _Processing: http://processing.org/
