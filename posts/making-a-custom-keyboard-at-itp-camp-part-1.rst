@@ -23,7 +23,7 @@ Before camp ended I designed the keyboard layout in Inkscape. The keyboard will 
 .. image:: /images/custom_keyboard/keyboard_layout.png
     :align: center
 
-Next I used ITP's 60 Watt laser cutter to cut and etch all of the parts with Adobe Illustrator files derived from the above SVG image. There are 72 keys on this keyboard so the cutting took almost 4 hours to complete.
+Next I used ITP's 60 Watt laser cutter to cut and etch all of the parts with Adobe Illustrator files derived from the above SVG image. There are 73 keys on this keyboard so the cutting took almost 4 hours to complete.
 
 .. slides::
 
