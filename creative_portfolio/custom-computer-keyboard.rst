@@ -9,7 +9,7 @@
 
 I am building a custom keyboard for a woman with Cerebral Palsy.
 
-This project started at ITP camp this past summer in a class taught by ITP alums Claire Kearney-Volpe and Ben Light. The goal of the class is to build custom keyboards for disabled people who have difficulty using standard keyboards. The keyboard is almost complete.
+This project started at ITP camp this past summer in a class taught by ITP alumni Claire Kearney-Volpe and Ben Light. The goal of the class is to build custom keyboards for disabled people who have difficulty using standard keyboards. The keyboard is almost complete.
 
 In the class we met with several members of `United Cerebral Palsy <http://ucp.org/>`_ and discussed their experiences using computer keyboards. Traditional keyboards often do not meet the needs of disabled people. We talked about ways we could re-design a keyboard to make computers more accessible and meet their usability needs.
 
@@ -68,4 +68,4 @@ There are some things about this project that didn't go so well. The arrangement
 
 There are also some problems with the button design. There are no comma or question mark keys, something that most users would certainly miss. The carat, tilda and second asterisk keys are less important and should be replaced with other characters or eliminated entirely.
 
-The keyboard was built as a prototype, and one that Shaniqua can experiment with and provide feedback on to help build future keyboards for herself and other members of United Cerebral Palsy. This keyboard isn't perfect but it is something that she can use at her job. I am very happy to have built this and am looking forward to the opportunity to present it to her. I am also looking forward to the opportunity to build more tools like this for disabled people as an ITP student; I learned a lot from this process and I can do even better next time.
+The keyboard was built as a prototype, and one that Shaniqua can experiment with and provide feedback on to help build future keyboards for herself and other members of United Cerebral Palsy. This keyboard isn't perfect but it is something that she can use at her job doing office work. I am very happy to have built this and am looking forward to the opportunity to present it to her. I am also looking forward to the opportunity to build more tools like this for disabled people as an ITP student; I learned a lot from this process and know I can do even better next time.

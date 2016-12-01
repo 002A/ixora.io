@@ -17,8 +17,6 @@ In 2004 my program was built in Excel/VBA and Perl and made a profit of only $11
 
 Several years ago I published a research paper in an academic journal explaining the details of my market maker and the results from trading in the 2008 election. That research paper is available on the `Algorithmic Finance`_ journal page. The paper is long and mathematical so I won't ask you to read all of it, but please take a moment to quickly skim through the pages. The abstract is available below.
 
-Abstract
-
   The Iowa Electronic Markets are small, real-money financial markets designed to aggregate information about future events. The market microstructure of these markets is studied and a market making model is developed to provide liquidity for one set of securities offered by this exchange. A computer program was created to employ the market making model and profit from the market’s inefficiencies. Using invested capital, the system traded 34% of the total market volume and achieved a Sharpe ratio of 9.9. This paper reveals the details of how this algorithmic trader worked to show how it functioned and the value it added to the Iowa Electronic Markets.
 
 During my 10 or so years working in the finance industry, there isn't anything I have done that means as much to me as publishing this research paper.

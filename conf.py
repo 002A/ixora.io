@@ -219,7 +219,7 @@ POSTS = (
     ("posts/*.ipynb", "posts", "post.tmpl")
 )
 PAGES = (
-    ("creative_portfolio/*.rst", "creative_portfolio", "story.tmpl"),
+    ("creative_portfolio/*.rst", "creative_portfolio", "story2.tmpl"),
     ("projects/*.rst", "projects", "story.tmpl"),
     ("projects/*.txt", "projects", "story.tmpl"),
     ("about-me/*.rst", "about-me", "story.tmpl"),
