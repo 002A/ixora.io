@@ -133,7 +133,16 @@ NAVIGATION_LINKS = {
 # Name of the theme to use.
 # THEME = "monospace" #  "bootstrap3-jinja"
 # THEME="material-theme"
-THEME = "bootstrap3-jinja"
+
+# THEME = "bootstrap3-jinja"  # works!
+# THEME="lanyon"  # nice but broken slideshow and images not side-by-side
+# THEME="lotabout"  # ok but bad gallery and broken slideshow
+# THEME="blogtxt"  # beautiful but bad gallery and broken slideshow
+# THEME="material-theme"  # works!
+# THEME="monospace"  # works!
+# THEME="slidemenu"  # broken slideshow but gallery works
+# THEME="yesplease"  # ugly as hell
+THEME="custom1"
 
 # Below this point, everything is optional
 
@@ -771,10 +780,10 @@ SOCIAL_BUTTONS_CODE = ""
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
-SHOW_SOURCELINK = True
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
-COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
@@ -914,6 +923,7 @@ UNSLUGIFY_TITLES = True
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
 # USE_BUNDLES = True
+USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
