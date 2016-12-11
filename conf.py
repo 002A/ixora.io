@@ -387,7 +387,7 @@ ARCHIVE_FILENAME = "archive/index.html"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("happy-holidays/index.html", "/posts/happy-holidays-2015/")]
+REDIRECTIONS = [("happy-holidays/index.html", "/posts/happy-holidays-2016/")]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
