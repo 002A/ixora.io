@@ -1,5 +1,5 @@
 cache/
 output/
-themes/
+# themes/
 plugins/
-
+.doit.*

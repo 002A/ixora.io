@@ -7,8 +7,6 @@
 .. description:
 .. type: text
 
-Here are some things that make me happy.
-
 :doc:`iowa-electronic-markets`
 
   In 2008 I built a fully automated computer program that could make (real) money on its own by trading securities in a small market called the Iowa Electronic Markets. The securities were linked to 2008 Presidential election. In 2012 I published a research paper explaining the results and details about how the system worked.
