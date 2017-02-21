@@ -3,3 +3,4 @@ output/
 # themes/
 plugins/
 .doit.*
+state_data.json
