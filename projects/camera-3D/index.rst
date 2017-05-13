@@ -69,6 +69,10 @@ Below are the built in generators you can use, along with an explanation of how 
 
     - :doc:`split-depth-illusion`
 
+  * 360 Video
+
+    - :doc:`monoscopic-360-video`
+
 For each of the Generators you can accept the default settings or configure them as you please. You can also make your own custom generators. Debug functionality is built into Camera3D to support your development efforts.
 
 Camera3D supports all of the regular Processing_ camera functions. It also cooperates with other popular libraries like ControlP5 and PEasyCam.
