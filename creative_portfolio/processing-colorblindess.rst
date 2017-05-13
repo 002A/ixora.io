@@ -45,7 +45,7 @@ A Protanope (red-green color blind person) would see something similar to below,
 
 .. vimeo:: 182646027
 
-The ColorBlindness documentation is available `online <link://section_index/projects/colorblindness>`_ along with the `github repo <https://github.com/subject117/ColorBlindness>`_. I documented the library's features and the color science behind how this works. While doing the research behind this library, I discovered a math error in commonly used open source color blindness tools; read about the `math and calculations <link://slug/color-blindness-simulation-research>`_ to learn more.
+The ColorBlindness documentation is available `online <link://section_index/projects/colorblindness>`_ along with the `github repo <https://github.com/002A/ColorBlindness>`_. I documented the library's features and the color science behind how this works. While doing the research behind this library, I discovered a math error in commonly used open source color blindness tools; read about the `math and calculations <link://slug/color-blindness-simulation-research>`_ to learn more.
 
 Note that the ColorBlindness library is closely related to my `Camera3D library <link://slug/processing-camera-3D>`_. This library is actually a stripped down fork of the Camera3D code.
 

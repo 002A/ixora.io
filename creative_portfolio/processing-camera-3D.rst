@@ -45,7 +45,7 @@ Here is an example of a split depth illusion. The white occlusion plane tricks t
 
 The Processing library comes with example code that explains how to use it and demonstrates the capabilities of the library. Please install it and have a look at the example code to learn more about what this library can do.
 
-The Camera3D documentation is available `online <link://section_index/projects/camera-3D>`_ along with the `github repo <https://github.com/subject117/Camera3D>`_.
+The Camera3D documentation is available `online <link://section_index/projects/camera-3D>`_ along with the `github repo <https://github.com/002A/Camera3D>`_.
 
 Last year my Holiday cards had a 3D tree on the cover, designed with Camera3D. I also created this 3D animation to go with it:
 

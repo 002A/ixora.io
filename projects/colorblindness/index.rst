@@ -51,7 +51,7 @@ The examples illustrate everything mentioned above as well as provide utility pr
 
 I have documented the `math and calculations <link://slug/color-blindness-simulation-research>`_ supporting my library if you want to learn about the Color Science behind how this works.
 
-`Javadocs <javadoc/index.html>`_ are available if you need them. You can find the `source <https://github.com/subject117/ColorBlindness>`_ and latest `release <https://github.com/subject117/ColorBlindness/releases>`_ on github.
+`Javadocs <javadoc/index.html>`_ are available if you need them. You can find the `source <https://github.com/002A/ColorBlindness>`_ and latest `release <https://github.com/002A/ColorBlindness/releases>`_ on github.
 
 Limitations
 ===========
