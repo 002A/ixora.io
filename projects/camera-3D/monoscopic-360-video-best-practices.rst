@@ -174,6 +174,8 @@ The explain plan will look like this:
 .. image:: /images/camera3D/monoscopic_360/explain-plan-1-1.png
   :width: 600
 
+The area of the panels covering the poles are each 26.7% of the total projection area. The other four panels are 11.6% each.
+
 setOutputWidthHeightAndLocation
 +++++++++++++++++++++++++++++++
 
@@ -182,8 +184,6 @@ If you don't want the output to span the full 360 degrees of rotational range yo
 For example, reducing the projection height like this:
 
 .. code-block:: java
-
-The area of the panels covering the poles are each 26.7% of the total projection area. The other four panels are 11.6% each.
 
   ...
   camera3D.renderMonoscopic360()
