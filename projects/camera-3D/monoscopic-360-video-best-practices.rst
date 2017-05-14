@@ -295,9 +295,11 @@ For any configuration of sketch sizes and panel arrangements you can study the r
 Helpful Links
 =============
 
-* General
+* Wikipedia
 
-  - `Wikipedia - 360 Degree Video <https://en.wikipedia.org/wiki/360-degree_video>`_
+  - `360 Degree Video <https://en.wikipedia.org/wiki/360-degree_video>`_
+  
+  - `Equirectangular Projection <https://en.wikipedia.org/wiki/Equirectangular_projection>`_
 
 * Vimeo
 
