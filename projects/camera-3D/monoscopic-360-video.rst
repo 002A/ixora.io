@@ -24,7 +24,7 @@ This is distorted, much like the equirectangular world maps we've all seen in sc
 
 To use this effectively you must first understand how it works. Imagine you are in the center of a cube where each face of the cube has a unique color. If every viewing angle from that center location was mapped to an equirectangular projection, it might look like this:
 
-.. image:: /images/camera3D/monoscopic_360/explain-plan.png
+.. image:: /images/camera3D/monoscopic_360/explain-plan-1-1.png
   :width: 600
 
 This image illustrates how this Generator works. Camera3D will point Processing's camera in one of six different orientations, each corresponding to one face of the cube. The camera's field of view or perspective will be exactly 90 degrees horizontally and vertically, lining up exactly with one cube face. This ensures that all camera angles are covered with no duplication.

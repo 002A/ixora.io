@@ -85,7 +85,7 @@ This is the case because
 
   \lim_{x \to \infty} x \tan \left( \frac{2\pi}{x} \right) = 2\pi
   
-There's nothing special about :math:`\pi` as this happens to be true for any constant :math:`z`:
+There's nothing special about :math:`\pi` here as this happens to be true for any constant :math:`z`:
 
 .. math::
 

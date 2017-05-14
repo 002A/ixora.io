@@ -66,7 +66,7 @@ Notes:
 
 * The size of the sketch window increased to improve the output quality.
 
-  - My monitor is HD with 1920x1080 pixels and for whatever reason Processing will crash if the sketch window doesn't fit on the screen, so I must make the height a bit smaller. Note that the aspect ratio of the sketch size is irrelevant when the Generator is saving output to files.
+  - My monitor is HD with 1920x1080 pixels and for whatever reason Processing will crash if the sketch window doesn't fit on the screen, so I must make the height a bit smaller than I would like. Note that the aspect ratio of the sketch size is irrelevant when the Generator is saving output to files.
   
   - For 4K video there's no benefit in making the height or width greater than 1300 pixels. I would test with 1300x1300 if I could, or maybe use something a bit smaller to speed up execution.
 
@@ -149,7 +149,7 @@ Spatial Audio for 360 videos is a feature supported by Facebook, YouTube, and wi
 Customizing 360 Video
 =====================
 
-Your situation may be different and you may want to use different customizations of this Generator. Below is the information you will need to do that.
+Your situation may be different and you may want to use different customizations for this Generator. Below is the information you will need to do that.
 
 Generator Methods
 -------------------
@@ -169,14 +169,21 @@ The brightly colored images used to show how the Generator panels work found in 
     .setOutputSizeLocation(4096, "frames/sketch_#####.tiff");
   ...
 
+The explain plan will look like this:
+
+.. image:: /images/camera3D/monoscopic_360/explain-plan-1-1.png
+  :width: 600
+
 setOutputWidthHeightAndLocation
 +++++++++++++++++++++++++++++++
 
 If you don't want the output to span the full 360 degrees of rotational range you can replace ``setOutputSizeAndLocation`` with ``setOutputWidthHeightAndLocation``. When the width:height ratio is less than 2:1 this will limit the side-to-side range of the output. When the ratio is greater than 2:1, this will shrink the output, starting from the poles. This will be useful for some platforms that allow for this but may require additional meta-data.
 
-For example:
+For example, reducing the projection height like this:
 
 .. code-block:: java
+
+The area of the panels covering the poles are each 26.7% of the total projection area. The other four panels are 11.6% each.
 
   ...
   camera3D.renderMonoscopic360()
@@ -186,9 +193,12 @@ For example:
 
 Will result in this panel explain plan:
 
-TODO: insert image
+.. image:: /images/camera3D/monoscopic_360/explain-plan-600-150.png
+  :width: 600
 
-This code:
+The region near the poles is gone.
+
+And reducing the projection width with these settings:
 
 .. code-block:: java
 
@@ -200,7 +210,8 @@ This code:
 
 Will result in this panel explain plan:
 
-TODO: insert image
+.. image:: /images/camera3D/monoscopic_360/explain-plan-300-300.png
+  :width: 300
 
 Any panels that aren't found in the explain plan will be discarded, improving performance.
 
@@ -231,7 +242,7 @@ Resolution Settings
 
 The maximum resolution of `YouTube <https://support.google.com/youtube/answer/6178631>`_ 360 videos is 8K. The maximum resolution for `Vimeo <https://help.vimeo.com/hc/en-us/articles/115001877167-Uploading-360-video>`_ and `Facebook <https://www.facebook.com/facebookmedia/get-started/360>`_ is 4K.
 
-The optimal sketch size for a equirectangular projection is approximately equal to the width of the resolution divided by :math:`\pi`. This can be proved `mathematically <link://slug/monoscopic-360-video-optimization>`_. For a 4K video, this is 1304 pixels. For 8K, this is 2608.
+The optimal sketch size for a equirectangular projection is approximately equal to the width of the resolution divided by :math:`\pi`. This can be proven `mathematically <link://slug/monoscopic-360-video-optimization>`_. For a 4K video, this is 1304 pixels. For 8K, this is 2608.
 
 The ``setPanelXYSteps`` method can be used to increase the number of panels used to create the projection. This is useful for computers that cannot render an optimally sized square sketch. This feature will be useful when 360 video players start supporting much larger formats.
 
@@ -251,9 +262,12 @@ For my 1920x1080 monitor, I would use this code:
       .skipDisplayingCompositeFrame();
     camera3D.setFrameLimit(30 * 60);
 
-A panel explain plan would look like this:
+The panel explain plan would look like this:
 
-TODO: insert explain plan
+.. image:: /images/camera3D/monoscopic_360/explain-plan-1-2.png
+  :width: 600
+
+Observe that each panel appears to have been split vertically.
 
 To create 8K video I would use this code:
 
@@ -271,7 +285,10 @@ To create 8K video I would use this code:
 
 The panel explain plan would look like this:
 
-TODO: insert explain plan
+.. image:: /images/camera3D/monoscopic_360/explain-plan-2-3.png
+  :width: 600
+
+Each original panel has been split into 6 smaller panels, resulting in 36 panels. Execution will be slow but the resolution quality will amazing.
 
 For any configuration of sketch sizes and panel arrangements you can study the resolution performance using the utility sketch Monoscopic360ResolutionTest found in the example code.
 
