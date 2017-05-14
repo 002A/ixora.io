@@ -38,7 +38,7 @@ Notes:
 
 * The first three parameters to the ``camera`` method specify the coordinates for the camera location. Moving the camera to the origin simplifies sketch design.
 
-*  The second three parameters to the ``camera`` method specify the coordinates of the center of the scene and for this Generator that will appear in the center of the equirectangular projection. In this sketch the center is pointing towards the negative z-axis. The magnitude of a vector going from the first set of coordinates to the second is not important.
+*  The second three parameters to the ``camera`` method specify the coordinates of the center of the scene and for this Generator that will appear in the center of the equirectangular projection. In this sketch the center is pointing towards the negative z-axis. The magnitude of the vector going from the first set of coordinates to the second is not important.
 
 Testing
 -------
@@ -76,7 +76,7 @@ Notes:
   
   - To protect users from tragedy, Camera3D now supports a frame limit. This will cause the sketch to exit after the specified number of frames. When the frame limit is used this Generator will check your available hard drive space and will refuse to proceed if enough space is not available.
 
-* To improve performance, I skip displaying the composite frame to the sketch window. The sketch window will be black and the frame rate will be higher. I can observe progress viewing the reported stats.
+* To improve performance, I skip displaying the composite frame to the sketch window. The sketch window will be black and the frame rate will be higher. I can observe progress by viewing the reported stats.
 
 Final Product
 -------------

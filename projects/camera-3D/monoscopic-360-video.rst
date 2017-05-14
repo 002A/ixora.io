@@ -71,6 +71,6 @@ In the below example we are also moving the camera to the origin. That isn't nec
     camera3D.camera(0, 0, 0, 0, 0, -1, 0, -1, 0);
   }
 
-Also consider that this Generator will make a minimum of 6 calls to your ``draw()`` method, making `performance <link://slug/miscellaneous-thoughts>`_ even more important.
+Also consider that this Generator will make a minimum of six calls to your ``draw()`` method, making `performance <link://slug/miscellaneous-thoughts>`_ even more important.
 
 That's the basic idea, but most likely you will want to also save the frames and upload them to a website that supports 360 video like Facebook, Youtube or Vimeo. Refer to :doc:`monoscopic-360-best-practices` for more information on how to do that and best practices for achieving good results.
