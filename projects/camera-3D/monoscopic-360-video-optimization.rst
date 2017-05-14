@@ -118,3 +118,5 @@ Most of the terms drop out when :math:`x \to \infty`, proving that
 .. math::
 
   \lim_{x \to \infty} x \tan \left( \frac{z}{x} \right) = \frac{z}{1} = z
+
+It gave me great joy to find an elegant solution to this problem.

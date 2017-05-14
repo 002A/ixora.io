@@ -1,7 +1,7 @@
 .. title: Monoscopic 360 Video Best Practices
 .. slug: monoscopic-360-best-practices
 .. date: 2017-05-13 08:12:29 UTC-04:00
-.. tags: 
+.. tags: mathjax
 .. category: 
 .. link: 
 .. description: 
@@ -38,7 +38,7 @@ Notes:
 
 * The first three parameters to the ``camera`` method specify the coordinates for the camera location. Moving the camera to the origin simplifies sketch design.
 
-*  The second three parameters to the ``camera`` method specify the coordinates of the center of the scene and will appear in the center of the equirectangular projection. The magnitude of a vector going from the first set of coordinates to the second is not important.
+*  The second three parameters to the ``camera`` method specify the coordinates of the center of the scene and for this Generator that will appear in the center of the equirectangular projection. In this sketch the center is pointing towards the negative z-axis. The magnitude of a vector going from the first set of coordinates to the second is not important.
 
 Testing
 -------
@@ -213,7 +213,7 @@ Will result in this panel explain plan:
 .. image:: /images/camera3D/monoscopic_360/explain-plan-300-300.png
   :width: 300
 
-Any panels that aren't found in the explain plan will be discarded, improving performance.
+Any panels that aren't found in the explain plan will be discarded, resulting in less calls to the ``draw()`` method and improving performance.
 
 setNearFarLimits
 ++++++++++++++++
@@ -242,7 +242,7 @@ Resolution Settings
 
 The maximum resolution of `YouTube <https://support.google.com/youtube/answer/6178631>`_ 360 videos is 8K. The maximum resolution for `Vimeo <https://help.vimeo.com/hc/en-us/articles/115001877167-Uploading-360-video>`_ and `Facebook <https://www.facebook.com/facebookmedia/get-started/360>`_ is 4K.
 
-The optimal sketch size for a equirectangular projection is approximately equal to the width of the resolution divided by :math:`\pi`. This can be proven `mathematically <link://slug/monoscopic-360-video-optimization>`_. For a 4K video, this is 1304 pixels. For 8K, this is 2608.
+The optimal sketch size for a equirectangular projection is approximately equal to a third of the width of the resolution, or more precisely, the width divided by :math:`\pi`. This can be proven `mathematically <link://slug/monoscopic-360-video-optimization>`_. For a 4K video, this is 1304 pixels. For 8K, this is 2608.
 
 The ``setPanelXYSteps`` method can be used to increase the number of panels used to create the projection. This is useful for computers that cannot render an optimally sized square sketch. This feature will be useful when 360 video players start supporting much larger formats.
 
