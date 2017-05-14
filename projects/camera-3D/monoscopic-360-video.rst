@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-This Generator creates frames suitable display in a Monoscopic 360 video or picture viewer. It constructs an equirectangular projection of every possible angle emanating from the camera's location. The intended purpose is for you to save each frame and make a movie out of it to play in an online 360 video player.
+This Generator creates frames suitable display in a Monoscopic 360 video or picture viewer. It constructs an `equirectangular projection <https://en.wikipedia.org/wiki/Equirectangular_projection>`_ of every possible angle emanating from the camera's location. The intended purpose is for you to save each frame and make a movie out of it to play in an online 360 video player.
 
 Here is an example:
 

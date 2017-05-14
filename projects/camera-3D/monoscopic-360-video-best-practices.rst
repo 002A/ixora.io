@@ -154,7 +154,7 @@ Your situation may be different and you may want to use different customizations
 Generator Methods
 -------------------
 
-There are other Generator functions available that you may find helpful. Check the Javadocs for more detailed information.
+There are other Generator functions available that you may find helpful. Check the `Javadocs <../javadoc/camera3D/generators/Monoscopic360Generator.html>`_ for more detailed information.
 
 setPanelExplainPlanLocation
 +++++++++++++++++++++++++++
