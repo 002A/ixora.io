@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-Below is the information you need to generate 360 Videos for Facebook, YouTube and Vimeo.
+Below is the information you need to generate 360 Videos for Facebook, YouTube and Vimeo. 360 Videos created in Processing are similar to 360 Videos created with `popular 360 cameras <https://theta360.com/>`_ except that there is no stitching or appearance of seams.
 
 Sketch Workflow
 ===============
@@ -34,12 +34,16 @@ Notes:
 
 * The equirectangular projection will be visible in the sketch window. It's obviously distorted but with experience you can understand what's going on and program your sketch accordingly.
 
-* I also tell Camera3D what background color I want and move the camera to the origin, for simplicity.
+* Camera3D needs to know the sketch's background color.
+
+* The first three parameters to the ``camera`` method specify the coordinates for the camera location. Moving the camera to the origin simplifies sketch design.
+
+*  The second three parameters to the ``camera`` method specify the coordinates of the center of the scene and will appear in the center of the equirectangular projection. The magnitude of a vector going from the first set of coordinates to the second is not important.
 
 Testing
 -------
 
-When I am ready to test it out with an online 360 player, I change it to this:
+When I am ready to test a sketch with an online 360 player, I change it to this:
 
 .. code-block:: java
 
@@ -115,7 +119,7 @@ The Processing Development Environment comes with a Movie Maker tool (Tools => M
 
   $ ffmpeg -framerate 30 -i sketch_%05d.tiff -c:v libx264 -crf 12 -pix_fmt yuv444p output.mp4
 
-The next step is to add meta-data to movie file. This step is required for Facebook and YouTube to recognize the video is a 360 video. The meta-data is helpful for Vimeo but there is a 360 video checkbox on in the Video Settings controls if you prefer.
+The next step is to add meta-data to movie file. This step is required for Facebook and YouTube to recognize the video is a 360 video. The meta-data is helpful for Vimeo but there is a 360 video checkbox in the Video Settings controls if you prefer.
 
 There are utilities available for adding this metadata. Google provides one for Windows and Mac, available on `github <https://github.com/google/spatial-media/releases>`_. As I am a Linux user and Python aficionado I use the `Python script <https://github.com/google/spatial-media/tree/master/spatialmedia>`_:
 
@@ -125,7 +129,7 @@ There are utilities available for adding this metadata. Google provides one for 
 
 Upload your video just like you would any other video file. With the meta-data it will be recognized as a 360 video file and will be processed accordingly. You will have to wait a bit for the video processing to complete. While you are waiting, write a helpful description that credits Processing and Camera3D for your video.
 
-There are other meta-data tools available, such as the one offered by `RICOH <https://theta360.com/en/support/download/>`_, a manufacturer of a popular 360 camera.
+There are other meta-data tools available, such as one offered by `RICOH <https://theta360.com/en/support/download/>`_, a manufacturer of a popular 360 camera.
 
 Pictures
 ++++++++
@@ -140,26 +144,17 @@ To upload a single frame to Facebook, first convert the image format to \*.jpg. 
 Audio
 +++++
 
-Spatial Audio for 360 videos is a feature supported by Facebook, YouTube and Vimeo. I have not yet begun to explore this so I can't speak to that. If you do something cool with this, please let me know.
+Spatial Audio for 360 videos is a feature supported by Facebook, YouTube, and will soon be supported by Vimeo. I have not yet begun to explore this so I can't speak to that. If you do something cool with this, please let me know.
 
-Blah
-====
+Customizing 360 Video
+=====================
 
-stuff
+Your situation may be different and you may want to use different customizations of this Generator. Below is the information you will need to do that.
 
-Resolution Settings
+Generator Methods
 -------------------
 
-The optimal settings for a 4K equirectangular video 
-
-Width / pi
-
-Resolution test utility
-
-Generator Functions
--------------------
-
-There are other functions available that you may find helpful. Check the Javadocs for more detailed information.
+There are other Generator functions available that you may find helpful. Check the Javadocs for more detailed information.
 
 setPanelExplainPlanLocation
 +++++++++++++++++++++++++++
@@ -191,6 +186,8 @@ For example:
 
 Will result in this panel explain plan:
 
+TODO: insert image
+
 This code:
 
 .. code-block:: java
@@ -203,17 +200,19 @@ This code:
 
 Will result in this panel explain plan:
 
+TODO: insert image
+
 Any panels that aren't found in the explain plan will be discarded, improving performance.
 
 setNearFarLimits
 ++++++++++++++++
 
-Like all 3D renderings a bounding box is used to set limits for the vertices that are included in the rendered scene. This Generator makes clever use of the `frustum <https://www.processing.org/reference/frustum_.html>`_ function to efficiently render all possible viewing angles from the camera's location. That function has parameters for ``near`` and ``far``. By default those are set to 1 and 1000. You can override those settings like so:
+Like all 3D renderings a bounding box is used to set limits for the vertices that are included in the rendered scene. This Generator makes clever use of the `frustum <https://www.processing.org/reference/frustum_.html>`_ function to efficiently render all possible viewing angles from the camera's location. That function has parameters for ``near`` and ``far``. By default those are set to 1 and 1000. You can override those settings like this:
 
 .. code-block:: java
 
   ...
-  camera3D.renderMonoscopic360().setNearFarLimits(1, 500);
+  camera3D.renderMonoscopic360().setNearFarLimits(1, 2500);
   ...
 
 setThreadCount
@@ -224,8 +223,57 @@ Assembling each frame of the equirectangular projection requires a lot of pixel-
 .. code-block:: java
 
   ...
-  camera3D.renderMonoscopic360().setThreadCount(2);
+  camera3D.renderMonoscopic360().setThreadCount(8);
   ...
+
+Resolution Settings
+-------------------
+
+The maximum resolution of `YouTube <https://support.google.com/youtube/answer/6178631>`_ 360 videos is 8K. The maximum resolution for `Vimeo <https://help.vimeo.com/hc/en-us/articles/115001877167-Uploading-360-video>`_ and `Facebook <https://www.facebook.com/facebookmedia/get-started/360>`_ is 4K.
+
+The optimal sketch size for a equirectangular projection is approximately equal to the width of the resolution divided by :math:`\pi`. This can be proved `mathematically <link://slug/monoscopic-360-video-optimization>`_. For a 4K video, this is 1304 pixels. For 8K, this is 2608.
+
+The ``setPanelXYSteps`` method can be used to increase the number of panels used to create the projection. This is useful for computers that cannot render an optimally sized square sketch. This feature will be useful when 360 video players start supporting much larger formats.
+
+For optimal rendering the number of X steps times the sketch width and the number of Y steps times the sketch height must both be equal to the optimal sketch size. It's OK if one or both are a little bit off but too much of a shortfall will result in pixelated output.
+
+For my 1920x1080 monitor, I would use this code:
+
+.. code-block:: java
+
+  void setup() {
+    size(1300, 650, P3D);
+
+    camera3D = new Camera3D(this);
+    camera3D.renderMonoscopic360()
+      .setPanelXYSteps(1, 2)
+      .setOutputSizeAndLocation(4096, "frames/sketch_#####.tiff")
+      .skipDisplayingCompositeFrame();
+    camera3D.setFrameLimit(30 * 60);
+
+A panel explain plan would look like this:
+
+TODO: insert explain plan
+
+To create 8K video I would use this code:
+
+.. code-block:: java
+
+  void setup() {
+    size(1300, 870, P3D);
+
+    camera3D = new Camera3D(this);
+    camera3D.renderMonoscopic360()
+      .setPanelXYSteps(2, 3)
+      .setOutputSizeAndLocation(8196, "frames/sketch_#####.tiff")
+      .skipDisplayingCompositeFrame();
+    camera3D.setFrameLimit(30 * 60);
+
+The panel explain plan would look like this:
+
+TODO: insert explain plan
+
+For any configuration of sketch sizes and panel arrangements you can study the resolution performance using the utility sketch Monoscopic360ResolutionTest found in the example code.
 
 Helpful Links
 =============
@@ -260,9 +308,11 @@ Helpful Links
 
   - `360 Video Help <https://support.google.com/youtube/answer/6178631>`_ 
 
+  - `360 Virtual Reality Channel <https://www.youtube.com/channel/UCzuqhhs6NWbgTzMuM09WKDQ>`_
+
   - `Spatial Media Tools <https://github.com/google/spatial-media>`_
 
-  - `360 Virtual Reality Channel <https://www.youtube.com/channel/UCzuqhhs6NWbgTzMuM09WKDQ>`_
+  - `Spatial Audio <https://support.google.com/youtube/answer/6395969>`_
 
 Future Development
 ==================
