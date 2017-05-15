@@ -290,6 +290,8 @@ The panel explain plan would look like this:
 
 Each original panel has been split into 6 smaller panels, resulting in 36 panels. Execution will be slow but the resolution quality will amazing.
 
+When the panels are subdivided like that it is important to understand that the camera orientation stays the same. The camera will only point in one of six directions. The `frustum <https://www.processing.org/reference/frustum_.html>`_ function is used to create skewed clipping planes to render smaller portions of the sketch. This works because there's no rule that says the frustum must include the region directly in front of the camera.
+
 For any configuration of sketch sizes and panel arrangements you can study the resolution performance using the utility sketch Monoscopic360ResolutionTest found in the example code.
 
 Helpful Links
