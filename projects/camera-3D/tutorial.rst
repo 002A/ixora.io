@@ -60,7 +60,7 @@ Now, something new: an optional *preDraw* method.
 
 If this method is included in your sketch, it will be called **ONCE** before any calls to the *draw* method. Any code that you want to be executed one single time per frame should be located here.
 
-In this case, this function will update the rotation of our box.
+In this case, this function will update the rotation of our box. **IMPORTANT:** code that updates state, such as the position of objects, needs to be moved to this *preDraw* method. If you are adding Camera3D functionality to an existing sketch, you may have some work to do separating out this aspect of your code.
 
 .. code-block:: java
 
@@ -74,7 +74,7 @@ And the draw method.
 
 This looks like an ordinary *draw* method, which it is. Only difference is, in this sketch, the *draw* method will be executed **TWICE**. Processing_ will call the *draw* method once, but Camera3D will call the *draw* method a second time to re-render the scene with different camera settings.
 
-If the code in the *preDraw* method was in the *draw* method, the cube would rotate in-between the first and second *draw* executions, harming the results. That's why a *preDraw* method is needed.
+**IMPORTANT:** If the code in the *preDraw* method was in the *draw* method, the cube would continue rotating between the first and second *draw* executions, harming the results. That's why a *preDraw* method is needed.
 
 .. code-block:: java
 

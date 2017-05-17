@@ -18,4 +18,4 @@ Version 1.2 supports 360 videos. Here is an example:
 
 In addition, I made some performance improvements using new tools found in Java 1.8. Processing 2.x is no longer supported.
 
-More information available on the `Camera-3D <link://section_index/projects/camera-3D>`_ Project page.
+More information available on the `Camera-3D <link://section_index/projects/camera-3D>`_ project page.
