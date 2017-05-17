@@ -1,7 +1,7 @@
 .. title: Camera3D Documentation
 .. slug: camera3d-documentation
 .. date: 2015-11-16 00:27:18 UTC-05:00
-.. tags: 
+.. tags: art, processing
 .. category: 
 .. link: 
 .. description: 
