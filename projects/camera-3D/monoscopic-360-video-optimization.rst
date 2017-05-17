@@ -52,8 +52,8 @@ Our goal is to calculate the dimensions :math:`(w_{p}, h_{p})` of the panel in p
 
 .. math::
 
-  w_{p} (0.5 - 0.5 \tan(\theta - d\theta)) - w_{p} (0.5 - 0.5 \tan(\theta)) &= 1 \\
-  h_{p} \left(0.5 - 0.5 \frac{\cot(\phi - d\phi)}{\cos(\theta)} \right) - h_{p} \left(0.5 - 0.5 \frac{\cot(\phi)}{\cos(\theta)} \right) &= 1 \\
+  w_{p} (0.5 - 0.5 \tan(\theta - d\theta)) &- w_{p} (0.5 - 0.5 \tan(\theta)) &= 1 \\
+  h_{p} \left(0.5 - 0.5 \frac{\cot(\phi - d\phi)}{\cos(\theta)} \right) &- h_{p} \left(0.5 - 0.5 \frac{\cot(\phi)}{\cos(\theta)} \right) &= 1 \\
 
 This can be simplified to:
 
