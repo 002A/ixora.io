@@ -4,7 +4,7 @@
 .. tags:
 .. category:
 .. link:
-.. description:
+.. description: Project homepage
 .. type: text
 
 :doc:`iowa-electronic-markets`

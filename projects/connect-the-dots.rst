@@ -4,7 +4,7 @@
 .. tags: processing, art
 .. category:
 .. link:
-.. description:
+.. description: Connect the Dots project page
 .. type: text
 
 One of my first Processing_ projects was a series of connect the dots style animations, like this:

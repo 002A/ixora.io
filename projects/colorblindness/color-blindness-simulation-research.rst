@@ -1,10 +1,10 @@
 .. title: Color Blindness Simulation Research
 .. slug: color-blindness-simulation-research
 .. date: 2016-08-28 23:46:53 UTC-04:00
-.. tags: mathjax
+.. tags: mathjax, processing, math
 .. category:
 .. link:
-.. description:
+.. description: Mathematical derivation of color blindness simulation tools.
 .. type: text
 
 To understand color blindness simulation, one must first understand how human vision works. Our eyes enable us to see, but how?

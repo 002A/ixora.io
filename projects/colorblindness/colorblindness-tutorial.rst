@@ -1,10 +1,10 @@
 .. title: ColorBlindness Tutorial
 .. slug: colorblindness-tutorial
 .. date: 2016-08-28 23:48:03 UTC-04:00
-.. tags:
+.. tags: processing
 .. category:
 .. link:
-.. description:
+.. description: Processing library for simulating color blindness.
 .. type: text
 
 This is a simple tutorial to show you how to use the ColorBlindness library.

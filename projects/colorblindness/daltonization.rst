@@ -1,10 +1,10 @@
 .. title: Daltonization
 .. slug: daltonization
 .. date: 2016-09-13 23:43:04 UTC-04:00
-.. tags:
+.. tags: processing
 .. category:
 .. link:
-.. description:
+.. description: Daltonization algorithm
 .. type: text
 
 Daltonization is a color correction technique that attempts to adjust colors in such a way that there are less color combinations that would be confusing to a color blind person. It isn't perfect but in some cases it can improve an image to make it more accessible to someone with a color vision deficiency.

@@ -4,7 +4,7 @@
 .. tags: processing, data, art
 .. category:
 .. link:
-.. description:
+.. description: Mouse Tracings Processing art project
 .. type: text
 
 .. role:: red

@@ -4,7 +4,7 @@
 .. tags: iem, finance
 .. category: 
 .. link: 
-.. description: 
+.. description: Algorithmic Trading in the Iowa Electronic Markets - Market Maker application
 .. type: text
 
 During my 10 or so years working in the finance industry, there isn't anything I have done that means as much to me as publishing this research paper.

@@ -1,10 +1,10 @@
 .. title: Color Blindness Simulation
 .. slug: color-blindness-simulation
 .. date: 2016-09-13 23:42:46 UTC-04:00
-.. tags:
+.. tags: processing
 .. category:
 .. link:
-.. description:
+.. description: Color blindness simulation generator
 .. type: text
 
 `Color blind <https://en.wikipedia.org/wiki/Color_blindness>`_ people have partial or no ability to perceive colors. This library can do a color transformation on your sketch to reduce the color palette in a way that mimics color deficiencies.
