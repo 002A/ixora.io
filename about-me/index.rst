@@ -4,11 +4,11 @@
 .. tags:
 .. category:
 .. link:
-.. description:
+.. description: Description of who I am and what this website is about.
 .. type: text
 
-I put this together so I could share my creative efforts and projects. Some of these things would otherwise be unknown to the world, and that's a shame. Creativity is important to me. I would like for you to see that.
+I am a graduate student at `ITP <https://tisch.nyu.edu/itp>`_, a department within the Tisch School of the Arts at NYU. ITP students are a bright and motivated bunch interested in the exploration of creative applications of technology. I am excited and grateful to be a part of this community.
 
-When I think of creativity, it doesn't just mean activities like drawing a picture or playing a song on a piano. It also includes data science and data analysis. Neither can exist without creativity and ingenuity. When I am studying data, I feel like I am using the same part of my brain as when I am doing more typical creative activities.
+My primary interests focus on computer graphics and machine learning. I also want to learn about physical computing, electronics, and 3D-fabrication. Most of my technical experience centers on computer programming and data analysis. I would like leverage my analytical abilities to branch out to new fields and tools.
 
-In my head there isn't a clear separation between what people consider art and what people consider analytics. At my job I must pay attention to such things, but here, I am going to do whatever inspires me.
+I'm full of ideas and can't wait to bring them to life.
