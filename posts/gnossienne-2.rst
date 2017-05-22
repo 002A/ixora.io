@@ -1,10 +1,10 @@
 .. title: Gnossienne #2
 .. slug: gnossienne-2
 .. date: 2015-10-20 17:03:01 UTC-04:00
-.. tags: 
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: 
+.. description: Piano solo: Erik Satie's Gnossienne #2
 .. type: text
 
 Here's a re-recording of Erik Satie's Gnossienne #2, using the new microphone.

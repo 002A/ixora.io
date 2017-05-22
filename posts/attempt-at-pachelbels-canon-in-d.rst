@@ -1,10 +1,10 @@
 .. title: Attempt at Pachelbel's Canon in D
 .. slug: attempt-at-pachelbels-canon-in-d
 .. date: 2016-07-06 23:37:46 UTC-04:00
-.. tags: piano
+.. tags: piano, music
 .. category:
 .. link:
-.. description: Pachelbel's Canon in D and Erik Satie's Gnossienne # 4
+.. description: Piano solo: Pachelbel's Canon in D and Erik Satie's Gnossienne # 4
 .. type: text
 
 For the past few months I have been trying to learn Pachelbel's Canon in D. Since April, at least. This is the most difficult song I have ever attempted. Here's where I am so far:

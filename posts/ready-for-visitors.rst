@@ -1,10 +1,10 @@
 .. title: Ready for Visitors
 .. slug: ready-for-visitors
 .. date: 2015-08-15 15:35:42 UTC-04:00
-.. tags: 
+.. tags: operational
 .. category: 
 .. link: 
-.. description: 
+.. description: Ready for visitors
 .. type: text
 
 After a few months of work, I now feel like this website is in good enough shape to share with other people.

@@ -1,10 +1,10 @@
 .. title: Making a custom keyboard at home (Part 2)
 .. slug: making-a-custom-keyboard-at-home-part-2
 .. date: 2016-08-07 22:12:48 UTC-04:00
-.. tags: art, technology
+.. tags: art, technology, making
 .. category:
 .. link:
-.. description: custom keyboard at ITP Camp
+.. description: Custom keyboard at ITP Camp
 .. type: text
 
 I continue to work on the custom computer keyboard `(part 1) <link://slug/making-a-custom-keyboard-at-itp-camp-part-1>`_. After creating the laser cut parts, I needed to understand the electronic components. Unfortunately I hadn't done anything with an Arduino in a long time, so I was confused about what needed to be done.

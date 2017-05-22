@@ -1,10 +1,10 @@
 .. title: Gnossienne #4
 .. slug: gnossienne-4
 .. date: 2016-03-24 22:44:20 UTC-04:00
-.. tags: piano
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: erik satie gnossienne #4
+.. description: Piano solo: Erik Satie Gnossienne #4
 .. type: text
 
 It's been a while since I posted something here.

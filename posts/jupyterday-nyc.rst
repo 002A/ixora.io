@@ -1,7 +1,7 @@
 .. title: JupyterDay NYC
 .. slug: jupyterday-nyc
 .. date: 2015-10-25 13:45:55 UTC-04:00
-.. tags: technology
+.. tags: technology, python
 .. category: 
 .. link: 
 .. description: 

@@ -1,10 +1,10 @@
 .. title: In memory of my lamp
 .. slug: in-memory-of-my-lamp
 .. date: 2017-02-21 12:34:30 UTC-05:00
-.. tags: 
+.. tags: art, making, lighting
 .. category: 
 .. link: 
-.. description: 
+.. description: My broken lamp, made out of a wine bottle.
 .. type: text
 
 Tragically, the `second lamp <link://slug/another-lamp>`_ I made at ITP camp is gone.

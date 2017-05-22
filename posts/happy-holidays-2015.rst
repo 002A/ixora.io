@@ -1,10 +1,10 @@
 .. title: Happy Holidays!
 .. slug: happy-holidays-2015
 .. date: 2015-12-17 10:14:26 UTC-05:00
-.. tags: art, processing
+.. tags: art, processing, programming
 .. category:
 .. link:
-.. description:
+.. description: Processing greeting: Happy Holidays!
 .. type: text
 
 Happy Holidays everyone!

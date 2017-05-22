@@ -1,10 +1,10 @@
 .. title: Gymnopedies #2 and #3
 .. slug: gymnopedies-2-and-3
 .. date: 2015-10-11 21:43:26 UTC-04:00
-.. tags: piano
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: 
+.. description: Piano solo: Gymnopedies #2 & #3
 .. type: text
 
 I had time to record myself playing the next two Gymnopedies. These use the new microphone and sound a lot better than the previous recordings.

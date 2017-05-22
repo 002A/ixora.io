@@ -1,10 +1,10 @@
 .. title: Mostly complete keyboard (Part 4)
 .. slug: mostly-complete-keyboard-part-4
 .. date: 2017-03-07 12:23:56 UTC-05:00
-.. tags: art, technology
+.. tags: art, technology, making
 .. category: 
 .. link: 
-.. description: custom keyboard at ITP Camp
+.. description: Custom keyboard at ITP Camp
 .. type: text
 
 Now the keyboard is pretty much done. For real this time.

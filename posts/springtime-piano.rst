@@ -1,10 +1,10 @@
 .. title: Piano Music for Springtime
 .. slug: springtime-piano
 .. date: 2015-05-01 19:16:26 UTC-04:00
-.. tags: piano
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: 
+.. description: Piano solo: Erik Satie's Gymnopedie #1
 .. type: text
 
 I made some videos of myself playing piano.

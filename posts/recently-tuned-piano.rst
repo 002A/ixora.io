@@ -1,10 +1,10 @@
 .. title: Recently tuned piano
 .. slug: recently-tuned-piano
 .. date: 2016-11-07 12:17:03 UTC-05:00
-.. tags: piano
+.. tags: piano, music
 .. category:
 .. link:
-.. description:
+.. description: Piano solos on recently tuned piano
 .. type: text
 
 Recently I got my piano tuned and I re-recorded myself playing a few songs.

@@ -1,10 +1,10 @@
 .. title: Presentation at MSFT Research Labs
 .. slug: presentation-at-msft-research-labs
 .. date: 2015-08-30 15:39:54 UTC-04:00
-.. tags: iem
+.. tags: iem, programming, python
 .. category: 
 .. link: 
-.. description: 
+.. description: Presentation for Microsoft Research Labs on Prediction markets
 .. type: text
 
 This week I created a `presentation </presentations/Algorithmic_Trading_in_IEM.slides.html>`__ for my research paper on Algorithmic Trading in the Iowa Electronic Markets. I shared it with researchers studying prediction markets at Microsoft Research Labs.

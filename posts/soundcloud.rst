@@ -1,10 +1,10 @@
 .. title: Soundcloud
 .. slug: soundcloud
 .. date: 2015-07-19 21:54:07 UTC-04:00
-.. tags: piano
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: 
+.. description: Uploading music to soundcloud
 .. type: text
 
 I made audio files from the previously posted videos and uploaded everything to Soundcloud. The sound quality of these recordings aren't very good but now my parents easily listen to my play piano using their Sonos speakers.

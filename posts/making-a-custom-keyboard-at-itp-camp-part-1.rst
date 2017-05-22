@@ -1,10 +1,10 @@
 .. title: Making a custom keyboard at ITP Camp (Part 1)
 .. slug: making-a-custom-keyboard-at-itp-camp-part-1
 .. date: 2016-06-30 22:12:48 UTC-04:00
-.. tags: art, technology
+.. tags: art, technology, making
 .. category:
 .. link:
-.. description: custom keyboard at ITP Camp
+.. description: Custom keyboard at ITP Camp
 .. type: text
 
 I spent the month of June at `ITP Camp <http://itp.nyu.edu/camp/>`_. It's my third summer in a row there, and as always, I had a blast. This year I attended a session on building a custom computer keyboard. It was taught by `Claire Kearney-Volpe <http://www.takinglifeseriously.com/index.html>`_ and `Ben Light <http://blightdesign.com/>`_.

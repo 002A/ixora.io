@@ -1,10 +1,10 @@
 .. title: I made a lamp
 .. slug: i-made-a-lamp
 .. date: 2015-08-23 21:27:21 UTC-04:00
-.. tags: 
+.. tags: art, making, lighting
 .. category: 
 .. link: 
-.. description: 
+.. description: Lamp made out of an old olive oil bottle.
 .. type: text
 
 I made a lamp out of an empty olive oil bottle.

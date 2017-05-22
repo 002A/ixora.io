@@ -1,7 +1,7 @@
 .. title: Finishing a custom keyboard at home (Part 3)
 .. slug: finishing-a-custom-keyboard-at-home-part-3
 .. date: 2016-12-01 01:59:27 UTC-05:00
-.. tags: art, technology
+.. tags: art, technology, making
 .. category:
 .. link:
 .. description: custom keyboard at ITP Camp

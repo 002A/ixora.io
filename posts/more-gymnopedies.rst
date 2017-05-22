@@ -1,10 +1,10 @@
 .. title: More Gymnopedies
 .. slug: more-gymnopedies
 .. date: 2015-05-17 23:08:25 UTC-04:00
-.. tags: piano
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: 
+.. description: Piano solo: Satie's Gymnopedies
 .. type: text
 
 I've been putting a lot of effort into learning the first three of Satie's Gymnopedies. Here's me playing the second one:

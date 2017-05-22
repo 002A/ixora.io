@@ -1,10 +1,10 @@
 .. title: Lux Aeterna
 .. slug: lux-aeterna
 .. date: 2017-03-14 17:33:45 UTC-04:00
-.. tags: piano
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: 
+.. description: Piano solo: Clint Mansell's Lux Aeterna
 .. type: text
 
 I've spent the past few months learning Clint Mansell's Lux Aeterna, otherwise known as Requiem for a Dream. It's a piece I enjoy very much and have wanted to play since I found some videos of other people playing it on youtube.

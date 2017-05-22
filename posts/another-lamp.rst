@@ -1,10 +1,10 @@
 .. title: I made another lamp
 .. slug: another-lamp
 .. date: 2016-01-10 20:14:13 UTC-05:00
-.. tags: 
+.. tags: art, making, lighting
 .. category: 
 .. link: 
-.. description: 
+.. description: Making a lamp out of an old wine bottle.
 .. type: text
 
 I made another lamp; this time, out of an empty wine bottle.

@@ -1,10 +1,10 @@
 .. title: Gnossienne No 3
 .. slug: gnossienne-3
 .. date: 2015-06-28 22:55:25 UTC-04:00
-.. tags: piano 
+.. tags: piano, music
 .. category: 
 .. link: 
-.. description: 
+.. description: Piano solo: Erik Satie's Gnossienne #3
 .. type: text
 
 I finally had time to record myself playing Erik Satie's Gnossienne No. 3. There are 6 of them, but I am just going to focus on the first 3 for now.

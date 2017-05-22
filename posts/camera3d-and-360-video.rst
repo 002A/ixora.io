@@ -1,10 +1,10 @@
 .. title: Camera3D and 360 Video
 .. slug: camera3d-and-360-video
 .. date: 2017-05-17 10:26:25 UTC-04:00
-.. tags: art, processing
+.. tags: art, processing, programming, 360 video
 .. category: 
 .. link: 
-.. description: 
+.. description: Camera3D Processing library release, now supports 360 video
 .. type: text
 
 
