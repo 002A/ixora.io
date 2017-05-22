@@ -1,10 +1,10 @@
 .. title: Monoscopic 360 Video
 .. slug: monoscopic-360-video
 .. date: 2017-05-13 08:13:09 UTC-04:00
-.. tags: processing
+.. tags: processing, art, 360
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - 360 Video
 .. type: text
 
 This Generator creates frames suitable display in a Monoscopic 360 video or picture viewer. It constructs an `equirectangular projection <https://en.wikipedia.org/wiki/Equirectangular_projection>`_ of every possible angle emanating from the camera's location. The intended purpose is for you to save each frame and make a movie out of it to play in an online 360 video player.

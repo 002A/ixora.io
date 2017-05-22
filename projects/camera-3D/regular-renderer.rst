@@ -1,10 +1,10 @@
 .. title: Regular Renderer
 .. slug: regular-renderer
 .. date: 2015-11-14 13:59:37 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Default generator
 .. type: text
 
 Sometimes it is convenient to "turn off" Camera3D and run the sketch without any special effects. It would be somewhat sloppy coding to comment out the lines of code involving Camera3D to deactivate it. A more convenient approach is a Camera3D Generator that doesn't do anything special. This is the purpose of the Regular Renderer Generator.

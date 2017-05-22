@@ -1,10 +1,10 @@
 .. title: Barrel Distortion
 .. slug: barrel-distortion
 .. date: 2015-12-10 14:41:01 UTC-04:00
-.. tags: processing
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Barrel Distortion generator
 .. type: text
 
 This Generator implements the Barrel Distortion algorithm, situable for use with an Oculus Rift or Google Cardboard.

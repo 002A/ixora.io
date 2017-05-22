@@ -1,10 +1,10 @@
 .. title: 3D Glasses
 .. slug: glasses
 .. date: 2015-11-04 14:50:24 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Anaglyph glasses
 .. type: text
 
 I have a collection of 3D Glasses for viewing Anaglyphs that I've purchased through Amazon.com. Here they are, with comments.

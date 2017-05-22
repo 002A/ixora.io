@@ -1,10 +1,10 @@
 .. title: Basic Tutorial
 .. slug: tutorial
 .. date: 2015-11-04 14:50:50 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library tutorial
 .. type: text
 
 Here is a simple rotating box sketch using Camera3D.

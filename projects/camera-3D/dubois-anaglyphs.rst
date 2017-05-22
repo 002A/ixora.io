@@ -1,10 +1,10 @@
 .. title: Dubois Anaglyphs
 .. slug: dubois-anaglyphs
 .. date: 2015-06-17 14:41:01 UTC-04:00
-.. tags: processing
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Anaglyph generator
 .. type: text
 
 This is the most advanced Generator, based on a research paper written by `Erik Dubois <http://www.site.uottawa.ca/~edubois/anaglyph/>`_. The algorithm is explained in detail `here <http://www.site.uottawa.ca/~edubois/icassp01/anaglyphdubois.pdf>`_. Camera3D implements the algorithm in a `highly optimized <link://slug/dubois-optimization>`_ way so it can be used in a real-time animation.

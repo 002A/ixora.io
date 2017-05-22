@@ -1,10 +1,10 @@
 .. title: NVidia 3D support
 .. slug: nvidia-3d
 .. date: 2015-11-14 17:37:43 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - 3D TVs
 .. type: text
 
 This will document what I know about making Processing and Camera3D work on a Windows machine with a NVidia 3D ready monitor. If you have a different setup and can get this to work in a way that is different from below, please let me know.

@@ -1,10 +1,10 @@
 .. title: Bitmask Filter Anaglyph
 .. slug: bitmask-filter-anaglyph
 .. date: 2015-11-14 15:21:42 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Anaglyph generator
 .. type: text
 
 This Generator works the same as the old RedBlue library.

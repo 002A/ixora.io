@@ -1,10 +1,10 @@
 .. title: Half Color Anaglyph
 .. slug: half-color-anaglyph
 .. date: 2015-11-14 15:57:11 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Anaglyph generator
 .. type: text
 
 This Generator preserves blue and green colors. It works better than the gray anaglyph generator if your sketch doesn't have strong reds. Nature photography looks great rendered as half color anaglyphs.

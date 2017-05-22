@@ -1,10 +1,10 @@
 .. title: Miscellaneous Thoughts
 .. slug: miscellaneous-thoughts
 .. date: 2015-11-04 14:51:05 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Performance comments
 .. type: text
 
 Here are some miscellaneous thoughts about Camera3D that you might want to know.

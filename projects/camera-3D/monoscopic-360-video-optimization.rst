@@ -1,10 +1,10 @@
 .. title: Monoscopic 360 Video Optimization
 .. slug: monoscopic-360-video-optimization
 .. date: 2017-05-13 08:14:33 UTC-04:00
-.. tags: mathjax
+.. tags: mathjax, processing, art, math
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - 360 Video - Optimal sizing
 .. type: text
 
 A very important question centers on the ``size()`` of the Processing sketch and number of panels. If the sketch size is too small or there are not enough panels, the end result will be pixelated. The video size might be 4K but there won't be 4K of resolution. If the sketch size is too large or there are too many panels, performance will suffer as Camera3D and Processing will be doing unnecessary work that will not improve the final output.

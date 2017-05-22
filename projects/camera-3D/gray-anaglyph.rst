@@ -1,10 +1,10 @@
 .. title: Gray Anaglyph
 .. slug: gray-anaglyph
 .. date: 2015-11-14 15:48:04 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Anaglyph generator
 .. type: text
 
 This Generator maps all colors into some shade of gray. It works well if you are fine with the lack of color in the result.

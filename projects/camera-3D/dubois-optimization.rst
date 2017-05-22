@@ -1,10 +1,10 @@
 .. title: Dubois Optimization
 .. slug: dubois-optimization
 .. date: 2015-11-15 12:50:26 UTC-05:00
-.. tags: mathjax
+.. tags: mathjax, processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - efficient implementation of Dubois Anaglyph
 .. type: text
 
 The Dubois Anaglyphs are implemented in Camera3D using highly optimized code, resulting in a performance improvement of about 300x over the naive implementation.

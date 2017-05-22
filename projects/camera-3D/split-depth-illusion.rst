@@ -1,10 +1,10 @@
 .. title: Split Depth Illusion
 .. slug: split-depth-illusion
 .. date: 2015-11-14 18:08:18 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Split Depth Illusions
 .. type: text
 
 Split Depth Animations are inspired by Split Depth GIFs, such as this one:

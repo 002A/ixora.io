@@ -1,10 +1,10 @@
 .. title: True Anaglyph
 .. slug: true-anaglyph
 .. date: 2015-11-14 15:39:08 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Anaglyph generator
 .. type: text
 
 I don't know why this kind of Anaglyph is called a "True Anaglyph," but that's what I found in my research, and that's what I am calling it here. It isn't my favorite but it solves some of the problems with the :doc:`bitmask-filter-anaglyph`.

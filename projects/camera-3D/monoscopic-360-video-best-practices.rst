@@ -1,10 +1,10 @@
 .. title: Monoscopic 360 Video Best Practices
 .. slug: monoscopic-360-best-practices
 .. date: 2017-05-13 08:12:29 UTC-04:00
-.. tags: mathjax
+.. tags: mathjax, processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - 360 Video
 .. type: text
 
 Below is the information you need to generate 360 Videos for Facebook, YouTube and Vimeo. 360 Videos created in Processing are similar to 360 Videos created with `popular 360 cameras <https://theta360.com/>`_ except that there is no stitching or appearance of seams.

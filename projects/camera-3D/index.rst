@@ -1,10 +1,10 @@
 .. title: Camera3D: Processing Library
 .. slug: index
 .. date: 2015-06-17 14:41:01 UTC-04:00
-.. tags: processing
+.. tags: processing, art
 .. category:
 .. link:
-.. description:
+.. description: Processing - Camera3D library
 .. type: text
 
 Camera3D is an open source Processing library that extends the functionality of the platform to produce graphics that require the ``draw()`` method to be called multiple times. This opens the door to many new possibilities. For example, Camera3D can create 360 video:

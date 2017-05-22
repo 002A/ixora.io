@@ -1,10 +1,10 @@
 .. title: Split Frame Generators
 .. slug: split-frame
 .. date: 2015-11-14 17:37:50 UTC-05:00
-.. tags: 
+.. tags: processing, art
 .. category: 
 .. link: 
-.. description: 
+.. description: Processing - Camera3D library - Stereoscopic Generator
 .. type: text
 
 These Generators try to make content suitable for a 3D TV or monitor, using split frames. Look in the example code to learn how to use them.
