@@ -13,7 +13,7 @@ Before the war the scientists and engineers were often in competition with each 
 
 Because of the war, many people came together to work towards a common goal, leading to rapid advancements in many fields. Vannevar would have certainly realized the value of the increased collaboration and how much more can be accomplished when the previous barriers were removed.
 
-In 1945, the War was coming to a close. In his essay “As We May Think,” Vannevar expressed his concerns that the productivity of the scientific and engineering communities would decline as the pre-war barriers returned. He wanted to see the collaboration continue, but for the betterment of humankind, not the pursuit of destruction.
+In 1945, the War was coming to a close. In his essay `As We May Think <https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/>`_, Vannevar expressed his concerns that the productivity of the scientific and engineering communities would decline as the pre-war barriers returned. He wanted to see the collaboration continue, but for the betterment of humankind, not the pursuit of destruction.
 
 He sensed society's need for a giant collection of human knowledge and saw how such a thing would benefit society. He writes:
 
