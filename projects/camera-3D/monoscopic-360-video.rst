@@ -74,3 +74,9 @@ In the below example we are also moving the camera to the origin. That isn't nec
 Also consider that this Generator will make a minimum of six calls to your ``draw()`` method, making `performance <link://slug/miscellaneous-thoughts>`_ even more important.
 
 That's the basic idea, but most likely you will want to also save the frames and upload them to a website that supports 360 video like Facebook, Youtube or Vimeo. Refer to :doc:`monoscopic-360-best-practices` for more information on how to do that and best practices for achieving good results.
+
+The Rotating Cubes example is a simple example demonstrating how what can be done with this library. For real inspiration, check out this 360 Video made with Camera3D by `Raven Kwok <http://ravenkwok.com/>`_:
+
+.. vimeo:: 217806429
+  :height: 300
+  :width: 600
