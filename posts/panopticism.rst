@@ -7,7 +7,7 @@
 .. description: Review of Michel Foucault, Discipline and Punish, Panopticism: The Birth of the Prison
 .. type: text
 
-Michel Foucault grew up as a self-described “juvenile delinquent” with a “bully” for a father who would sternly punish him. The frenchman grew up to be a philosopher and theorist who studied power and social control. In his work, Discipline and Punish: The Birth of the Prison, he wrote about organizations that allow a small number of people to exert control over a large group.
+Michel Foucault grew up as a self-described “juvenile delinquent” with a “bully” for a father who would sternly punish him. The frenchman grew up to be a philosopher and theorist who studied power and social control. In his work, `Discipline and Punish: The Birth of the Prison <https://foucault.info/doc/documents/disciplineandpunish/foucault-disciplineandpunish-panopticism-html>`_, he wrote about organizations that allow a small number of people to exert control over a large group.
 
 The chapters starts with a description of plague quarantine rules in the 17th century. Families were confined to their homes and were rigorously monitored from the street by a single “syndic” who was in turn monitored by a “intendant” assigned to manage a quarter of the town. There were strict rules governing behavior with thorough monitoring and infractions punishable by death. The goal was to correct the abnormal (unhealthy) people and make them normal again.
 
