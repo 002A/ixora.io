@@ -120,3 +120,17 @@ Most of the terms drop out when :math:`x \to \infty`, proving that
   \lim_{x \to \infty} x \tan \left( \frac{z}{x} \right) = \frac{z}{1} = z
 
 It gave me great joy to find an elegant solution to this problem.
+
+My friend `Andrey <http://althenia.net/>`_ pointed out to me that this can also be reduced to the `commonly known limit <https://en.wikipedia.org/wiki/List_of_limits#Trigonometric_functions>`_ :math:`\lim_{x \to 0} \frac{sin(x)}{x} = 1`. Obviously I forgot about this from school, but happily he remembered:
+
+.. math::
+
+  \lim_{x \to \infty} x \tan \left( \frac{z}{x} \right)
+  
+Substituting :math:`u = \frac{z}{x}`,
+
+.. math::
+
+  \lim_{u \to 0} \frac{z}{u} \tan(u) = \lim_{u \to 0} z  \frac{\sin(u)}{u} \frac{1}{\cos(u)} = z \cdot 1 \cdot 1
+
+Much simpler.
