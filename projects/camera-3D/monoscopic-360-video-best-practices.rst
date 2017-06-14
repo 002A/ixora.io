@@ -26,7 +26,7 @@ Here is the Camera3D code I use when developing a new 360 video sketch.
     camera3D.renderMonoscopic360();
 
     camera3D.setBackgroundColor(color(255));
-    camera3D.camera(0, 0, 0, 0, 0, -1, 0, -1, 0);
+    camera3D.camera(0, 0, 0, 0, 0, -1, 0, 1, 0);
   }
 
 Notes:
@@ -57,7 +57,7 @@ When I am ready to test a sketch with an online 360 player, I change it to this:
     camera3D.setFrameLimit(30 * 60);
 
     camera3D.setBackgroundColor(color(255));
-    camera3D.camera(0, 0, 0, 0, 0, -1, 0, -1, 0);
+    camera3D.camera(0, 0, 0, 0, 0, -1, 0, 1, 0);
     camera3D.reportStats();
   }
 
@@ -96,7 +96,7 @@ To produce a final, high quality resolution 360 video, I use this:
     camera3D.setFrameLimit(30 * 60);
 
     camera3D.setBackgroundColor(color(255));
-    camera3D.camera(0, 0, 0, 0, 0, -1, 0, -1, 0);
+    camera3D.camera(0, 0, 0, 0, 0, -1, 0, 1, 0);
     camera3D.reportStats();
   }
 

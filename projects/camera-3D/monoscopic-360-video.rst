@@ -68,7 +68,7 @@ In the below example we are also moving the camera to the origin. That isn't nec
     camera3D.renderMonoscopic360();
 
     // move camera to origin
-    camera3D.camera(0, 0, 0, 0, 0, -1, 0, -1, 0);
+    camera3D.camera(0, 0, 0, 0, 0, -1, 0, 1, 0);
   }
 
 Also consider that this Generator will make a minimum of six calls to your ``draw()`` method, making `performance <link://slug/miscellaneous-thoughts>`_ even more important.
