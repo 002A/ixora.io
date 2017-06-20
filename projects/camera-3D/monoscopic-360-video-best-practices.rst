@@ -335,6 +335,11 @@ Helpful Links
 
   - `Spatial Audio <https://support.google.com/youtube/answer/6395969>`_
 
+Presentations
+=============
+
+I put together a `presentation <https://docs.google.com/presentation/d/1UM7IXxMPt1pJ2RaaoPYeKLOadj-I7HA0fsZlm625WXg/>`_ on 360 Video with Camera3D for ITP Camp. The code used in the presentation is available on `online <https://github.com/hx2A/Processing360VideoDemoSketches>`_.
+
 Future Development
 ==================
 
