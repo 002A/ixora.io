@@ -721,6 +721,7 @@ DEPLOY_FUTURE = True
 # If True, use the scheduling rule to all posts by default
 # SCHEDULE_ALL = False
 
+# USE_KATEX = True
 # Do you want a add a Mathjax config file?
 # MATHJAX_CONFIG = ""
 
