@@ -15,6 +15,8 @@ Because of the war, many people came together to work towards a common goal, lea
 
 In 1945, the War was coming to a close. In his essay `As We May Think <https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/>`_, Vannevar expressed his concerns that the productivity of the scientific and engineering communities would decline as the pre-war barriers returned. He wanted to see the collaboration continue, but for the betterment of humankind, not the pursuit of destruction.
 
+.. TEASER_END
+
 He sensed society's need for a giant collection of human knowledge and saw how such a thing would benefit society. He writes:
 
   There may be millions of fine thoughts, and the account of the experience on which they are based, all encased within stone walls of acceptable architectural form; but if the scholar can get at only one a week by diligent search, his syntheses are not likely to keep up with the current scene.
@@ -24,5 +26,3 @@ The need he saw was later filled by the Internet once the computer technology ad
 In his essay he proposes an invention called the “Memex” that would link together documents and knowledge contributed by large numbers of people. He describes how this device could work in the context of the technology that existed at the time. These descriptions seem almost prophetic, as he discusses functionality that present day Internet users would identify as hypertext, desktop computers, or online encyclopedias.
 
 Some may say that Vannevar predicted the invention of the Internet; I disagree. He did not predict the future. He had a deep insight into the present.
-
-(link to `Assignment 1 <http://45.55.248.190:8080/assignment1.html>`_)

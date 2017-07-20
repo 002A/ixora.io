@@ -16,6 +16,8 @@ Here's one of the kit's experiments, using two Serial to Parallel shift register
 .. image:: /images/custom_keyboard/shift_out_experiment.jpg
    :align: center
 
+.. TEASER_END
+
 And here's an experiment using one Parallel to Serial shift register to monitor 8 buttons. I was following an Arduino tutorial here:
 
 .. image:: /images/custom_keyboard/shift_in_experiment.jpg

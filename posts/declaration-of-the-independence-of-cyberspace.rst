@@ -18,5 +18,3 @@ There are clear parallels with the United States’ Declaration of Independence.
   These increasingly hostile and colonial measures place us in the same position as those previous lovers of freedom and self-determination who had to reject the authorities of distant, uninformed powers.
  
 Barrow does acknowledge government control over “our bodies” but he rejects control over “our minds.” No government has the authority to govern in cyberspace.
-
-(link to `Assignment 3 <http://45.55.248.190:8080/form.html>`_)

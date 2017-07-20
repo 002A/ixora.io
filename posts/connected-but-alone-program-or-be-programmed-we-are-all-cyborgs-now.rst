@@ -16,6 +16,8 @@ Turkle says that our phones are changing who we are. Behaviors that would have b
 
 The sum of many little communications does not add up to one real conversation. Our technologies give us a illusion of friendship and companionship without the burden of actual friendship. We need to learn to be comfortable being alone, [technologically] disconnected from other people. Only when we are alone will we be in touch with ourselves and be able to form real connections with others.
 
+.. TEASER_END
+
 Program or Be Programmed
 ------------------------
 

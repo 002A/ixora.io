@@ -15,11 +15,11 @@ This still seems paradoxical and unsatisfying. It is helpful to consider what he
  
 He defines a “message” as “the change of scale or pace or pattern that it introduces into human
 affairs”. The message isn’t a set of facts or banal statements, it is an impact on human behavior and interaction.
- 
+
+.. TEASER_END
+
 He defines a “medium” as “any extension of ourselves.” The medium isn’t a specific technology like a telephone or a radio, it is how the technology affects society.
  
 So when he claims that the “medium is the message,” he is saying that a communication technology’s impact on society dominates human interaction. The specific content being communicated is secondary. He wrote this in response to what he saw as an overemphasis on the analysis of content without considering how the content being communicated was affecting society.
  
 Still somewhat paradoxical, but perhaps this was McCluhan’s intent when coining this phrase. By attempting to analyze this we turn our focus to the specific ways we project our thoughts and ideas into the world. These mediums are what influence human behavior, not the thoughts and ideas themselves.
-
-(link to `Assignment 2 <http://45.55.248.190:8080/form.html>`_)

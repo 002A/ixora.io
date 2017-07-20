@@ -14,6 +14,8 @@ After the 2016 election the Columbia Journalism Review published a `study <https
  
 Going forward journalists need to think about how to build (or rebuild) a basis for the public to form a shared belief about what is happening. A common set of facts is a necessary precursor for civil society to have a constructive debate about public policy issues.
 
+.. TEASER_END
+
 The Web We Lost, Rebuilding the Web We Lost
 -------------------------------------------
 

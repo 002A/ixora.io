@@ -18,6 +18,8 @@ I started by soldering the buttons into place in their correct locations on each
 .. image:: /images/custom_keyboard/soldering_circuitboard.jpg
    :align: center
 
+.. TEASER_END
+
 Then I divided up the circuit-boards into "key regions." Each region is controlled by shift registers in that region. The circuit-boards in each region share power and ground with each other.
 
 .. image:: /images/custom_keyboard/circuitboard_regions.jpg

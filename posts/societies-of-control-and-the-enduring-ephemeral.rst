@@ -18,6 +18,8 @@ An example here is Facebook. We are free to use Facebook as we with but it is ac
 
 It is difficult or impossible to remove oneself from these mechanisms of control. It is not like removing oneself from a prison, where once a person leaves the prison the mechanism of control is no longer effective.
 
+.. TEASER_END
+
 The Enduring Ephemeral
 ----------------------
 

@@ -16,6 +16,8 @@ Terranova states that free labor from Internet users is the source of economic v
  
 Free labor and collective knowledge are being voluntarily contributed to capitalist business practices. This essay highlights the essential nature of that free labor to the functioning of the Internet but also refers to it as a “modern sweatshop” or “social factory.”
 
+.. TEASER_END
+
 The Long Tail
 -------------
 
@@ -45,4 +47,3 @@ Here Comes Everybody
 
 `Here Comes Everybody <https://www.amazon.com/dp/B0013TTKQC/>`_ is a book written by Clay Shirky, a professor at ITP. The book discusses how people organize using the Internet, without the need for traditional management structures. The definition of what it means to be a professional with specialized skills is being blurred. Skilled amateurs, not associated with a professional organization, can have a larger impact than the professional organization. The value of professionals will erode when their specialized skills become ubiquitous. Many, many people are becoming publishers of content, but unlike traditional newspapers, where a few sources publish for millions of people, large numbers of people are producing content intended for a small group of people, such as friends or associates with common interests. People can have two-way interactions because of the smaller groups, unlike the previous dynamic where large numbers of people focused on a select few who could not possibly respond to the attentions of their followers.
 
-(link to `Assignment 8 <http://45.55.248.190:8888/>`_)

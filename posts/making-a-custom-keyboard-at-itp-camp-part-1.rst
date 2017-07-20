@@ -16,6 +16,8 @@ I worked with a woman named Shaniqua. She didn't like the traditional key arrang
 .. image:: /images/custom_keyboard/keyboard_design.jpg
    :align: center
 
+.. TEASER_END
+
 Claire and Ben built a working prototype of a keyboard using laser cut acrylic and a `Leonardo Arduino <https://www.arduino.cc/en/Main/ArduinoBoardLeonardo>`_. The keyboard I am building for Shaniqua will have a similar construction but will be tailored to her needs.
 
 Before camp ended I designed the keyboard layout in Inkscape. The keyboard will look like this:

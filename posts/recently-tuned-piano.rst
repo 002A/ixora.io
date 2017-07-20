@@ -13,6 +13,8 @@ Here is Pachelbel's Canon in D. I played this at my brother's wedding in a few w
 
 .. youtube:: ZcTRDxM8-00
 
+.. TEASER_END
+
 Next is Erik Satie's Gnossienne #3. One of my favorites. Right now I am trying to commit it to memory.
 
 .. youtube:: TthYmI4p1gY

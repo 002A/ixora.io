@@ -13,6 +13,8 @@ The chapters starts with a description of plague quarantine rules in the 17th ce
 
 This “perfectly governed” society is compared to a theoretical prison called a Panopticon. This cylindrical prison is built with all cells facing the center with a single prison warden in the middle monitoring everything about every prisoner. The prisoners are not able to communicate with each other or determine if the warden is monitoring them at any particular moment. The architecture of the building has the power over the prisoners incorporated its design.
 
+.. TEASER_END
+
 In this Panopticon many people can be controlled by a single person, making power more economical and effective.
 
 The Panopticon represents how discipline and punishment work in our current society. They are founded on examination and observation. If a ruler or government can control the mechanisms of examination and observation, they can effect control and discipline of the people.
@@ -26,5 +28,3 @@ This analogy clicked when I read this:
 It reminds me of the A/B testing that companies use all the time to experiment on their users or customers. As we navigate the web, everything we do is monitored and recorded to be later studied. There isn’t one person or organization with complete control over the examination and observation, but in aggregate the business community does have complete control over these things, providing a strong foundation for control over our lives.
 
 Are we living in the Panopticon now?
-
-(link to `Assignment 4 <http://45.55.248.190:8080/form.html>`_)

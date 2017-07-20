@@ -13,6 +13,8 @@ I've spent the past few months learning Clint Mansell's Lux Aeterna, otherwise k
 
 I made a few small mistakes but they are hardly noticeable. It wasn't my best day for recording myself playing.
 
+.. TEASER_END
+
 I also re-recorded myself playing a few other songs. Here's Pachelbel's Canon in D played with the practice pedal engaged. It changes the tone of the piano in a way that I think works well with this piece.
 
 .. youtube:: ht4BHCiuygQ
