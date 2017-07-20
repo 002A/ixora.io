@@ -1,8 +1,9 @@
 .. title: Connected but Alone, Program or Be Programmed, We are all Cyborgs Now
 .. slug: connected-but-alone-program-or-be-programmed-we-are-all-cyborgs-now
 .. date: 2017-06-27 10:16:16 UTC-04:00
-.. tags: itp
+.. tags: itp, networked media
 .. category: 
+.. section: itp
 .. link: 
 .. description: Reviews of Connected but Alone, Program or Be Programmed, and We are all Cyborgs Now
 .. type: text

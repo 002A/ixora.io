@@ -135,10 +135,11 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about-me/", "About Me"),
         ("/projects/", "Projects"),
+        ("/itp/", "NYU-ITP"),
         ("/archive/", "Archive"),
         ("/categories/", "Tags"),
         ("/galleries/", "Galleries"),
-        ("/rss.xml", "RSS feed"),
+        # ("/rss.xml", "RSS feed"),
     ),
 }
 
@@ -194,6 +195,8 @@ THEME_COLOR = '#5670d4'
 
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
+    ("itp/*.rst", "itp", "post.tmpl"),
+    ("piano/*.rst", "piano", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
@@ -342,7 +345,7 @@ POSTS_SECTIONS = True
 
 # Setting this to False generates a list page instead of an index. Indexes
 # are the default and will apply GENERATE_ATOM if set.
-# POSTS_SECTIONS_ARE_INDEXES = True
+POSTS_SECTIONS_ARE_INDEXES = True
 
 # Final locations are:
 # output / TRANSLATION[lang] / SECTION_PATH / SECTION_NAME / index.html (list of posts for a section)
@@ -372,7 +375,7 @@ POSTS_SECTIONS = True
 
 # Sections are determined by their output directory as set in POSTS by default,
 # but can alternatively be determined from file metadata instead.
-# POSTS_SECTION_FROM_META = False
+POSTS_SECTION_FROM_META = True
 
 # Names are determined from the output directory name automatically or the
 # metadata label. Unless overwritten below, names will use title cased and
@@ -387,11 +390,12 @@ POSTS_SECTIONS = True
 # Titles for per-section index pages. Can be either one string where "{name}"
 # is substituted or the POSTS_SECTION_NAME, or a dict of sections. Note
 # that the INDEX_PAGES option is also applied to section page titles.
-# POSTS_SECTION_TITLE = {
-#     DEFAULT_LANG: {
-#         'how-to': 'How-to and Tutorials',
-#     },
-# }
+POSTS_SECTION_TITLE = {
+    DEFAULT_LANG: {
+        'itp': 'ITP Classes',
+        'piano': 'Piano'
+    },
+}
 
 # A list of dictionaries specifying sections which translate to each other.
 # For example:
@@ -1131,7 +1135,7 @@ COPY_SOURCES = False
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
-# GENERATE_RSS = True
+GENERATE_RSS = False
 
 # By default, Nikola does not generates Atom files for indexes and links to
 # them. Generate Atom for tags by setting TAG_PAGES_ARE_INDEXES to True.

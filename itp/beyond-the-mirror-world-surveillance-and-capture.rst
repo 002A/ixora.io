@@ -1,8 +1,9 @@
 .. title: Beyond the Mirror World, Surveillance and Capture
 .. slug: beyond-the-mirror-world-surveillance-and-capture
 .. date: 2017-06-13 08:43:04 UTC-04:00
-.. tags: itp
+.. tags: itp, networked media
 .. category: 
+.. section: itp
 .. link: 
 .. description: Review of Beyond the Mirror World & Surveillance and Capture
 .. type: text

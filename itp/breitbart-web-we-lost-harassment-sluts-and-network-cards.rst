@@ -1,8 +1,9 @@
 .. title: Breitbart, Web We Lost, Harassment, Sluts and Network Cards
 .. slug: breitbart-web-we-lost-harassment-sluts-and-network-cards
 .. date: 2017-06-22 10:28:15 UTC-04:00
-.. tags: itp
+.. tags: itp, networked media
 .. category: 
+.. section: itp
 .. link: 
 .. description: Reviews of Breitbart, Web We Lost, Harassment, Sluts and Network Cards
 .. type: text

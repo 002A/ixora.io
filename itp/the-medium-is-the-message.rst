@@ -1,8 +1,9 @@
 .. title: "The Medium is the Message," by Marshall McCluhan
 .. slug: the-medium-is-the-message
 .. date: 2017-05-30 10:24:54 UTC-04:00
-.. tags: itp
+.. tags: itp, networked media
 .. category: 
+.. section: itp
 .. link: 
 .. description: Review of The Medium is the Message
 .. type: text
