@@ -137,9 +137,9 @@ NAVIGATION_LINKS = {
         ("/projects/", "Projects"),
         ("/itp/", "NYU ITP"),
         ("/blog/", "Blog"),
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
         ("/galleries/", "Galleries"),
+        ("/categories/", "Tags"),
+        ("/archive.html", "Archive"),
         # ("/rss.xml", "RSS feed"),
     ),
 }
