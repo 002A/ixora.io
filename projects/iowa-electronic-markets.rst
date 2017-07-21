@@ -20,4 +20,4 @@ Abstract
 
 .. _`Algorithmic Finance`: http://algorithmicfinance.org/1-2/pp157-181/
 
-
+I've been involved with this since 2004. Back then my program was built in Excel/VBA and Perl and made a profit of only $11. In 2012 I made some technical improvements with Java and Scala, and in this past election I made $600 with a system rebuilt from scratch in Python running on a Raspberry Pi. As always, profits are donated to charity.
