@@ -76,21 +76,12 @@ The provided Processing example sketches illustrate everything mentioned above a
 
 Finally, some :doc:`miscellaneous-thoughts`.
 
-What is Processing?
-===================
-
-Processing_ is a well known application providing people at all coding skill levels with an opportunity to use technology in a creative way. It is suitable for beginners and can be used in 'Learn to Code' classes, while also being powerful enough to support `cutting edge artwork on display around the world <https://www.processing.org/exhibition/>`_.
-
-Many dedicated creative technologists contribute to Processing_'s continued development, either through contributions to the core application or by making extensions, called libraries. It has given me great joy to create this library.
-
-My hope is for Camera3D to unlock new opportunities for creative expression in the Processing community.
-
 History
 =======
 
 The Camera3D library was inspired by my fascination with anaglyphs and my frustration with the no longer functioning RedBlue library. I built this because I wanted to create anaglyphs in Processing_ and I couldn't get the RedBlue library to work again.
 
-The RedBlue library worked in Processing_ 1.5 but stopped working when Processing_ 2.x stopped supporting the Java3D renderer. I did the best I could to get it working again but every attempt failed. After much experimentation and analysis of the Processing_ library code, I discovered a very different approach that could be used to create a new anaglyph library. The key insight here is that a sketch's *draw* method can be called multiple times per frame. When I realized this, Camera3D was born.
+The RedBlue library worked in Processing_ 1.5 but stopped working when Processing_ 2.x stopped supporting the Java3D renderer. I did the best I could to get it working again but every attempt failed. After much experimentation and analysis of the Processing_ library code, I discovered a very different approach that could be used to create a new anaglyph library. The key insight here is that a sketch's *draw* method can be called multiple times per frame. The library can render the same scene multiple times with different camera settings and then combine the frames into a composite image. When I realized this, Camera3D was born.
 
 At first Camera3D could only do simple red-cyan bitmask anaglyphs, much like the RedBlue library. As I experimented and researched this subject online, I learned there is much more to anaglyphs than using bitmasks to combine two images. In fact, there are even `published journal papers <http://www.site.uottawa.ca/~edubois/icassp01/anaglyphdubois.pdf>`_ on the subject, outlining sophisticated algorithms for optimal color choices for each pixel. I was hooked.
 
@@ -104,7 +95,7 @@ I would like to thank `Lee Byron`_ for making the original RedBlue library. Came
 Future Features
 ===============
 
-My number one goal right now is to port this to P5. I expect to have the bandwidth to start later this summer. A JavaScript version of this combined with `WebVR <https://webvr.rocks/>`_ would open up amazing possibilities to a lot of people.
+My number one goal right now is to port this to P5. A JavaScript version of this combined with `WebVR <https://webvr.rocks/>`_ would open up amazing possibilities to a lot of people.
 
 I'd also like to expand on the growing popularity of 360 Video to support Stereoscopic 360 Videos. Some platforms like Vimeo and YouTube support this already but the Processing community does not yet have the tools to create the content for it.
 
