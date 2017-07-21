@@ -135,7 +135,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about-me/", "About Me"),
         ("/projects/", "Projects"),
-        ("/itp/", "NYU-ITP Classes"),
+        ("/itp/", "NYU ITP"),
         ("/blog/", "Blog"),
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
@@ -196,7 +196,7 @@ THEME_COLOR = '#5670d4'
 
 POSTS = (
     ("itp/*.rst", "itp", "post.tmpl"),
-    ("itp/*.md", "itp", "post.tmpl"),
+    ("itp/*/*.rst", "itp", "post.tmpl"),
     ("posts/*.rst", "blog", "post.tmpl"),
     ("posts/*.md", "blog", "post.tmpl"),
     ("posts/*.txt", "blog", "post.tmpl"),
