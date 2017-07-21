@@ -4,3 +4,4 @@ themes/
 plugins/
 .doit.*
 state_data.json
+notebooks/.ipynb_checkpoints/
