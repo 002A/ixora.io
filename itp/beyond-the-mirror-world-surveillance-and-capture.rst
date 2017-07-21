@@ -3,7 +3,6 @@
 .. date: 2017-06-13 08:43:04 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Review of Beyond the Mirror World & Surveillance and Capture
 .. type: text

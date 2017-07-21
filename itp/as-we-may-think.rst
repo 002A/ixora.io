@@ -3,7 +3,6 @@
 .. date: 2017-05-25 10:13:03 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Review of As We May Think by 
 .. type: text

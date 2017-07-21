@@ -3,7 +3,6 @@
 .. date: 2017-06-06 09:56:27 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Review of Michel Foucault, Discipline and Punish, Panopticism: The Birth of the Prison
 .. type: text

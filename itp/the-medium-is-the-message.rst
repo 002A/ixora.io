@@ -3,7 +3,6 @@
 .. date: 2017-05-30 10:24:54 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Review of The Medium is the Message
 .. type: text

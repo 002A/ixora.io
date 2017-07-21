@@ -3,7 +3,6 @@
 .. date: 2017-06-08 00:17:55 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Review of Societies of Control and The Enduring Ephemeral
 .. type: text

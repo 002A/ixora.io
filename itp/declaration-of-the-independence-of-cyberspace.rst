@@ -3,7 +3,6 @@
 .. date: 2017-05-31 22:05:39 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Review of Declaration of the Independence of Cyberspace
 .. type: text

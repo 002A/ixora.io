@@ -3,7 +3,6 @@
 .. date: 2017-06-27 10:16:16 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Reviews of Connected but Alone, Program or Be Programmed, and We are all Cyborgs Now
 .. type: text

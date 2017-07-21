@@ -135,8 +135,9 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about-me/", "About Me"),
         ("/projects/", "Projects"),
-        ("/itp/", "NYU-ITP"),
-        ("/archive/", "Archive"),
+        ("/itp/", "NYU-ITP Classes"),
+        ("/blog/", "Blog"),
+        ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
         ("/galleries/", "Galleries"),
         # ("/rss.xml", "RSS feed"),
@@ -194,13 +195,13 @@ THEME_COLOR = '#5670d4'
 #     )
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
     ("itp/*.rst", "itp", "post.tmpl"),
-    ("piano/*.rst", "piano", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
-    ("posts/*.ipynb", "posts", "post.tmpl")
+    ("itp/*.md", "itp", "post.tmpl"),
+    ("posts/*.rst", "blog", "post.tmpl"),
+    ("posts/*.md", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
+    ("posts/*.html", "blog", "post.tmpl"),
+    ("notebooks/*.ipynb", "blog", "post.tmpl")
 )
 # PAGES = (
 #     ("pages/*.rst", "pages", "page.tmpl"),
@@ -375,7 +376,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 
 # Sections are determined by their output directory as set in POSTS by default,
 # but can alternatively be determined from file metadata instead.
-POSTS_SECTION_FROM_META = True
+POSTS_SECTION_FROM_META = False
 
 # Names are determined from the output directory name automatically or the
 # metadata label. Unless overwritten below, names will use title cased and

@@ -3,7 +3,6 @@
 .. date: 2017-06-15 09:30:58 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Review of The Long Tail, Free Labor, Network Neutrality, and Here Comes Everybody
 .. type: text

@@ -3,7 +3,6 @@
 .. date: 2017-06-29 16:23:29 UTC-04:00
 .. tags: itp, networked media
 .. category: 
-.. section: itp
 .. link: 
 .. description: Networked Media Final Project
 .. type: text
