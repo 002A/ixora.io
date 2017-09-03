@@ -135,8 +135,8 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/about-me/", "About Me"),
         ("/projects/", "Projects"),
-        ("/itp/", "NYU ITP"),
-        ("/blog/", "Blog"),
+        ("/itp/", "ITP Classes"),
+        ("/blog/", "My Blog"),
         ("/galleries/", "Galleries"),
         ("/categories/", "Tags"),
         ("/archive.html", "Archive"),
@@ -154,11 +154,37 @@ NAVIGATION_LINKS = {
 # THEME="monospace"  # works!
 # THEME="slidemenu"  # broken slideshow but gallery works
 # THEME="yesplease"  # ugly as hell
-THEME="custom1" # current
+# THEME="custom1" # current
+# THEME="hpstr"
+
+# THEME="reveal-jinja"
+# # Settings for the Reveal theme must be added to the global context.
+# # subtheme selection:   beige/serif/simple/sky/night/default
+# # transition selection: cube/page/concave/linear/none/default
+# GLOBAL_CONTEXT = {
+#     'subtheme': 'sky',
+#     'transition': 'cube'
+# }
+
+THEME = 'customized_lanyon'
+GLOBAL_CONTEXT = {
+    "lanyon_subtheme": "theme-base-custom"
+}
+
+# # THEME = 'canterville'
+# THEME = 'customized_canterville'
+# LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+# GLOBAL_CONTEXT = {
+#         # 'TWITTER_URL': 'https://twitter.com/getnikola',
+#         'GITHUB_URL': 'https://github.com/hx2A',
+#         'BANNER_URL': '/galleries/ray_tracing/a_sunrise.jpg',
+#         # 'BANNER_URL': '/assets/img/silk-road.jpg'
+# }
+
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#5670d4'
+THEME_COLOR = '#D45670'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 # (translatable)
@@ -195,6 +221,7 @@ THEME_COLOR = '#5670d4'
 #     )
 
 POSTS = (
+    ("main/*.rst", "", "main.tmpl"),
     ("itp/*.rst", "itp", "post.tmpl"),
     ("itp/*/*.rst", "itp", "post.tmpl"),
     ("posts/*.rst", "blog", "post.tmpl"),
@@ -234,6 +261,7 @@ TIMEZONE = "America/New_York"
 # Date format used to display post dates. (translatable)
 # (str used by datetime.datetime.strftime)
 # DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%A, %B %-d, %Y %-H:%M %p'
 
 # Date format used to display post dates, if local dates are used. (translatable)
 # (str used by moment.js)
@@ -246,7 +274,7 @@ TIMEZONE = "America/New_York"
 # 2 = using a string like “2 days ago”
 #
 # Your theme must support it, bootstrap and bootstrap3 already do.
-# DATE_FANCINESS = 0
+DATE_FANCINESS = 0
 
 # While Nikola can select a sensible locale for each language,
 # sometimes explicit control can come handy.
@@ -337,7 +365,7 @@ COMPILERS = {
 # SHOW_BLOG_TITLE = True
 
 # Writes tag cloud data in form of tag_cloud_data.json.
-WRITE_TAG_CLOUD = False
+WRITE_TAG_CLOUD = True
 
 # Generate pages for each section. The site must have at least two sections
 # for this option to take effect. It wouldn't build for just one section.
@@ -393,7 +421,7 @@ POSTS_SECTION_FROM_META = False
 POSTS_SECTION_TITLE = {
     DEFAULT_LANG: {
         'itp': 'ITP Classes',
-        'piano': 'Piano'
+        'blog': 'My Blog',
     },
 }
 
@@ -430,7 +458,7 @@ POSTS_SECTION_TITLE = {
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# TAG_PAGES_ARE_INDEXES = False
+TAG_PAGES_ARE_INDEXES = True
 
 # Set descriptions for tag pages to make them more interesting. The
 # default is no description. The value is used in the meta description
@@ -568,7 +596,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-# INDEX_PATH = ""
+INDEX_PATH = "nothing"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -648,11 +676,11 @@ REDIRECTIONS = [("happy-holidays/index.html", "/posts/happy-holidays-2016/")]
 # to `nikola deploy`.  If no arguments are specified, a preset
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
-# DEPLOY_COMMANDS = {
-#     'default': [
-#         "rsync -rav --delete output/ joe@my.site:/srv/www/site",
-#     ]
-# }
+DEPLOY_COMMANDS = {
+    'default': [
+        "aws s3 sync output/ s3://copy.ixora.io/",
+    ]
+}
 
 # github_deploy configuration
 # For more details, read the manual:
@@ -982,12 +1010,12 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, googleplus, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = ""
+COMMENT_SYSTEM = "disqus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "ixora-io"
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
@@ -1363,7 +1391,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+# GLOBAL_CONTEXT = {}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be

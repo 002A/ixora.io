@@ -1,0 +1,3 @@
+assets/css/all.css=rst.css,code.css,poole.css,lanyon.css,carousel.css,pager.css,main.css
+assets/js/all-nocdn.js=jquery-3.2.1.min.js,moment-with-locales.min.js,fancydates.js,carousel-3.3.7.js
+assets/js/all.js=moment-with-locales.min.js,fancydates.js,carousel-3.3.7.js

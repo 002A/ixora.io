@@ -1,0 +1,86 @@
+/* Post and archive pagers */
+.postindexpager .pager .next:before {
+	content: "↓ ";
+}
+.postindexpager .pager .previous:before,
+.archivenav .pager .up:before {
+	content: "↑ ";
+}
+.postpromonav .pager .next:after,
+.archivenav .pager .next:after {
+	content: " →";
+}
+.postpromonav .pager .previous:dir(rtl):after,
+.archivenav .pager .previous:dir(rtl):after {
+	content: " →";
+}
+.postpromonav .pager .previous:before,
+.archivenav .pager .previous:before {
+	content: "← ";
+}
+.postpromonav .pager .next:dir(rtl):before,
+.archivenav .pager .next:dir(rtl):before {
+	content: "← ";
+}
+
+.metadata p:first-of-type:before,
+.postpromonav .tags li:first-of-type:before,
+.translationslist p:first-of-type:before {
+	content: "";
+}
+.postpromonav .pager {
+	clear: both;
+	height: 1em;
+}
+.tagindex .postlist li,
+.tags li,
+.postpromonav .pager li,
+.archivenav .pager li {
+	display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 0px 10px;
+  margin: 5px 0px;
+}
+.tagindex .postlist a:hover,
+.tags a:hover,
+.postpromonav .pager a:hover,
+.archivenav .pager a:hover {
+  text-decoration: none;
+}
+.tagindex .postlist li:hover,
+.tags li:hover,
+.postpromonav .pager li:hover,
+.archivenav .pager li:hover {
+  background-color: #f4f4f4;
+}
+
+.archivenav .pager {
+	text-align: center
+}
+.postpromonav .pager .next,
+.archivenav .pager .next {
+	float: right;
+}
+.postpromonav .pager .next:dir(rtl),
+.archivenav .pager .next:dir(rtl) {
+	float: left;
+}
+.postpromonav .pager .previous,
+.archivenav .pager .previous {
+	float: left;
+}
+.postpromonav .pager .previous:dir(rtl),
+.archivenav .pager .previous:dir(rtl) {
+	float: right;
+}
+.archivenav .pager .disabled,
+.archivenav .pager .disabled a,
+.archivenav .pager .disabled:link {
+    color: #888;
+    cursor: not-allowed;
+}
+/* fix problem with comments */
+section.comments {
+  margin-top: 50px;
+}

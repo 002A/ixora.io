@@ -1,0 +1,16 @@
+a:link {
+  color: #882222;
+}
+a:visited {
+  color: #882222;
+}
+a:hover {
+  color: #882222;
+}
+a:active {
+  color: #404050;
+}
+#notebook-container {
+  width: 800px;
+}
+
