@@ -2,10 +2,26 @@
 .. slug: sound-walk-and-week-1-readings
 .. date: 2017-09-10 23:03:08 UTC-04:00
 .. tags: itp, video and sound
-.. category: 
-.. link: 
+.. category:
+.. link:
 .. description: Sound Walk and Week 1 Readings
 .. type: text
+
+
+The Gaits: A High Line Soundwalk
+--------------------------------
+
+A Soundwalk is a directed walk with a focus on listening to sounds instead of viewing sights. I went on `The Gaits Soundwalk <http://www.thehighline.org/activities/the-gaits-a-high-line-soundwalk>`_, a soundwalk commissioned by the High Line park in NYC. This is an above-ground park built on raised railway tracks abandoned years ago.
+
+The Gaits Soundwalk is experienced with a `phone app <https://play.google.com/store/apps/details?id=com.iglesiaintermedia.thegaits>`_ that only functions when the user's phone is actually on the High Line. I actually thought the app was broken when I arrived at the beginning of the High Line on Gansevoort St. It began making bell noises when I started to ascend the stairs.
+
+For the first five minutes or so the Soundwalk consisted of only intermittent bell noises that would slow down or stop when I stopped walking. As I moved along, the walk got more interesting. The bells sped up, and then an organ was added. I heard water churning at several locations, and while at sections of the walk with seating for viewing parades or other city activity, I heard applause. There were also birds chirping in the section of the walk with a lot of trees. Unfortunately there was construction and scaffolding covering everything so there were no actual birds to be seen. Still, I do appreciate the synchronicity to the environment.
+
+Towards the end of the walk the High Line passes over avenues leading in and out of Port Authority. There are a lot of buses there, and the app started making annoying bus brake noises. Shortly after that there were sounds of trains leaving the station as I walked past the train yard.
+
+The sounds were recorded by the artists on the High Line or taken from `freesound.org <http://freesound.org/>`_.
+
+According to the Google Play store, I am the 101'th person to install the Android version of The Gaits. Since this was made almost 3 years ago, that means this app is woefully unappreciated. I think that at least a few of the myriad of tourists who were also on the High Line would have been interested in giving the app a try. I wrote a review and gave it five stars.
 
 Everything is a Remix
 ---------------------
