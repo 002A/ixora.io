@@ -17,11 +17,27 @@ The Gaits Soundwalk is experienced with a `phone app <https://play.google.com/st
 
 For the first five minutes or so the Soundwalk consisted of only intermittent bell noises that would slow down or stop when I stopped walking. As I moved along, the walk got more interesting. The bells sped up, and then an organ was added. I heard water churning at several locations, and while at sections of the walk with seating for viewing parades or other city activity, I heard applause. There were also birds chirping in the section of the walk with a lot of trees. Unfortunately there was construction and scaffolding covering everything so there were no actual birds to be seen. Still, I do appreciate the synchronicity to the environment.
 
+.. TEASER_END
+
 Towards the end of the walk the High Line passes over avenues leading in and out of Port Authority. There are a lot of buses there, and the app started making annoying bus brake noises. Shortly after that there were sounds of trains leaving the station as I walked past the train yard.
 
 The sounds were recorded by the artists on the High Line or taken from `freesound.org <http://freesound.org/>`_.
 
 According to the Google Play store, I am the 101'th person to install the Android version of The Gaits. Since this was made almost 3 years ago, that means this app is woefully unappreciated. I think that at least a few of the myriad of tourists who were also on the High Line would have been interested in giving the app a try. I wrote a review and gave it five stars.
+
+The Ecstasy of Influence
+------------------------
+
+Jonathan Lethem’s essay `The Ecstasy of Influence <https://harpers.org/archive/2007/02/the-ecstasy-of-influence/>`_ is an analysis of Plagiarism and originality in the world of artists and writers. He discusses the reality of artists and writers building on the works of others. He cites many examples of borrowed ideas, such as Fritz the Cat and Ren & Stimpy Show, or The Flintstones and The Simpsons. And yet Disney aggressively defends their own works from being borrowed by others, even though they themselves are the beneficiaries of other producers who came before them.
+
+Lethem articulates a concept that I’ve been thinking about lately but was having difficulty giving a name for, and that name is "imperial plagiarism." He defines it as "the free use of Third World or 'primitive' artworks and styles by more privileged (and better-paid) artists." Something I’ve been noticing in these plagiarism readings is that it is a problem when weak people make works derived from the work of powerful entities, but the reverse seems to be less objectionable. It’s a dishonest application of the concept of plagiarism. Whether the reason is established creators oppressing competition or a willing public that wants to hold on to the idea that their creative idols are true creative visionaries, it isn’t right, and it needs to stop.
+
+The author seems to be at peace with the reality of artists borrowing from the works of others. He concludes with this:
+
+  For the moment I’m grateful to be making a living, and so must ask that for a limited time (in the Thomas Jefferson sense) you please respect my small, treasured usemonopolies. Don’t pirate my editions; do plunder my visions. The name of the game is Give All. You, reader, are welcome to my stories. They were never mine in the first place, but I gave them to you. If you have the inclination to pick them up, take them with my blessing.
+
+He wants to make a living, and asks that people respect what he has made that he is financially dependent on. But beyond that, and after he’s gone, he wants other artists and writers to know that his works are there for others to create derived works from.
+
 
 On the Rights of the Molotov Man
 --------------------------------
