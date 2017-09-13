@@ -44,7 +44,7 @@ One somewhat unique feature of both OL Newsbytes Black and the font used in this
 This is the case for all capital E letters found in the poster but it is most noticeable in the title:
   
 .. image:: /images/itp/visual_language/week1/the_grey_title.jpg
-  :width: 50%
+  :width: 100%
   :align: center
 
 And finally, here's all of the analysis together in one collage:
