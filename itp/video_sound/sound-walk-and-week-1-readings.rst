@@ -23,6 +23,8 @@ The sounds were recorded by the artists on the High Line or taken from `freesoun
 
 According to the Google Play store, I am the 101'th person to install the Android version of The Gaits. Since this was made almost 3 years ago, that means this app is woefully unappreciated. I think that at least a few of the myriad of tourists who were also on the High Line would have been interested in giving the app a try. I wrote a review and gave it five stars.
 
+.. TEASER_END
+
 On the Rights of the Molotov Man
 --------------------------------
 
