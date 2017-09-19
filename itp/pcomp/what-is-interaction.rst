@@ -2,8 +2,8 @@
 .. slug: what-is-interaction
 .. date: 2017-09-10 14:03:08 UTC-04:00
 .. tags: itp, physical computing
-.. category: 
-.. link: 
+.. category:
+.. link:
 .. description: What is Interaction? Discussion of Crawford's book "The Art of Interactive Design" and Victor's "Brief Rant on the Future of Interaction Design"
 .. type: text
 
@@ -42,10 +42,10 @@ Class Activity:  Note-taking Device Design
 
 In class we designed a hypothetical note-taking device that could use speech recognition to record class discussions and allow a student to highlight what they felt was most important and worth being saved to their class notes. The prototype is depicted below.
 
-.. image:: /images/itp/pcomp/note_taking_device.png
+.. image:: /images/itp/pcomp/week1/note_taking_device.png
   :width: 50%
   :align: center
-  
+
 The dialog would be transcribed on the right and allow the user to highlight with their finger the text that should be saved. The left side of the screen would allow the user to reorder the notes and also record video.
 
 Considering our new understanding of interactivity, how well does this device measure up?
