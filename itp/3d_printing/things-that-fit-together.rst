@@ -35,7 +35,7 @@ Next I used the Taper command to make the end of the screw pointed.
 
 I could use the tapered helix line as a rail to sweep the threads around the screw's shaft using the Sweep1 command. I remembered to Cap the threads when I was done. I also modeled the threads to overlap the cylinder because Rhino doesn't seem to like coincident surfaces when using boolean operations.
 
-The Sweep1 command has multiple "styles" I can choose from in the dropdown in the modal window that appears after using this command. The default option of "freeform" does not do what I need to do. I needed "Roadlike top." The alternatives seemed to rotate the threads in a weird way as the threads revolved around the helix. I am glad I noticed this option in the dropdown because without it, this whole approach would have failed.
+The Sweep1 command has multiple "styles" I can choose from in the dropdown in the modal window that appears after using this command. The default option of "Freeform" does not do what I need to do. I needed "Roadlike top." The alternatives seemed to rotate the threads in a weird way as the threads revolved around the helix. I am glad I noticed this option in the dropdown because without it, this whole approach would have failed.
 
 .. image:: /images/itp/3d_printing/week2/screw3.jpg
   :width: 100%
@@ -67,7 +67,7 @@ Our assignment was to make two things that fit together, so I need to insert the
 
 Getting the boolean operations to work for this object was a non-trivial matter. Rhino's Boolean Difference command didn't like operating on the screw's threads. I kept getting an error message indicating that the boolean operation failed. I don't understand what the problem was. The Check command tells me the "Rhino polysurface object is valid." The thread's object type is a "closed polysurface." The Volume command gives me a volume.
 
-After much fiddling I discovered that when I used the threads with the Boolean Intersection command, Rhino would do what I expected the Boolean Difference command to do. I don't understand but that's what happened. Once I got that to work there were other complications with the screw's shaft. After more fiddling I got that to work too. It wasn't easy but it seems that when Rhino doesn't want to do something, there's value in experimenting to find an alternative approach.
+After much fiddling I discovered that when I used just the threads object with the Boolean Intersection command, Rhino would do what I expected the Boolean Difference command to do. I don't understand but that's what happened. Once I got that to work there were other complications with the screw's shaft. After more fiddling I got that to work too. It wasn't easy but it seems that when Rhino doesn't want to do something, there's value in experimenting to find an alternative approach.
 
 The below image shows the wood with the hole in it. Notice the thread groves in the hole.
 

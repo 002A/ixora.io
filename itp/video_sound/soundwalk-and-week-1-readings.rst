@@ -1,10 +1,10 @@
-.. title: Sound Walk and Week 1 Readings
-.. slug: sound-walk-and-week-1-readings
+.. title: Soundwalk and Week 1 Readings
+.. slug: soundwalk-and-week-1-readings
 .. date: 2017-09-11 23:03:08 UTC-04:00
 .. tags: itp, video and sound
 .. category:
 .. link:
-.. description: Sound Walk and Week 1 Readings
+.. description: Soundwalk and Week 1 Readings
 .. type: text
 
 
