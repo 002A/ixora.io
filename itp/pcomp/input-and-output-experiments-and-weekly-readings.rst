@@ -24,7 +24,7 @@ And a schematic of the circuit:
   :width: 100%
   :align: center
 
-The Arduino uses digital input to detect when the button is pressed and released. It picks random RGB values and outputs analog values to light up the 3 color LED in that color.
+The Arduino uses digital input to detect when the button is pressed and released. It picks random RGB values and outputs analog values to light up the 3 color LED in that color. Observe I am using the 3 resistor values I calibrated for last week's assignment to make the LED's 3 colors balance out. 
 
 .. TEASER_END
 
