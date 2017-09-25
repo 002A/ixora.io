@@ -65,9 +65,11 @@ Our assignment was to make two things that fit together, so I need to insert the
   :width: 100%
   :align: center
 
-I could easily make a hole for the screw's shaft but Rhino refused to use the threads in a boolean operation. I kept getting an error message indicating that the boolean operation failed. I don't understand what the problem was. The Check command tells me the "Rhino polysurface object is valid." The thread's object type is a "closed polysurface."
+Getting the boolean operations to work for this object was a non-trivial matter. Rhino's Boolean Difference command didn't like operating on the screw's threads. I kept getting an error message indicating that the boolean operation failed. I don't understand what the problem was. The Check command tells me the "Rhino polysurface object is valid." The thread's object type is a "closed polysurface." The Volume command gives me a volume.
 
-The below image shows the wood with the hole in it. I would like to see the thread groves in the hole as well. I will ask our instructor about this at our next class.
+After much fiddling I discovered that when I used the threads with the Boolean Intersection command, Rhino would do what I expected the Boolean Difference command to do. I don't understand but that's what happened. Once I got that to work there were other complications with the screw's shaft. After more fiddling I got that to work too. It wasn't easy but it seems that when Rhino doesn't want to do something, there's value in experimenting to find an alternative approach.
+
+The below image shows the wood with the hole in it. Notice the thread groves in the hole.
 
 .. image:: /images/itp/3d_printing/week2/screw8.jpg
   :width: 100%
@@ -76,5 +78,17 @@ The below image shows the wood with the hole in it. I would like to see the thre
 And with the Ghosted renderer, which I think looks better:
 
 .. image:: /images/itp/3d_printing/week2/screw9.jpg
+  :width: 100%
+  :align: center
+
+Here's a closer look at the threads I worked so hard to create. Gaze into the abyss of a screw hole:
+
+.. image:: /images/itp/3d_printing/week2/screw10.jpg
+  :width: 100%
+  :align: center
+
+And for fun, here's a rendered view of the screw from inside the hole.
+
+.. image:: /images/itp/3d_printing/week2/screw11.jpg
   :width: 100%
   :align: center
