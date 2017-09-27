@@ -24,7 +24,7 @@ And a schematic of the circuit:
   :width: 100%
   :align: center
 
-The Arduino uses digital input to detect when the button is pressed and released. It picks random RGB values and outputs analog values to light up the 3 color LED in that color. Observe I am using the 3 resistor values I calibrated for last week's assignment to make the LED's 3 colors balance out. 
+The Arduino uses digital input to detect when the button is pressed and released. It picks random RGB values and outputs analog values to light up the 3 color LED in that color. Observe I am using the 3 resistor values I calibrated for last week's assignment to make the LED's 3 colors balance out.
 
 .. TEASER_END
 
@@ -116,3 +116,18 @@ The biggest success in this area is the design of glasses for people with vision
 Compare this with the success of hearing aids. There is a social stigma associated with wearing or needing these. The design of hearing aids also does not have the rich expressiveness that the design of glasses has. Hearing aids are designed to be discrete or as invisible as possible, whereas glasses are designed to be noticed and make a fashion statement. Why can’t hearing aids be made the same way?
 
 Pullin writes about what it is about glasses that worked so well so that we can apply the same lessons to hearing aids and other fields like prosthetics. One of the main lessons is to not design for invisibility. Also, fashion and creative designers need to be an integral part of the design process of these products. We should be designing products that are glamorous, improve human functionality, and are something people can be proud of. This is very different from the present state of affairs that values secrecy, hoping that people don’t notice that someone has a disability.
+
+Observation of Interactive Technology
+-------------------------------------
+
+ATM machines are a critical interactive technology used by many people. What are our assumptions about how ATM machines are used? How do people actually use ATM machines? What are the easy or difficult parts of using these machines?
+
+My main assumption about ATM machines is that they are primarily used to withdraw money from people's savings or checking accounts. I would expect people to take about 30 to 45 seconds to complete the transaction.
+
+To investigate this, I spent some time in an ATM booth or standing outside. There are definitely unstated social rules about how long a person can linger in an ATM booth without actually using an ATM machine, and I definitely went over the acceptable limit. People want to use an ATM machine in a safe environment and somebody lingering in an ATM booth is suspicious behavior. Nobody said anything to me explicitly but eventually I retreated to outside the ATM booth and observed people using the machines from there.
+
+One unexpected observation is witnessing someone depositing cash into the ATM machine. This was not a smooth interaction. The user had to insert a stack of bills into a slot that opened up to accept the bills. The bills were folded and wrinkled so they did not go into the slot willingly. The user had to fiddle with the bills to make that work. The process would have worked better if the user inserted the money into an envelope, but for whatever reason envelopes are no longer used for this purpose at ATMs like they were used in the past.
+
+Nobody completed their ATM interaction in under a minute. Some took as long as 2 minutes. I was surprised. I thought people would be faster.
+
+The process of withdrawing cash seemed to be easy for users to complete. Perhaps because users are well trained and know how to make a withdrawal without thinking about it or perhaps this aspect of the ATM interaction is well designed. Either way, this interaction is a good "conversation" between the ATM and the user.
