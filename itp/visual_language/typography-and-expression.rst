@@ -9,7 +9,7 @@
 
 This week we learned about typography and how font choices contribute to our design decisions. Fonts and typography contribute much to how well information is communicated to others.
 
-I wanted to learn more about Adobe Illustrator so I went through some tutorials to get a basic understanding of the application, then dove in on these assignments.
+I wanted to learn more about Adobe Illustrator so I went through some tutorials to get a basic understanding of the application, then dove into these assignments.
 
 Expressive Words
 ----------------
