@@ -33,7 +33,7 @@ Next I learned how to use Illustrator's pattern tool. In class we saw an example
 
 I also wanted to learn how to use Photoshop to reduce a photograph to a specific limited set of colors. This can be done by converting the image to Indexed Colors and a custom color table. All of the below photos were taken by me in the past few months.
 
-This is a talented woman danced while my friend `Colin <https://en.wikipedia.org/wiki/Colin_Huggins>`_ played piano in Washington Square Park:
+This is a photo of a talented woman dancing while my friend `Colin <https://en.wikipedia.org/wiki/Colin_Huggins>`_ played piano in Washington Square Park:
 
 .. image:: /images/itp/visual_language/week4/dancer.png
   :width: 100%
