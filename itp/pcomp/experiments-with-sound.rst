@@ -32,7 +32,7 @@ Presumably I need to wire the speaker in series with a resistor of some unknown 
   :width: 100%
   :align: center
 
-I need to figure out the resistance of resistor 1 that ensures the electrical power going through the speaker does not exceed 0.25 W. Using the circuit diagram and the below equations, I can figure out if I can safely use this speaker with my Arduino.
+I need to figure out the resistance of resistor R1 that ensures the electrical power going through the speaker does not exceed 0.25 W. Using the circuit diagram and the below equations, I can figure out if I can safely use this speaker with my Arduino.
 
 .. math::
 
@@ -101,7 +101,7 @@ Simultaneous Pitches
 
 In class Tom told us that an Arduino can only generate a single tone at a time. He said that it wasn't possible to generate two simultaneous pitches at the same time and that attempts to switch back and forth between them resulted in very bad sound quality.
 
-In class he also talked about servos and how the Arduino's servo code worked. His explanation suggested to me that there should be a way to generate two simultaneous pitches. All of my initial ideas for doing this that I thought of during class were failures, but I learned a lot about Arduinos in the process of trying things out. I was intrigued by sound generation and stuck with it. Eventually I came up with a viable idea. I now claim that I can create a circuit that generates two simultaneous pitches. There are some limitations, but it definitely does what I say it does.
+In class he also talked about servos and how the Arduino's servo code worked. His explanation suggested to me that there should be a way to generate two simultaneous pitches. All of my initial ideas for doing this that I thought of during class were failures, but I learned a lot about Arduinos in the process of trying things out. I was intrigued by sound generation and stuck with it. Eventually I came up with a viable idea. I now claim that I can create a circuit that generates two proper simultaneous pitches. There are some limitations, but it definitely does what I say it does.
 
 I quickly realized the only way this could possibly work is with true analog output. The Arduino's ``analogWrite`` function uses Pulse Width Modulation (PWM). This feature will oscillate a digital pin from HIGH to LOW on a set frequency with the ``analogWrite`` value used to determine the portion of the time the pin is at HIGH or LOW. The end result is the average voltage over time matches the ``analogWrite`` parameter but at any instance of time the voltage can only be HIGH or LOW.
 
