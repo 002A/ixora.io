@@ -7,9 +7,9 @@
 .. description: Instructable Filming
 .. type: text
 
-This week we did our filming for our instructable video on making a laser cut box! Many thanks to my group members Yeonhee and Caleb. Before we started I was pretty apprehensive about filming but we worked thoughtfully and efficiently through each stage of our filming. There are about 9 scenes in our video so we did a lot of lugging camera equipment around. We even took everything to Canal Plastics to film in their store. The store owners were kind enough to let us film there.
+This week we did the filming for our instructable video on making a laser cut box! Many thanks to my group members Yeonhee and Caleb. Before we started I was pretty apprehensive about filming but we worked thoughtfully and efficiently through each stage of our filming. There are about 9 scenes in our video so we did a lot of lugging camera equipment around. We even took everything to Canal Plastics to film in their store. The store owners were kind enough to let us film there.
 
-In total we have between 40 and 50 GB of video (or more!). We did multiple takes for each section, sometimes using two cameras at the same time. We also created two laser cut boxes, because the assembly step involves using acrylic welding and obviously that can only be done once. Two boxes made the success of each shot less critical.
+In total we have at least 40 to 50 GB of video. We did multiple takes for each section, sometimes using two cameras at the same time. We also created two laser cut boxes, because the assembly step involves using acrylic welding and obviously that can only be done once. Two boxes made the success of each shot less critical.
 
 .. TEASER_END
 
