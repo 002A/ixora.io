@@ -37,7 +37,7 @@ The machine itself is quite intriguing. I myself like to push buttons and I know
 Making Interactive Art: Set the Stage, Then Shut Up and Listen
 --------------------------------------------------------------
 
- In Tom Igoe’s blog post, `Making Interactive Art: Set the Stage, Then Shut Up and Listen <http://www.tigoe.net/blog/category/physicalcomputing/405/>`_, Tom writes about interactive art installations. The main idea of the post is that interactive art should not be “explained” or “interpreted” for viewer. Instead, the viewer should figure this out on their own. If interactivity is a two-way conversation between a person and an interactive object, the conversation should stay between those two entities without a third party (the art creator) inserting themselves into the dialogue.
+In Tom Igoe’s blog post, `Making Interactive Art: Set the Stage, Then Shut Up and Listen <http://www.tigoe.net/blog/category/physicalcomputing/405/>`_, Tom writes about interactive art installations. The main idea of the post is that interactive art should not be “explained” or “interpreted” for viewer. Instead, the viewer should figure this out on their own. If interactivity is a two-way conversation between a person and an interactive object, the conversation should stay between those two entities without a third party (the art creator) inserting themselves into the dialogue.
 
 Maintaining this kind of discipline while creating interactive art would force the artist to think about the design of the art. The viewer gets to realize on their own how to interact with it. The viewer then “completes” the work through their own interactions.
 
