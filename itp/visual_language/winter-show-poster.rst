@@ -35,4 +35,6 @@ My design is below. I took similar photos of a few other students to expand on m
 
 The font is Acumin Pro Condensed Black, found in Adobe Typekit. The color palette mainly sticks to the primary colors of red, yellow, and blue in addition to white and black. I used a grid to layout the locations of the two portraits set between the title and subtitle.
 
+The clouds were created with custom Photoshop brushes created by `XResch <https://xresch.deviantart.com/art/50-Cloud-Brushes-699298657>`_, which are free to use for non-commercial use. I found them after watching a YouTube tutorial.
+
 This took a lot of time but I had a lot of fun building it. It is clear to me that Photoshop skills are great skills to have and are well worth the investment.
