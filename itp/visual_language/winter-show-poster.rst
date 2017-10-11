@@ -20,6 +20,8 @@ I got the idea for this poster before the assignment was given. My fellow ITP st
 
 I think this is an amazing photo.
 
+.. TEASER_END
+
 At the same time I had been watching a lot of great Photoshop tutorials to learn how to use the tool. One of them had some `inspiring ideas <https://helpx.adobe.com/photoshop/how-to/photoshop-cc.html>`_ for what to do with Photoshop, including several that superimpose objects above people's heads. Max's photo made me immediately think of a Photoshop opportunity.
 
 Poster Design
