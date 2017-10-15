@@ -1253,6 +1253,13 @@ GENERATE_RSS = False
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
+<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+"""
+# Google Analytics or whatever else you use. Added to the bottom of <body>
+# in the default template (base.tmpl).
+# (translatable)
+BODY_END = """
 <meta name="google-site-verification" content="ymlvtVWtjvo56CAZudJ4nQrC06APiZkrq_KdDLAqwow" />
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -1263,10 +1270,6 @@ EXTRA_HEAD_DATA = """
   ga('send', 'pageview');
 </script>
 """
-# Google Analytics or whatever else you use. Added to the bottom of <body>
-# in the default template (base.tmpl).
-# (translatable)
-# BODY_END = ""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.

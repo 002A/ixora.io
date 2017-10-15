@@ -41,11 +41,11 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -151,7 +151,7 @@ div.sidebar,.sidebar {
   padding: 0;
   margin: 0;
   border: none;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -210,6 +210,7 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
   top:  .8rem;
   left: 1rem;
