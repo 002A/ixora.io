@@ -67,7 +67,7 @@ I found a visualization of a rotating tesseract on Wikipedia to present the basi
 
 I will model and print multiple versions of a tesseract's shadow. I am going to use Python to calculate the locations of the tesseract's corners in 3D space and will use the Python API to create a model using spheres and cylinders for the vertices and edges. I am going to do this in a generic way so that I can use my code to do more than just tesseracts. Ideally, I will have a tool I can use to construct wireframe models for any geometric shape.
 
-Below are some sketches of the tesseract shadows. The sketches are terrible because it is almost impossible to sketch a 4D object on a piece of paper. But that's also the point of using a 3D printer: a 3D printed tesseract will do a much better job articulating what a tesseract actually is than a representation that is limited to 2 dimensions.
+Below are some sketches of a tesseract's shadows. The sketches are terrible because it is almost impossible to sketch something like this on a piece of paper. But that's also the point of using a 3D printer: a 3D printed tesseract will do a much better job articulating what a tesseract actually is than a representation that is limited to 2 dimensions.
 
 .. image:: /images/itp/3d_printing/week4/tesseracts.jpg
   :width: 100%
