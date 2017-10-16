@@ -1253,8 +1253,8 @@ GENERATE_RSS = False
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = """
-<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 """
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).

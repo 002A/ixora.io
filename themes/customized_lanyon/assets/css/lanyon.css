@@ -41,7 +41,8 @@ body {
 }
 
 html {
-  font-family: 'Old Standard TT', serif;
+  /*font-family: 'Old Standard TT', serif;*/
+  font-family: 'PT Serif', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -469,7 +470,7 @@ a.sidebar-nav-item:focus {
    background-image: -ms-linear-gradient(to bottom, #fff, #fff 20%, #882222 20%, #882222 40%, #fff 40%, #fff 60%, #882222 60%, #882222 80%, #fff 80%, #fff 100%);
    background-image: linear-gradient(to bottom, #fff, #fff 20%, #882222 20%, #882222 40%, #fff 40%, #fff 60%, #882222 60%, #882222 80%, #fff 80%, #fff 100%);
  }
- 
+
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,
