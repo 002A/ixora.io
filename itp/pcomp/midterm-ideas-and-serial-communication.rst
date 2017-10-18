@@ -1,6 +1,6 @@
 .. title: Midterm Ideas and Serial Communication
 .. slug: midterm-ideas-and-serial-communication
-.. date: 2017-10-17 23:50:33 UTC-04:00
+.. date: 2017-10-18 02:09:33 UTC-04:00
 .. tags: itp, physical computing
 .. category:
 .. link:
