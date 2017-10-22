@@ -12,3 +12,4 @@ After much perseverance our group completed the video editing in Adobe Premiere.
 This is a rough cut of our final video. There are some transition issues and we need to record some more narration, but the general idea is there. Enjoy!
 
 .. youtube:: xqkbzEPFCr4
+   :align: center
