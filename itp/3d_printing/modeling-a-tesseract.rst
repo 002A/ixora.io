@@ -24,7 +24,7 @@ Similarly, a 4D cube, or Tesseract, can also cast a shadow onto our 3D world. It
 
 I can build the tesseract and rotate it around any plane in 4D space. The whole process is automated so I can bulk generate Rhino models using Python. Here is an animation the tesseract rotating around the X-Z plane:
 
-.. youtube:: P2ffmbDpKXc
+.. youtube:: 146yOu6gzpM
    :align: center
 
 3D Printing
