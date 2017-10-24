@@ -224,6 +224,8 @@ POSTS = (
     ("main/*.rst", "", "main.tmpl"),
     ("itp/*.rst", "itp", "post.tmpl"),
     ("itp/*/*.rst", "itp", "post.tmpl"),
+    ("itp/*.ipynb", "itp", "post.tmpl"),
+    ("itp/*/*.ipynb", "itp", "post.tmpl"),
     ("posts/*.rst", "blog", "post.tmpl"),
     ("posts/*.md", "blog", "post.tmpl"),
     ("posts/*.txt", "blog", "post.tmpl"),
