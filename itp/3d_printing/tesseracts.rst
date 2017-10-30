@@ -7,7 +7,7 @@
 .. description: Tesseracts
 .. type: text
 
-I am interested in using 3D printing to model and visualize mathematics. To explore this, I will analyze and study a tesseract. A tesseract, or hypercube, is a 4 dimensional cube. It is analogous to a cube in our 3D world. Tesseracts are hard for 3D beings to visualize and understand. They are theoretical structures that can be understood mathematically. Tesseracts can interact with a 3D world in a way that is similar to a cube interacting with a 2D world. A 2D being cannot understand, visualize, or fully experience a cube, but as a cube rotates around, they can gain a better understanding of what the structure is like. Similarly, a rotating tesseract can help us understand what they are like.
+I am interested in using 3D printing to model and visualize mathematics. To explore this, I will analyze and study a tesseract. A tesseract, or hypercube, is a 4 dimensional cube. It is analogous to a cube in our 3D world. Tesseracts are challenging for 3D beings to `visualize and understand <https://en.wikipedia.org/wiki/Four-dimensional_space#Cognition>`_. They are theoretical structures that can be understood mathematically. Tesseracts can interact with a 3D world in a way that is similar to a cube interacting with a 2D world. A 2D being cannot understand, visualize, or fully experience a cube, but as a cube rotates around, they can gain a better understanding of what the structure is like. Similarly, a rotating tesseract can help us understand what they are like.
 
 Using math and 3D printing, I can create multiple versions of a rotating tesseract. These 3D printed tesseracts can be assembled in a stop motion animation to show what the tesseract looks like as it rotates around 4D space.
 
@@ -303,7 +303,7 @@ My goal for this project is to 3D print many versions of a rotating tesseract an
 
 What values of :math:`\theta` should I use for my 3D printed tesseracts?
 
-I experimented with the previous Rhino animation code to visualize what a stop motion animation would look like for different :math:`\theta` step sizes. I wanted the stop motion animation to be as smooth as possible without overburdening myself with an unreasonable number of 3D prints to make. I settled on a step size of 10 degrees and models with :math:`\theta` equal to 0, 10, 20, 30 and 40. This also lets me benefit from the symmetry of a tesseract, in that the 10, 20, 30 and 40 degree rotations are the mirror image of 80, 70, 60, and 50 degree rotations, respectively. And of course a 90 degree rotation is the same as no rotation at all.
+I experimented with the previous Rhino animation code to visualize what a stop motion animation would look like for different :math:`\theta` step sizes. I wanted the stop motion animation to be as smooth as possible without overburdening myself with an unreasonable number of 3D prints to make. I settled on a step size of 10 degrees and models with :math:`\theta` equal to 0, 10, 20, 30 and 40. This also lets me benefit from the symmetry of a tesseract in that the 10, 20, 30 and 40 degree rotations are the mirror image of 80, 70, 60, and 50 degree rotations, respectively. And of course a 90 degree rotation is the same as no rotation at all.
 
 .. image:: /images/itp/3d_printing/final/printing.jpg
   :width: 100%
