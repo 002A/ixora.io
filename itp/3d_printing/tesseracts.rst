@@ -40,8 +40,6 @@ Equally important are the sketches of the equations behind this project. These a
   /images/itp/3d_printing/final/rotation_matrices.jpg
   /images/itp/3d_printing/final/sphere_cone.jpg
 
-INSERT PROFESSIONAL LOOKING SKETCH DIAGRAM
-
 Understanding the Math
 ----------------------
 
@@ -278,6 +276,17 @@ I modeled the rotating tesseract in Python code separate from Rhino. I did this 
    ]}
 
 I created a custom Rhino command called *ConstructFromJSON* that will read one of these files and build the object.
+
+Tesseract Design Drawing
+------------------------
+
+After completing the math and code I can finally create a proper drawing of the tesseract model.
+
+.. image:: /images/itp/3d_printing/final/final_drawing.png
+  :width: 100%
+  :align: center
+
+An Adobe Illustrator file is also available for `download </downloads/itp/3d_printing/final/final_drawing.ai>`_.
 
 Rhino Animation
 ---------------
