@@ -112,7 +112,7 @@ Again, for a more complex application this is handled differently but will not b
 4D Geometry
 +++++++++++
 
-4D geometry parallels (!) 3D geometry by using vectors to represent points. The 4th dimension will be referred to as the letter :math:`v`.
+4D geometry parallels (!) 3D geometry by using vectors to represent points. The 4th dimension is often referred to with the letter :math:`w' but I will use the letter :math:`v`.
 
 .. math::
 
@@ -303,7 +303,7 @@ My goal for this project is to 3D print many versions of a rotating tesseract an
 
 What values of :math:`\theta` should I use for my 3D printed tesseracts?
 
-I experimented with the previous Rhino animation code to visualize what a stop motion animation would look like for different :math:`\theta` step sizes. I wanted the stop motion animation to be as smooth as possible without overburdening myself with an unreasonable number of 3D prints to make. I settled on a step size of 10 degrees and models with :math:`\theta` equal to 0, 10, 20, 30 and 40. This also lets me benefit from the symmetry of a tesseract, in that 10, 20, 30 and 40 degree rotations are the mirror image of 80, 70, 60, and 50 degree rotations, respectively. And of course a 90 degree rotation is the same as no rotation at all.
+I experimented with the previous Rhino animation code to visualize what a stop motion animation would look like for different :math:`\theta` step sizes. I wanted the stop motion animation to be as smooth as possible without overburdening myself with an unreasonable number of 3D prints to make. I settled on a step size of 10 degrees and models with :math:`\theta` equal to 0, 10, 20, 30 and 40. This also lets me benefit from the symmetry of a tesseract, in that the 10, 20, 30 and 40 degree rotations are the mirror image of 80, 70, 60, and 50 degree rotations, respectively. And of course a 90 degree rotation is the same as no rotation at all.
 
 .. image:: /images/itp/3d_printing/final/printing.jpg
   :width: 100%
