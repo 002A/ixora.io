@@ -30,11 +30,15 @@ First, I started with some sketches. My drawings of a tesseract are terrible bec
 
 A rotating tesseract will repeat itself after a 90 degree rotation. Also, there is symmetry in that rotations between 45 and 90 degrees are mirror images of rotations between 0 and 45 degrees. I can simplify my workload by considering this in my design.
 
-INSERT CIRCLE OF ROTATIONS
+.. image:: /images/itp/3d_printing/final/rotating_tesseract.jpg
+  :width: 100%
+  :align: center
 
 Equally important are the sketches of the equations behind this project. These are fundamental to my thinking this through and understanding what I am building.
 
-INSERT MATH SKETCHES
+.. slides::
+  /images/itp/3d_printing/final/rotation_matrices.jpg
+  /images/itp/3d_printing/final/sphere_cone.jpg
 
 INSERT PROFESSIONAL LOOKING SKETCH DIAGRAM
 
@@ -220,7 +224,9 @@ To emphasize the perspective projection in the model, I want the vertices that a
 
 This leads to an interesting and subtle math problem. To correctly model two spheres with different radii connected by a truncated cone, the top and bottom of the cone cannot be located at the centers of the two spheres, and the radii of the circles on the top and bottom of the cone cannot be equal to the radii of the two spheres. This is best understood by looking at the below illustration of two circles and a trapezoid:
 
-INSERT ILLUSTRATION
+.. image:: /images/itp/3d_printing/final/sphere_cone.svg
+  :width: 100%
+  :align: center
 
 As the illustration shows, the object can have noticeable edges and artifacts where the two spheres meet the truncated cone. It would be better if the objects were joined seamlessly.
 

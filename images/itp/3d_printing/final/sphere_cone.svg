@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 850 600" style="enable-background:new 0 0 850 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#FF0000;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#00FF00;stroke-width:3;stroke-miterlimit:10;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:20px;}
+	.st6{fill:#202020;}
+</style>
+<g>
+	<circle class="st0" cx="451.9" cy="76" r="46.5"/>
+	<path d="M451.9,31c24.8,0,45,20.2,45,45s-20.2,45-45,45s-45-20.2-45-45S427.1,31,451.9,31 M451.9,28c-26.5,0-48,21.5-48,48
+		s21.5,48,48,48s48-21.5,48-48S478.4,28,451.9,28L451.9,28z"/>
+</g>
+<g>
+	<circle class="st0" cx="451.9" cy="397" r="173.5"/>
+	<path d="M451.9,225c45.9,0,89.1,17.9,121.6,50.4c32.5,32.5,50.4,75.7,50.4,121.6s-17.9,89.1-50.4,121.6S497.8,569,451.9,569
+		s-89.1-17.9-121.6-50.4c-32.5-32.5-50.4-75.7-50.4-121.6s17.9-89.1,50.4-121.6C362.8,242.9,405.9,225,451.9,225 M451.9,222
+		c-96.6,0-175,78.4-175,175s78.4,175,175,175s175-78.4,175-175S548.5,222,451.9,222L451.9,222z"/>
+</g>
+<g>
+	<line class="st1" x1="451.4" y1="396.5" x2="626.4" y2="396.5"/>
+</g>
+<line class="st1" x1="451.4" y1="75.5" x2="499.4" y2="75.5"/>
+<line class="st2" x1="626.4" y1="396.5" x2="499.4" y2="75.5"/>
+<line class="st3" x1="288.4" y1="336.5" x2="409.4" y2="54.5"/>
+<text transform="matrix(1 0 0 1 686.8877 314.667)" class="st4 st5">Unwanted bump</text>
+<text transform="matrix(1 0 0 1 574.2212 57.6665)" class="st4 st5">Weird edge</text>
+<text transform="matrix(1 0 0 1 21.5542 146)" class="st4 st5">Tangent line properly blends objects</text>
+<g>
+	<g>
+		<g>
+			<polygon class="st6" points="564,52.9 525.3,64.8 522.8,56.8 504.9,76 530.5,81.9 528.1,73.9 566.8,62.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon class="st6" points="677,312.9 638.3,324.8 635.8,316.8 617.9,336 643.5,341.9 641.1,333.9 679.8,322.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon class="st6" points="268.6,155.9 278.8,283.2 270.5,283.8 285.4,305.5 296.7,281.8 288.3,282.4 278.1,155.1 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<polygon class="st6" points="278.5,121.8 377.2,72 381,79.5 395.4,57.5 369.1,56 372.9,63.5 274.2,113.2 			"/>
+		</g>
+	</g>
+</g>
+</svg>
