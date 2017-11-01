@@ -112,7 +112,7 @@ Again, for a more complex application this is handled differently but will not b
 4D Geometry
 +++++++++++
 
-4D geometry parallels (!) 3D geometry by using vectors to represent points. The 4th dimension is often referred to with the letter :math:`w' but I will use the letter :math:`v`.
+4D geometry parallels (!) 3D geometry by using vectors to represent points. The 4th dimension is often referred to with the letter :math:`w` but I will use the letter :math:`v`.
 
 .. math::
 
@@ -223,7 +223,6 @@ To emphasize the perspective projection in the model, I want the vertices that a
 This leads to an interesting and subtle math problem. To correctly model two spheres with different radii connected by a truncated cone, the top and bottom of the cone cannot be located at the centers of the two spheres, and the radii of the circles on the top and bottom of the cone cannot be equal to the radii of the two spheres. This is best understood by looking at the below illustration of two circles and a trapezoid:
 
 .. image:: /images/itp/3d_printing/final/sphere_cone.svg
-  :width: 100%
   :align: center
 
 As the illustration shows, the object can have noticeable edges and artifacts where the two spheres meet the truncated cone. It would be better if the objects were joined seamlessly.

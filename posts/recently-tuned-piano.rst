@@ -9,7 +9,7 @@
 
 Recently I got my piano tuned and I re-recorded myself playing a few songs.
 
-Here is Pachelbel's Canon in D. I played this at my brother's wedding in a few weeks ago. I didn't play it as well as I do here but I did my best. It's hard playing in front of people!
+Here is Pachelbel's Canon in D. I played this at my brother's wedding in a few weeks ago. I didn't play it as well as I do here but I did my best. It's hard playing for an audience!
 
 .. youtube:: ZcTRDxM8-00
 
