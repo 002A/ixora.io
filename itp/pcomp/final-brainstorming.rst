@@ -9,6 +9,8 @@
 
 `Camilla <http://www.ivymeadows.net/itp-blog/?tag=Phys+Comp>`_ and I decided that for our final project we will continue working on our `MIDI Meditation <http://slug/midi-meditation>`_ device. We did well working together and we have a good project idea. The feedback from the midterm presentation is that if we improve the interaction and user experience we will have a great final project and an intriguing submission for the final show. Rather than try to build some kind of crazy flying robot, I believe that working on the interaction and user experience design will be a good learning experience for me.
 
+.. TEASER_END
+
 Camilla and I have a few ideas for what we should focus on:
 
 * Reliable pulse detection. Currently our pulse sensor is weakly attached to velcro with some glue that keeps coming off. It was fine for our presentation but it needs to be improved. We were thinking of exploring other pulse areas like the temple or earlobe, or perhaps sewing the sensor into a glove.
