@@ -320,7 +320,7 @@ Tesseract Stop Motion Animation
 
 And finally, the stop motion animation of a tesseract:
 
-.. youtube:: PJOlRcXj4aw
+.. youtube:: j0lS_yUWdPs
    :align: center
 
 And in animated GIF form:
