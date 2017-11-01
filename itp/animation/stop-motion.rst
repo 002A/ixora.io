@@ -15,6 +15,8 @@ This video is hilarious and cracks me up every time I watch it. This was a lot o
   :height: 450
   :width: 800
 
+No, that is not my finger.
+
 I also filmed a short stop motion animation for my 3D printing class. We learned about Dragonframe in this class a few days earlier and I put it to good use right away.
 
 .. image:: /images/itp/3d_printing/final/3d_printed_hypercube.gif
