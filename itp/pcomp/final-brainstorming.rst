@@ -12,9 +12,9 @@
 Camilla and I have a few ideas for what we should focus on:
 
 * Reliable pulse detection. Currently our pulse sensor is weakly attached to velcro with some glue that keeps coming off. It was fine for our presentation but it needs to be improved. We were thinking of exploring other pulse areas like the temple or earlobe, or perhaps sewing the sensor into a glove.
-* Pulsing lights. It would enhance the experience if there were pulsing lights as the user's heart beats. If the user is closing their eyes while meditating they won't see lights but it may entice viewers try using this, and also possibly providing a way for others to feel a sense of connection with the user.
+* Pulsing lights. It would enhance the experience if there were pulsing lights as the user's heart beats. If the user is closing their eyes while meditating they won't see lights but it may entice viewers to try using this, and also possibly provide a way for others to feel a sense of connection with the user.
 * Better enclosure. Our midterm project used a cardboard box. Camilla is taking Intro to Fab and will have good ideas for how to do this.
 * MIDI with Ableton Live. The sophisticated MIDI programs don't implement the MIDI protocol exactly as documented in our Arduino book. We will need to read the documentation to learn how to send the correct MIDI messages for Ableton.
-* Improve the heartbeat detection algorithm. Our algorithm is pretty good but it will need to be better if we want it to work well during the show. At a minimum, it will require testing on more than few people. We need to collect data for a wider group of people, develop an algorithm that works for everybody (including Roland), and then thoroughly test the final product.
+* Improve the heartbeat detection algorithm. Our algorithm is pretty good but it will need to be better if we want it to work well during the show. At a minimum, it will require testing on more than few people. We need to collect data for a wider group of people, develop an algorithm that works for everybody (including Roland), and then thoroughly test the final product. Most of the technical work will be here. If we do a good job, it will be invisible to the users.
 
 I'm excited to keep working on this!
