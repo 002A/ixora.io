@@ -24,7 +24,7 @@ The character's legs are animated with rotating null objects that have carefully
 
 This could easily be expanded to a longer animation that features the same character walking across the screen and pausing to interact with its environment or other characters. I will consider this for our project due in a few weeks.
 
-In addition, I experimented with some special effects, including image stabilization and camera tracking. Camera tracking is great and is essential for adding 3D objects to video. I recorded some footage with my phone using a camera stabilizer borrowed from the ER. The camera stabilizer is critical for a moving camera because After Effects' camera tracking functionality seems to get tripped up by a camera that wobbles.
+I also experimented with special effects, including image stabilization and camera tracking. Camera tracking is great and is essential for adding 3D objects to video. I recorded some footage with my phone using a camera stabilizer borrowed from the ER. The camera stabilizer is critical for a moving camera because After Effects' camera tracking functionality seems to get tripped up by a camera that wobbles.
 
 My special effects experiments are still a work in progress so I won't post them here, but it will certainly be an ongoing thing I work on well after this class ends!
 
