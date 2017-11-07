@@ -10,7 +10,7 @@
 After Effects
 =============
 
-We started learning about Adobe's After Effects, a video editing and compositing tool that I enjoy immensely. I spent more time than I should have going through After Effects tutorials and learning about what this tool can do. This tool is super useful; there were many moments when I realized that some cool thing I've seen can be easily done with After Effects. I want to become proficient at this and use it for creative work.
+We started learning about Adobe After Effects, a video editing and compositing tool that I enjoy immensely. I spent more time than I should have going through After Effects tutorials and learning about what this tool can do. This tool is super useful; there were many moments when I realized that some cool thing I've seen can be easily done with After Effects. I want to become proficient at this and use it for creative work.
 
 We were asked to build a short composition with animated shapes but I got carried away building an animated character that walks across the screen. The character is built in Illustrator and animated in After Effects. I added some sound effects using Premiere. Enjoy!
 
