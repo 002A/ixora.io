@@ -26,7 +26,11 @@ This could easily be expanded to a longer animation that features the same chara
 
 I also experimented with special effects, including image stabilization and camera tracking. Camera tracking is great and is essential for adding 3D objects to video. I recorded some footage with my phone using a camera stabilizer borrowed from the ER. The camera stabilizer is critical for a moving camera because After Effects' camera tracking functionality seems to get tripped up by a camera that wobbles.
 
-My special effects experiments are still a work in progress so I won't post them here, but it will certainly be an ongoing thing I work on well after this class ends!
+Here's a small demo of what I was able to accomplish. There are some small flaws but the concept works as I intended. It was difficult to figure out how to do this and particularly tedious getting everything to line up correctly. Nevertheless, I am happy and will explore this further in the future.
+
+.. vimeo:: 241825286
+  :height: 450
+  :width: 800
 
 Understanding Comics
 ====================
