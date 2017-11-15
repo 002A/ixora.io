@@ -14,6 +14,8 @@ Results Summary
 
 One tester told us he had previously discussed our project idea with his wife, who works as a therapist. She thought it would be helpful to have some way to help patients practice breathing exercises before the session begins. I find it encouraging that somebody found our project to be sufficiently intriguing to talk about it with someone else. I know she'll be at the Winter Show and I'm looking forward to showing her the final result.
 
+.. TEASER_END
+
 A repeating theme among our testers was how the instructions to breathe in or breathe out was being communicated. In our sample gui we used a solid color that would gradually fill the screen starting from the bottom. The idea we were going for is that someone would fill their lungs with air as the solid color filled the screen. We did not explicitly tell our testers to match their breathing to the screen because we wanted to examine the intuitiveness of our interface. Unfortunately it was not intuitive as nobody matched their breathing to what they saw on the screen. Users wanted to see lighter and darker colors as well as expanding and contracting circles to denote breathing in and out.
 
 In addition, our playtesting breathing exercise was too difficult for most of our testers. The exercise required someone to inhale over 4 seconds, hold for 4 seconds, exhale over 6 seconds, and then pause 2 seconds before repeating the breathing cycle. Not everyone seemed to be able to breathe that slowly. We will need to be able to adjust the speed to better accommodate everyone.
