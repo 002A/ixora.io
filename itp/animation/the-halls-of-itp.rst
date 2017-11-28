@@ -37,7 +37,7 @@ After solving for the camera, After Effects can let you add objects to the 3D sc
 
 Imagine you took a photograph of what you see in front of you right now and printed it out on a piece of paper. If your camera and printer are both good enough, it would be theoretically possible for you to put the paper in front of your face and position it perfectly so that what you see in front of you looks exactly like it did without the paper. Actually, that isn't true: you have two eyes that give you depth perception. If you closed one eye and then looked at the paper, it could be indistinguishable from what you see without the paper. Then the effect would work.
 
-You can also do this in After Effects. After creating the 3D Tracker Camera you can take a JPG image of a particular frame of a movie file and insert it back into the same movie file at the same timestep that the JPG frame came from. If you do this perfectly, that frame will look identical to how it looked before.
+You can also do this in After Effects. After creating the 3D Tracker Camera you can take a JPG image of a particular frame of a movie file and insert it back into the same movie file at the same timestep that the JPG frame came from. If you do this perfectly, what you see will be identical to what you saw before.
 
 Until, of course, you advance one step forward or backwards. Then it looks different. And you can add a mask to the inserted frame to only keep part of the image. The inserted image will then look like a frozen panel that just happened to appear in an otherwise normal 3D video.
 
@@ -92,7 +92,7 @@ The JPG frame's position (relative to its parent, the Null object) is then:
 
 Next I must calculate the JPG image's scale. This is expressed as a percentage. I know it must be scaled up to fit the camera's angle of view. If the frame wasn't scaled it up it could still fit the camera's angle of view by moving it closer to the camera. If I can calculate that distance, I can use :math:`a` to get the percentage.
 
-The distance :math:`b` a properly orientated JPG image must be from the camera to exactly fill the camera's angle of view can be calculated with trigonometry. Since I know the width of a JPG image is 1920 pixels and the angle of view is 110 degrees,
+The distance :math:`b` a properly orientated and unscaled JPG image must be from the camera to exactly fill the camera's angle of view can be calculated with trigonometry. Since I know the width of a JPG image is 1920 pixels and the angle of view is 110 degrees,
 
 .. math::
 
@@ -113,11 +113,11 @@ The workflow becomes create a Null object, run my script, and add some masks to 
 Problems
 ========
 
-If everything goes well...but many things didn't. I estimate I spent close to a hundred hours working on this project. I did enjoy this very much but a hundred hours is time I didn't have to spend on this. Nevertheless, I persisted. I enjoyed working on this very much and know the knowledge I gained will be applied to future projects.
+If everything goes well...but many things didn't. I estimate I spent close to a hundred hours working on this project. I did enjoy this very much but a hundred hours is time I didn't have to spend on this. Nevertheless, I stuck with it. I enjoyed working on this very much and know the knowledge I gained will be applied to future projects.
 
 My biggest problem had to do with the video footage. All of this works only if it is possible for After Effects to create a 3D Tracker Camera. When I started this project I overestimated the ability of After Effects to do this.
 
-My initial idea was to film a view of the NYC skyline early in the morning as I walked along the Promenade in Brooklyn Heights. I was out there at 6:30 AM on a cold and windy day trying to film. I had to do this on an inhospitable day because people are normally there 24/7, making it impossible to film a continuous shot without a random person getting in the way. I recorded my footage but the camera was too unstable for After Effects to use it. I was using a camera gimbol but it was a windy day and I was recording something on the other side of the Hudson river. Small orientation problems became very noticeable.
+My initial idea was to film a view of the NYC skyline early in the morning as I walked along the Promenade in Brooklyn Heights. I was out there at 6:30 AM on a cold and windy day trying to film. I had to do this on an inhospitable day because people are normally there 24/7, making it impossible to film a continuous shot without a random person getting in the way. I recorded my footage but the camera was too unstable for After Effects to use it. I was using a camera gimbol but it was a windy day and I was recording something on the other side of the Hudson river. Small orientation problems become very noticeable camera aberrations.
 
 My reaction was to try to stabilize the videos. This could be done with gratuitous application of After Effects's stabilization tools. Unfortunately if you do this too much the stabilization algorithm will render the video un-trackable. I wish I knew that before spending several days stabilizing everything.
 
@@ -125,7 +125,7 @@ Oh well. I will use that video for some other future project.
 
 Even my recordings from the halls of ITP were not all trackable. Most of them were, if I was walking straight. Going around turns seemed to stress the tracking algorithm. You'll notice the end of my video has a turn as I head to the elevators. I split that section up into smaller segments and did my modifications on each individually.
 
-The footage I used was recorded at ITP on a Friday morning at 9 AM when nobody was here. It is eerily quiet then. When you walk around the only thing you hear is the floor creaking. Moving people can trip up the camera tracking algorithm and also complicate my attempt to add my JPG frames. A moving person cannot pass through a place where a JPG frame is without ruining the effect. Whatever is pictured in the JPG frame must always be farther away from the camera than the JPG frame. This is important to preserve the illusion.
+The footage I used was recorded at ITP on a Friday morning at 9 AM when nobody was here. It is eerily quiet at that time. When you walk around the only thing you hear is the floor creaking. Moving people can trip up the camera tracking algorithm and also complicate my attempt to add my JPG frames. A moving person cannot pass through a place where a JPG frame is without ruining the effect. Whatever is pictured in the un-masked JPG frame must always be farther away from the camera than the JPG frame. This is important to preserve the illusion.
 
 I did the best I could to make the video interesting. It was hard to make the end result not seem like a gimmick. I put a lot of work into this and wasn't going to give up, but it often felt like I was throwing good time after bad.
 
