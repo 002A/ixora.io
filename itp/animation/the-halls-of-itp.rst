@@ -82,9 +82,7 @@ Now I can substitute and solve for :math:`a`:
   a &= z' \cdot r_{o} - z' \cdot c \\
   a &= z' \cdot (r_{o} - c)
 
-This result makes sense given what a dot product means.
-
-The JPG frame's position (relative to its parent, the Null object) is then:
+This result makes sense given the intuition behind a dot product as a `scalar projection <https://en.wikipedia.org/wiki/Dot_product#Scalar_projection_and_first_properties>`_ of an arbitrary vector onto a unit vector. In retrospect I should have been able to find this without doing any math. Similarly, the JPG frame's position (relative to its parent, the Null object) is then:
 
 .. math::
 
