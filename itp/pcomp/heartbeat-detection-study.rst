@@ -10,7 +10,7 @@
 Team
 ====
 
-The Great Heart project is the result of the hard work and collaborative effort of `Camilla Padgitt-Coles <http://www.ivymeadows.net/itp-blog/?tag=Phys+Comp>`_ and James Schmitz.
+The Great Heart project is the result of the hard work and effort of `Camilla Padgitt-Coles <http://www.ivymeadows.net/itp-blog/?tag=Phys+Comp>`_ and James Schmitz.
 
 Project Summary
 ===============
@@ -25,14 +25,6 @@ There are two options: A "challenge" mode where the program stops once your hear
 
 The project is modular and allows the freedom to change the audio and visual aspects and various components of the program in P5 as needed. The Arduino sends the heart rate data and button-press messages for the instrument, note and sustain on/off buttons through serial communication to P5. The rest is coded in P5 using JavaScript, audio samples, and images.
 
-References
-==========
-
-* `Pulse Sensor Amped <https://pulsesensor.com/products/pulse-sensor-amped>`_
-* `Arduino Pulse Sensor library <https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino>`_
-* `MIDI Sprout <https://www.midisprout.com/>`_
-* `Heartmath Institute <https://www.heartmath.org/research/>`_
-
 System Diagram
 ==============
 
@@ -46,3 +38,16 @@ Fritzing Diagram
 .. image:: /images/itp/pcomp/week15/circuit_diagram.png
   :width: 100%
   :align: center
+
+Next Steps
+==========
+
+Camilla and I are going to continue working this project over the winter break. We will create another enclosure identical to the one we use in the show. We will also make a high quality video documenting the project. And finally, we will finalize the algorithm changes to the Pulse Sensor library to contribute back to the `Arduino Pulse Sensor library <https://github.com/WorldFamousElectronics/PulseSensorPlayground>`_ repository.
+
+References
+==========
+
+* `Pulse Sensor Amped <https://pulsesensor.com/products/pulse-sensor-amped>`_
+* `Arduino Pulse Sensor library <https://github.com/WorldFamousElectronics/PulseSensorPlayground>`_
+* `MIDI Sprout <https://www.midisprout.com/>`_
+* `Heartmath Institute <https://www.heartmath.org/research/>`_
