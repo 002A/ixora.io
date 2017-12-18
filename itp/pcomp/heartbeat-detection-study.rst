@@ -25,6 +25,8 @@ There are two options: A "challenge" mode where the program stops once your hear
 
 The project is modular and allows the freedom to change the audio and visual aspects and various components of the program in P5 as needed. The Arduino sends the heart rate data and button-press messages for the instrument, note and sustain on/off buttons through serial communication to P5. The rest is coded in P5 using JavaScript, audio samples, and images.
 
+Our code is available on `github <https://github.com/hx2A/p5_meditation>`_.
+
 System Diagram
 ==============
 
