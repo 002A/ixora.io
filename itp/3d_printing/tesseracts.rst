@@ -294,6 +294,8 @@ Using more Python code I can generate data files for many values of :math:`\thet
 
 .. youtube:: vBmblCtobiI
    :align: center
+   :width: 600
+   :height: 308
 
 3D Printing
 -----------
@@ -321,6 +323,8 @@ And finally, the stop motion animation of a tesseract:
 
 .. youtube:: j0lS_yUWdPs
    :align: center
+   :width: 600
+   :height: 400
 
 And in animated GIF form:
 
