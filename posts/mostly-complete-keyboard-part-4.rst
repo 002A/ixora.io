@@ -1,7 +1,7 @@
 .. title: Mostly complete keyboard (Part 4)
 .. slug: mostly-complete-keyboard-part-4
 .. date: 2017-03-07 12:23:56 UTC-05:00
-.. tags: art, technology, making
+.. tags: technology, making, keyboard
 .. category: 
 .. link: 
 .. description: Custom keyboard at ITP Camp
@@ -15,7 +15,7 @@ I previously wrote that I was "`almost done <link://slug/finishing-a-custom-keyb
 
 Eventually I wrote some Arduino diagnostic code to help me identify the problems. I also read several books on Multimeters. And lots of time studying my soldering joints with a magnifying glass. It was tedious, but now the keyboard works pretty flawlessly. Although it is possible another problem will creep up later, I am confident I will be able to deal with it.
 
-The circuitry is complete. A few minor tweaks to go: some buttons needed to be filed down to fit properly, and perhaps a few more need some work. The keyboard also doesn't have question mark or comma keys. I plan on using a laser cutter to make replacement buttons for the tilda and the caret characters since they aren't as important. I will take care of it at ITP Camp this summer.
+The circuitry is complete. A few minor tweaks to go: some buttons needed to be filed down to fit properly, and perhaps a few more need some work. The keyboard also doesn't have question mark or comma keys. I plan on using a laser cutter to make replacement buttons for the duplicate times and caret characters since they aren't as important. I will take care of it at ITP Camp this summer.
 
 And this is me typing with it! It really works!!
 

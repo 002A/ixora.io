@@ -1,7 +1,7 @@
 .. title: Making a custom keyboard at home (Part 2)
 .. slug: making-a-custom-keyboard-at-home-part-2
 .. date: 2016-08-07 22:12:48 UTC-04:00
-.. tags: art, technology, making
+.. tags: technology, making, keyboard
 .. category:
 .. link:
 .. description: Custom keyboard at ITP Camp

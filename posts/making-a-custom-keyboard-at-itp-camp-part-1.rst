@@ -1,7 +1,7 @@
 .. title: Making a custom keyboard at ITP Camp (Part 1)
 .. slug: making-a-custom-keyboard-at-itp-camp-part-1
 .. date: 2016-06-30 22:12:48 UTC-04:00
-.. tags: art, technology, making
+.. tags: technology, making, keyboard
 .. category:
 .. link:
 .. description: Custom keyboard at ITP Camp
