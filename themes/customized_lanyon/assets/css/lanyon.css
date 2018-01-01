@@ -76,17 +76,21 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 28rem;
 }
-@media (min-width: 45em) {
+@media (min-width: 52em) {
   .container {
-    max-width: 35rem;
+    max-width: 30rem;
   }
 }
-@media (min-width: 62em) {
+@media (min-width: 64rem) {
+  .container {
+    max-width: 40rem;
+  }
+}
+@media (min-width: 77rem) {
   .container {
     max-width: 50rem;
   }
 }
-
 
 /*
  * Masthead
