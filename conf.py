@@ -166,6 +166,7 @@ NAVIGATION_LINKS = {
 #     'transition': 'cube'
 # }
 
+# My custom theme
 THEME = 'customized_lanyon'
 GLOBAL_CONTEXT = {
     "lanyon_subtheme": "theme-base-custom"
@@ -223,8 +224,10 @@ THEME_COLOR = '#D45670'
 POSTS = (
     ("main/*.rst", "", "main.tmpl"),
     ("itp/*.rst", "itp", "post.tmpl"),
-    ("itp/*/*.rst", "itp", "post.tmpl"),
+    ("itp/*.md", "itp", "post.tmpl"),
     ("itp/*.ipynb", "itp", "post.tmpl"),
+    ("itp/*/*.rst", "itp", "post.tmpl"),
+    ("itp/*/*.md", "itp", "post.tmpl"),
     ("itp/*/*.ipynb", "itp", "post.tmpl"),
     ("posts/*.rst", "blog", "post.tmpl"),
     ("posts/*.md", "blog", "post.tmpl"),
@@ -679,6 +682,7 @@ REDIRECTIONS = [("happy-holidays/index.html", "/posts/happy-holidays-2016/")]
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
+# TODO: don't forget custom error pages
     'default': [
         "aws s3 sync output/ s3://copy.ixora.io/",
     ]
@@ -1126,7 +1130,8 @@ PRETTY_URLS = True
 # Note: most Nikola-specific extensions are done via the Nikola plugin system,
 #       with the MarkdownExtension class and should not be added here.
 # The default is ['fenced_code', 'codehilite']
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+# MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra']
+MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
 # Extra options to pass to the pandoc command.
 # by default, it's empty, is a list of strings, for example
