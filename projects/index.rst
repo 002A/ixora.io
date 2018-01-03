@@ -19,6 +19,10 @@
 
   I created another Processing_ library called ColorBlindness. This is a stripped-down fork of the Camera3D code that provides tools for simulating color blindness and performing daltonization. Included are some educational color blindness utilities to help users explore color disabilities. My library also comes with tools for picking colors that would be confusing to a color blind person. With a little bit of thought, one can use these to create something that I call "pseudoisochromatic art," or art that can only be properly experienced by a color blind person.
 
+:doc:`after-effects-vfx-project`
+
+  I did a VFX project in After Effects for my animation class. I reverse-engineered the mechanics of a popular online video to add frames of a movie to the same movie, positioned in such a way that everything blends seamlessly. That description is poor but I don't know how else to describe the project so please have a look for yourself.
+
 :doc:`custom-computer-keyboard`
 
   I designed and built a custom computer keyboard for a woman with cerebral palsy. Traditional keyboards are often difficult for disabled people to use. In this physical computing project, I built a keyboard using laser cut parts and an Arduino.
