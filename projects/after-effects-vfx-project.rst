@@ -1,6 +1,6 @@
 .. title: After Effects VFX Project
 .. slug: after-effects-vfx-project
-.. date: 2018-01-03 13:28:02 UTC-05:00
+.. date: 2018-01-03 13:28:02 UTC-04:00
 .. tags:
 .. category:
 .. link:
@@ -15,7 +15,7 @@ I've always been fascinated by VFX, so I very much enjoyed learning about After 
   :width: 800
 
 My project was inspired by this popular online video shown in class:
-  
+
 .. vimeo:: 123006429
   :height: 360
   :width: 640
