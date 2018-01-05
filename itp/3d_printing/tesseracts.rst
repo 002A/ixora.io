@@ -1,7 +1,7 @@
 .. title: Tesseracts
 .. slug: tesseracts
 .. date: 2017-10-29 23:32:54 UTC-04:00
-.. tags: itp, 3d printing, mathjax
+.. tags: itp, 3d printing, mathjax, tesseract
 .. category:
 .. link:
 .. description: Tesseracts

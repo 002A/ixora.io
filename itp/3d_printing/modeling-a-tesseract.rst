@@ -1,7 +1,7 @@
 .. title: Modeling a Tesseract
 .. slug: modeling-a-tesseract
 .. date: 2017-10-22 16:55:22 UTC-04:00
-.. tags: itp, 3d printing
+.. tags: itp, 3d printing, tesseract
 .. category:
 .. link:
 .. description: Modeling a Tesseract

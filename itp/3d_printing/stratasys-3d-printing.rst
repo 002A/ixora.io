@@ -1,7 +1,7 @@
 .. title: Stratasys 3D Printing
 .. slug: stratasys-3d-printing
 .. date: 2017-11-10-04 12:17:12 UTC-04:00
-.. tags: itp, 3d printing, mathjax
+.. tags: itp, 3d printing, mathjax, tesseract
 .. category:
 .. link:
 .. description: Stratasys 3D Printing of Tesseracts
