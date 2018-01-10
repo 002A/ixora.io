@@ -72,7 +72,7 @@ Camera3D supports all of the regular Processing_ camera functions. It also coope
 
 The provided Processing example sketches illustrate everything mentioned above as well as provide utility programs to help you explore its potential.
 
-`Javadocs <javadoc/index.html>`_ are available if you need them. You can find the `source <https://github.com/002A/Camera3D>`_ and latest `release <https://github.com/002A/Camera3D/releases>`_ on github.
+`Javadocs <javadoc/index.html>`_ are available if you need them. You can find the `source <https://github.com/hx2A/Camera3D>`_ and latest `release <https://github.com/hx2A/Camera3D/releases>`_ on github.
 
 Finally, some :doc:`miscellaneous-thoughts`.
 

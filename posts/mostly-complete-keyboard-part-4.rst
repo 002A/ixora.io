@@ -26,7 +26,7 @@ Some photos:
     /images/custom_keyboard/keyboard_on_desk_1.jpg
     /images/custom_keyboard/keyboard_on_desk_2.jpg
 
-I wrote my own `Arduino code <https://github.com/002A/CustomKeyboardArduinoCode>`_ to run the Arduino board. My code properly handles multiple key presses and lets the operating system handle key repeats. There is also diagnostic code to blink the Arduino's built-in LED if there is a hardware problem with the shift registers.
+I wrote my own `Arduino code <https://github.com/hx2A/CustomKeyboardArduinoCode>`_ to run the Arduino board. My code properly handles multiple key presses and lets the operating system handle key repeats. There is also diagnostic code to blink the Arduino's built-in LED if there is a hardware problem with the shift registers.
 
 I am very happy to have finished the circuitry for this custom keyboard. For a long time this project seemed hopeless. Nevertheless, I stuck with it and now it is clear I will actually finish it properly. The soldering iron that was setup on my kitchen table since August has finally been put away. I'll take it out again later, of course, but for a different project!
 
