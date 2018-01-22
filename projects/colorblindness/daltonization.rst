@@ -11,6 +11,8 @@ Daltonization is a color correction technique that attempts to adjust colors in 
 
 Like :doc:`color-blindness-simulation`, this feature is designed to quickly transform each frame of your sketch so that the overhead from the library does not impact your `frame rate <https://www.processing.org/reference/frameRate.html>`_.
 
+To learn more about the Processing library I have built to perform daltonization, go to the `main project page </projects/colorblindness/>`_.
+
 Consider this image of fall trees.
 
 .. image:: /images/colorblindness/fall_trees.jpg

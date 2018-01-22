@@ -7,9 +7,9 @@
 .. description: Color blindness simulation generator
 .. type: text
 
-`Color blind <https://en.wikipedia.org/wiki/Color_blindness>`_ people have partial or no ability to perceive colors. This library can do a color transformation on your sketch to reduce the color palette in a way that mimics color deficiencies.
+`Color blind <https://en.wikipedia.org/wiki/Color_blindness>`_ people have partial or no ability to perceive colors. `This library </projects/colorblindness/>`_ can do a color transformation on your sketch to reduce the color palette in a way that mimics color deficiencies.
 
-To learn about the science behind color blindness simulation, refer to the :doc:`color-blindness-simulation-research` page.
+To learn about the science behind color blindness simulation, refer to the :doc:`color-blindness-simulation-research` page. To learn more about the Processing library I have built to simulate color blindness, go to the `main project page </projects/colorblindness/>`_.
 
 The library is designed to quickly transform each frame of your sketch so that the overhead from the library does not impact your `frame rate <https://www.processing.org/reference/frameRate.html>`_. Using this library, users can check that their work is accessible to color blind people and adjust their use of color as necessary.
 
@@ -36,11 +36,11 @@ A few years ago there was `speculation <http://www.smithsonianmag.com/smart-news
   <table align="center"><tr><td>
 
 .. image:: /images/colorblindness/van_gogh_starry_night.jpg
-  :width: 48%
+  :width: 45%
   :align: left
 
 .. image:: /images/colorblindness/van_gogh_starry_night_protanopia.jpg
-  :width: 48%
+  :width: 45%
   :align: right
 
 .. raw:: html
