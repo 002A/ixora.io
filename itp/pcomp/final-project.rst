@@ -1,6 +1,6 @@
 .. title: Final Project
 .. slug: final-project
-.. date: 2017-12-12 23:59:44 UTC-04:00
+.. date: 2017-12-12 23:59:44 UTC-05:00
 .. tags: itp, physical computing
 .. category:
 .. link:

@@ -1,6 +1,6 @@
 .. title: Final Project Progress
 .. slug: final-project-progress
-.. date: 2017-11-28 23:27:33 UTC-04:00
+.. date: 2017-11-28 23:27:33 UTC-05:00
 .. tags: itp, physical computing
 .. category:
 .. link:
