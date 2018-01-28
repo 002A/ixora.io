@@ -1,6 +1,6 @@
 .. title: The Halls of ITP
 .. slug: the-halls-of-itp
-.. date: 2017-11-27 23:34:17 UTC-04:00
+.. date: 2017-11-27 23:34:17 UTC-05:00
 .. tags: itp, animation, mathjax
 .. category:
 .. link:

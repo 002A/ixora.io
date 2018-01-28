@@ -1,6 +1,6 @@
 .. title: Unity Experiment
 .. slug: unity-experiment
-.. date: 2017-12-12 23:14:54 UTC-04:00
+.. date: 2017-12-12 23:14:54 UTC-05:00
 .. tags: itp, animation
 .. category:
 .. link:

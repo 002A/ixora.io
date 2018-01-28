@@ -1,6 +1,6 @@
 .. title: Unity Maze Game
 .. slug: unity-maze-game
-.. date: 2017-12-17 08:23:13 UTC-04:00
+.. date: 2017-12-17 08:23:13 UTC-05:00
 .. tags: itp, animation
 .. category:
 .. link:
