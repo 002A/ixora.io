@@ -12,5 +12,5 @@ Paper Engineering, taught by `Sam Ita <https://samita-us.tumblr.com/bio>`_.
 Class blog posts:
 
 .. post-list::
-   :tags: subtraction
+   :tags: paper engineering
    :reverse:
