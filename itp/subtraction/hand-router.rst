@@ -85,6 +85,6 @@ And here's another closeup of the ugly mistake:
   :width: 100%
   :align: center
 
-The hardest part of this exercise was dealing with the clamps. I spent a lot of time clamping and re-clamping things, often not successfully. I also could have made things easier on myself by making some measurements. It seemed like precision wasn't important here but I now see that it probably would have been faster to complete this with the extra effort.
+The hardest part of this exercise was dealing with the clamps. I spent a lot of time clamping and re-clamping things, often not successfully. Poor clamping caused many of my mistakes. I also could have made things easier on myself by making some measurements. It seemed like precision wasn't important here but I now see that it probably would have been faster to complete this with the extra effort.
 
 I am happy to have learned this new tool but perhaps the most important lesson here is appreciate the precision and discipline offered by the CNC machine. I am eager to learn more about this in the coming weeks.
