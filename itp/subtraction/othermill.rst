@@ -23,7 +23,7 @@ The inspiration for this was a musical sculpture I recently saw at the `Museum o
 
 I may develop this idea further for a future project.
 
-I created my design in Abobe Illustrator. I was curious about milling wood to multiple depth levels and how to design such a thing in Illustrator. I also wanted to use boolean operations to make my design. I learned that when using Illustrator's Pathfinder Shape Modes, the "Minus Front" and "Exclude" operations can yield the same results but Bantam's desktop milling software would interpret the svg files differently.
+I created my design in Abobe Illustrator. I was curious about milling wood to multiple depth levels and how to design such a thing in Illustrator. I also wanted to use boolean operations to make my design. I learned that when using Illustrator's Pathfinder Shape Modes, the "Minus Front" and "Exclude" operations can achieve the same results but Bantam's desktop milling software would interpret the svg files differently.
 
 Here's the first layer of my design, milled to 0.05 inches.
 
