@@ -20,4 +20,11 @@ The larger car is much easier to put together. I removed the slots and tabs near
 
 I used the laser cutter to cut the paper. This was my first time using the laser cutter to cut paper. It was quick and easy and saved me having to do this by hand with an Exacto blade. I'm definitely going to use this in the future.
 
+Below is the Illustrator-designed pattern if you want to make your own. Cut the red lines and fold the blue lines.
+
+.. image:: /images/itp/paper_engineering/week4/car2.svg
+  :width: 100%
+  :align: center
+
+
 For the next version I think I will adjust the tabs and slots to make the construction a bit tighter. I also will make the side mirrors a little bit bigger to better match the scale of the rest of the car.
