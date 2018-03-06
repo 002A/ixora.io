@@ -22,5 +22,7 @@ This was a pivotal piece in Bruguera’s career, after which she “focused on a
 Tania Bruguera’s work challenges the viewers to consider the lives of the Cuban people and the struggles of artists under the Castro regime. Her controversial and pivotal work Untitled (Havanana, 2000) contrasts the image of Castro against the oppression of the Cuban people, raising awareness of the cruelty of the authoritarian regime.
 
 [1] Wikipedia contributors. "`Tania Bruguera <https://en.wikipedia.org/wiki/Tania_Bruguera>`_." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 28 Dec. 2017. Web. 11 Feb. 2018.
+
 [2] MoMA Museum. “Sugarcane, Fidel Castro, and Performance Art In Cuba: Tania Bruguera’s Untitled (Havana, 2000).” MoMA Museum. Print. 9 Feb. 2018.
+
 [3] MoMA Museum. “`Tania Bruguera: Untitled (Havana, 2000) <https://www.moma.org/calendar/exhibitions/3898>`_.” MoMA Museum. Web. 11 Feb. 2008.

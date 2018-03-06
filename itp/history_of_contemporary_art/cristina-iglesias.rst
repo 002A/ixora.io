@@ -30,5 +30,7 @@ In the final gallery lives Phreatic Zone III, another organic-looking cast metal
 Iglesias’ Entwined exhibition at the Marian Goodman gallery contain impressive works that combine the interior and exterior worlds. The works motivate the viewer to contemplate the two worlds and serve as a reminder that living things surround us all the time, even when we are standing in a building in midtown Manhattan.
 
 [1] Wikipedia contributors. "`Cristina Iglesias <https://en.wikipedia.org/wiki/Cristina_Iglesias>`_." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 11 Dec. 2016. Web. 10 Feb. 2018.
+
 [2] Tate. “`Cristina Iglesias – ‘The Viewer is Fundamental in My Work’ <https://www.youtube.com/watch?v=GiYVXAnMAKM>`_.” Online Video clip. YouTube, 19 Jan. 2018. Web. 10 Feb. 2018.
+
 [3] Marian Goodman Gallery. “`Cristina Iglesias: Entwined <https://www.mariangoodman.com/exhibitions/cristina-iglesias-entwined/press-release>`_.” Marian Goodman Gallery. 9. Jan 2018. Web. 9 Feb. 2018.

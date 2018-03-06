@@ -26,6 +26,8 @@ After a few revolutions around the Guggenheim, I saw him as more than just a col
 Danh Vo is a conceptual artist who acquires historical artifacts with layers of meaning that go beyond the physical objects themselves. His work explores cultural and personal themes related to national imperialism and its impact on his family, and is done in a way that is subtle and thought provoking.
 
 [1] Wikipedia contributors. "`Danh Vo <https://en.wikipedia.org/wiki/Danh_Vo>`_." Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 10 Feb. 2018. Web. 12 Feb. 2018.
+
 [2] Guggenheim Museum. “`Danh Vo: Take My Breath Away <https://www.guggenheim.org/exhibition/danh-vo>`_.” Guggenheim Museum. Web. 12 Feb. 2018.
+
 [3] Sayej, Nadja. “`'Traumatized people don't talk about their past': how Danh Vo used art to move on. <https://www.theguardian.com/artanddesign/2018/feb/12/traumatized-people-dont-talk-about-their-past-how-danh-vo-used-art-to-move-on>`_” The Guardian. 12 Feb. 2018. Web. 12 Feb. 2018.
 
