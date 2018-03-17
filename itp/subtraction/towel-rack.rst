@@ -103,7 +103,7 @@ Since I had no extra wood left I was going to have to re-zero the machine and co
 
 Happily I successfully re-zeroed the machine with high precision. It was slightly noticeable but only a tiny fraction of an inch off. With a little bit of sandpaper nobody would ever notice.
 
-Since my re-zeroing attempt worked I might have also been able to recover the abandoned piece. Also, if my re-zeroing attempt wasn't good enough I could have tried again by continuing the abandoned piece. I was determined to finish the CNC'ing and wasn't going to give up without a fight.
+Since my re-zeroing attempt worked I might have also been able to recover the abandoned piece after the first reset. Also, if my successful re-zeroing attempt wasn't good enough I could have tried re-zeroing again and continuing the abandoned piece. In any case I was determined to finish the CNC'ing and wasn't going to give up without a fight.
 
 The final piece was CNC'ed without incident.
 
@@ -117,7 +117,7 @@ Much to my delight, all the pieces fit together properly. It looks great!
   :width: 100%
   :align: center
 
-Later John complimented me on my ability to keep my cool despite the problems with the CNC. I didn't invent any new 4-letter words or anything. I also learned a lot from the experience. There are some things I would do differently to better help myself recover from a CNC reset.
+Later John complimented me on my ability to keep my cool despite the problems with the CNC. I didn't invent any new 4-letter words or anything. I also learned a lot from the experience. There are some things I would do differently to better help myself recover from a CNC reset. In particular I would consider the order of my toolpath operations and how well I could recover from a reset.
 
 Finishing
 =========
