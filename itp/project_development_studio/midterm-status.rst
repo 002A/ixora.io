@@ -126,7 +126,10 @@ I'm not sure if 360 video is the right format for this but I certainly enjoyed t
 
 Here is the same video but with a style transfer applied to each frame. This video uses an optical flow algorithm to identify moving objects from frame to frame. This allows for the creation of coherent videos with consistent styles applied to objects. Coherency reduces the flickering that typically occurs in these kinds of videos.
 
-INSERT VIDEO
+.. youtube:: jbc9aZBBhyU
+    :width: 800
+    :height: 400
+    :align: center
 
 Many Directions
 ===============
