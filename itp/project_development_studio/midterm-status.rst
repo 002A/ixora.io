@@ -122,7 +122,7 @@ There's also a 360 Video version:
     :height: 400
     :align: center
 
-I'm not sure if 360 video is the right format for this but I certainly enjoyed that a lot.
+This might not be a typical use of 360 video but I certainly enjoyed that a lot.
 
 Here is the same video but with a style transfer applied to each frame. This video uses an optical flow algorithm to identify moving objects from frame to frame. This allows for the creation of coherent videos with consistent styles applied to objects. Coherency reduces the flickering that typically occurs in these kinds of videos.
 
@@ -131,16 +131,16 @@ Here is the same video but with a style transfer applied to each frame. This vid
     :height: 400
     :align: center
 
-Only 5 seconds because this takes a long time. I'll replace it with the full version in a few days.
+This is only 5 seconds because it takes a long time to create. I'll replace it with the full version in a few days.
 
 Many Directions
 ===============
 
 As far as form goes there are two other directions I can go here other than single frame images and videos. Two that I can think of right now, that is.
 
-I can use the data to make compositions. Using the depth data for each location I can build a crude 3D world that I can insert rendered objects into. For example, I can model a car and add it to the video. I am not going to pursue this now though as it will take too much time. I have not yet parsed the depth data, and when I do parse it, I know it will be more work to figure out the math for how to use it properly. I will do this eventually but not now. After I learn more about 3D modeling programs like Blender or Cinema4D I will pursue this.
+I can use the data to make compositions. Using the depth data for each location I can build a crude 3D world that I can insert rendered objects into. For example, I can model a car and add it to the video. I am not going to pursue this now as it will take too much time. I have not yet parsed the depth data, and when I do parse it, I know it will be more work to figure out the math for how to use it properly. I will do this eventually but not now. After I learn more about 3D modeling programs like Blender or Cinema4D I will pursue this.
 
-Another idea is to create my own panoramas for a location and let people use the `Google Maps API <https://developers.google.com/maps/documentation/javascript/>`_ to explore it. The Google Maps API allows you to provide your own `panoramas <https://developers.google.com/maps/documentation/javascript/streetview#CustomStreetView>`_. Creating the panoramas in the correct format is challenging but given what I have accomplished so far I know it is something I can do here. Completing something substantive might not be possible in the next month, but I will not eliminate this idea just yet.
+Videos are based on a sequential series of pictures. There is no reason I need to limit myself to this linear structure. There are other interactive approaches that could link the panoramas together into a network of some kind.
 
 There are other far out ideas, like when I download the data for all of Manhattan and use the pictures to grow an entire city using a generative algorithm and a neural network. Maybe that will be my thesis project.
 
@@ -157,8 +157,8 @@ Outside of technology there are many directions I can pursue. There are lots of 
 Next Steps
 ==========
 
-I'm so excited with how well this project is going I am feeling overwhelmed. There is a lot I can do here and there is no way I will accomplish all of it by the end of this class. But that's OK! That's more than OK! So much to learn! I wouldn't have it any other way. I want to learn more about computer graphics and machine learning and that's what will happen. There is plenty for me to do here.
+I'm so excited with how well this project is going I am feeling overwhelmed. There is a lot I can do here and there is no way I will accomplish all of it by the end of this class. But that's OK! That's more than OK! So much to learn! I wouldn't have it any other way. I signed up for this class because I wanted to learn more about computer graphics and machine learning and that's what's going to happen. There is plenty for me to do here.
 
 For the purpose of this class I do need to make some decisions about what to do. I need to pick something that I can accomplish by the end of the semester. The end of the semester will not be the end of my work here.
 
-In the short term I will continue to explore and experiment with the data. I will read research papers and start coding my own style transfer algorithms. I know there are things in this data waiting to be discovered. Discovering them will be what makes my work here significant. This will take time, but I know the only way to get there is to dive into the data and immerse myself in it. And that's what I am going to do.
+In the short term I will continue to explore and experiment with the data. I will read research papers and start coding my own style transfer algorithms. I know there are things in this data waiting to be discovered. I don't want to impose my own ideas; the most interesting ideas people will care about the most will come from the data itself. Discovering them will be what makes my work here significant. This will take time, but I know the only way to get there is to dive into the data and immerse myself in it. And that's what I am going to do.
