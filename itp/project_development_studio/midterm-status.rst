@@ -144,7 +144,7 @@ Videos are based on a sequential series of pictures. There is no reason I need t
 
 There are other far out ideas, like when I download the data for all of Manhattan and use the pictures to grow an entire city using a generative algorithm and a neural network. Maybe that will be my thesis project.
 
-There is also much to learn about machine learning. I very much want to delve into the programming aspect of this. I'm not going to use someone else's code to do style transfers. I should be doing that myself.
+There is also much to learn about machine learning. I very much want to delve into the programming aspect of this. I'm not going to use someone else's code to do style transfers. I should be doing that myself. I also want to move from style transfers to style generation. I have some ideas but I need to know more about deep learning to try them out.
 
 No matter what I am going to have to leverage cloud computing to complete this project. Luckily I have a lot of free credits for GCP and AWS that will expire soon. I am happy to use them for this project.
 
