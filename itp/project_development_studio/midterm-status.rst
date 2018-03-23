@@ -7,7 +7,7 @@
 .. description: ITP class: Midterm Status
 .. type: text
 
-Our class is half over and it is time for our midterm full class feedback session. I've made a lot of progress recently and am excited to share my work with my fellow students.
+Our class is half over and it is time for our midterm full-class feedback session. I've made a lot of progress recently and am excited to share my work with my fellow students. I will definitely achieve my original goals for this class, however, if that's the only thing I do with this, it would be a crime. This project is absolutely going to live on long after this class is over.
 
 .. TEASER_END
 
@@ -140,7 +140,7 @@ As far as form goes there are two other directions I can go here other than sing
 
 I can use the data to make compositions. Using the depth data for each location I can build a crude 3D world that I can insert rendered objects into. For example, I can model a car and add it to the video. I am not going to pursue this now as it will take too much time. I have not yet parsed the depth data, and when I do parse it, I know it will be more work to figure out the math for how to use it properly. I will do this eventually but not now. After I learn more about 3D modeling programs like Blender or Cinema4D I will pursue this.
 
-Videos are based on a sequential series of pictures. There is no reason I need to limit myself to this linear structure. There are other interactive approaches that could link the panoramas together into a network of some kind.
+Videos are based on a sequential series of pictures. There is no reason I need to limit myself to a linear structure. There are other interactive approaches that could link the panoramas together into a network of some kind.
 
 There are other far out ideas, like when I download the data for all of Manhattan and use the pictures to grow an entire city using a generative algorithm and a neural network. Maybe that will be my thesis project.
 
@@ -151,6 +151,8 @@ No matter what I am going to have to leverage cloud computing to complete this p
 Style transfers for 360 video is not an area of deep learning research that has been well explored. Based on my experience with this kind of imagery I have some ideas I'd like to try.
 
 I could apply object detection and instance segmentation algorithms to these images. A task like locating all the instances of dogs or food carts in Manhattan would be possible. I can also create masks to use as an input to a style transfer algorithm.
+
+Another dimension I could explore is marrying this dataset with other datasets. The sky's the limit.
 
 Outside of technology there are many directions I can pursue. There are lots of interesting places to visit with Google Street View. Beautiful or ugly, this is our world. I found several subreddits specifically devoted to Google Street View finds. People put a lot of effort into exploring Google Street View. I have been going through the subreddits and found things I never would have thought of on my own. It would be interesting to juxtapose the palace pictured above with `this trash pile <https://www.google.com/maps/@4.6009852,-74.0837091,3a,75y,8.75h,76.94t/data=!3m6!1e1!3m4!1sDgRK-F7csYnxL8IWHCwqUg!2e0!7i13312!8i6656>`_ or `this tree <https://www.google.co.uk/maps/@11.4843876,104.9024297,2a,75y,52.76h,68.94t/data=!3m6!1e1!3m4!1sp_QFxpyKHCLiHwoY_zYXgg!2e0!7i13312!8i6656>`_. I'm looking forward to discussing this with the class when I present my progress.
 
