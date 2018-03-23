@@ -108,7 +108,7 @@ Single-frame pictures is one thing. How about videos?
 
 With my code I can also export a series of pictures from one region in the proper order. The pictures can then be assembled into a movie, like so:
 
-.. youtube:: X_S8TX5vmp8
+.. youtube:: d95nkui9BGM
     :width: 800
     :height: 400
     :align: center
