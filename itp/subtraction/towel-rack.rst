@@ -9,7 +9,7 @@
 
 For my midterm project I created this towel rack for my apartment:
 
-.. image:: /images/itp/subtraction/week7/completed.jpg
+.. image:: /images/itp/subtraction/week7/mounted_towel_rack.jpg
   :width: 100%
   :align: center
 
@@ -140,4 +140,17 @@ It should be noted that I am using three different kinds of wood. The bars are m
   :width: 100%
   :align: center
 
-The last step is to put it on the wall of my bathroom. I'm going to wait to do that until after our midterm presentation on Thursday and will update this post at that time.
+I mounted it on the wall of Room 20 at ITP for our midterm presentation. I never thought I'd be drilling something into a wall at school like that.
+
+.. image:: /images/itp/subtraction/week7/mounted_towel_rack.jpg
+  :width: 100%
+  :align: center
+
+I didn't use proper screw drywall anchors to mount it because I wasn't going to do that for a quick and temporary mount. Because of that I couldn't get the screws to go in all the way and I couldn't use my screw caps. When I mounted it at home I had to do a better job. I used drywall anchors and mounted it securely to the wall.
+
+After mounting it I had a great deal of difficulty getting the screw caps in place. Most of them didn't want to go into the holes. I got them in with some hammering but it wasn't easy. I'll have a hard time when I move out of this apartment but for now it makes me very happy.
+
+.. slides::
+
+  /images/itp/subtraction/week7/mounted_towel_rack_left.jpg
+  /images/itp/subtraction/week7/mounted_towel_rack_right.jpg
