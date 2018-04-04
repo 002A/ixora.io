@@ -26,5 +26,4 @@ Below is the Illustrator-designed pattern if you want to make your own. Cut the 
   :width: 100%
   :align: center
 
-
 For the next version I think I will adjust the tabs and slots to make the construction a bit tighter. I also will make the side mirrors a little bit bigger to better match the scale of the rest of the car.
