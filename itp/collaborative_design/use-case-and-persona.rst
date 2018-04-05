@@ -19,7 +19,7 @@ Our group started with postit-notes on a whiteboard.
 
 Here is the use case we settled on:
 
-  I going through life and I don’t want to be burdened by documentation. I want to have the ability to re-live important and meaningful experiences without documentation tasks taking away from my ability to live in the moment.
+  I am going through life and I don’t want to be burdened by documentation. I want to have the ability to re-live important and meaningful experiences without documentation tasks taking away from my ability to live in the moment.
 
 And the personas for our use case:
 
