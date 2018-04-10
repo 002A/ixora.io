@@ -9,9 +9,9 @@
 
 Adrian Piper (b. 1948) is an American conceptual artist and philosopher whose art career has spanned 5 decades. Her work addresses racism and the marginalization of minorities in western society by challenging us to face our racist views and attitudes. The artistic message is more than simply being critical of racism; it is about facing the illusions we tell ourselves about the reality of how appropriately we treat minorities and people of color.
 
-.. TEASER_END
-
 Piper was born in New York City and attended a private school with mostly wealthy white students. She earned an associate’s degree from the School of Visual Arts in 1969 and a bachelor’s degree in Philosophy from the City College of New York in 1974. She went on to study Philosophy at Harvard where she received her master’s and PhD in 1977 and 1981. While studying in these programs she was also involved in New York’s art community, working at the Siegelaub Gallery and meeting other prominent artists of the time.
+
+.. TEASER_END
 
 MoMA’s retrospective of Piper’s art career on the 6th floor of the museum is the first time the entire floor has been devoted to a retrospective of a living artist. The show demonstrates the breadth of Piper’s art career, featuring paintings, photographs, drawings, multimedia installations, video work, and performance pieces.
 
