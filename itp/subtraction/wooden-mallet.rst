@@ -1,6 +1,6 @@
 .. title: Wooden Mallet
 .. slug: wooden-mallet
-.. date: 2018-04-10 20:24:11 UTC-04:00
+.. date: 2018-04-11 20:24:11 UTC-04:00
 .. tags: itp, subtraction
 .. category:
 .. link:
