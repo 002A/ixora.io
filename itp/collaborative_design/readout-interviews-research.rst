@@ -79,22 +79,23 @@ User Interviews
 
 We also did some user interviews. Here is a selection of questions and answers.
 
-Q. How do you access your memories from your childhood? Do you have pictures?
+**How do you access your memories from your childhood? Do you have pictures?**
 
-A: No albums. It's not a conscious process.
+*No albums. It's not a conscious process.*
 
-I never look at my photos. It's more of a pathology than anything else.
+*I never look at my photos. It's more of a pathology than anything else.*
 
-Q. If there was some kind of wearable recording device that would collect images for you, would you be interested in using it?
+**If there was some kind of wearable recording device that would collect images for you, would you be interested in using it?**
 
-A: No.
+*No.*
 
-Q. Would you be interested in an AI that curates this for you?
-A: It sounds hellish to me.
+**Would you be interested in an AI that curates this for you?**
 
-I am not the customer for this. I don’t want wearable tech.
+*It sounds hellish to me.*
 
-I want to disconnect more. I am not looking for further ways to optimize consumption. I want to make more time for analog processes. Do not try to sell me wearable tech.
+*I am not the customer for this. I don’t want wearable tech.*
+
+*I want to disconnect more. I am not looking for further ways to optimize consumption. I want to make more time for analog processes. Do not try to sell me wearable tech.*
 
 Overall user interviews provided negative feedback for our project. Nobody was interested in using this. This was unexpected given the level of enthusiasm for the idea from within our group.
 
