@@ -1,6 +1,6 @@
 .. title: Four-Axis Mill
 .. slug: four-axis-mill
-.. date: 2018-04-15 12:24:11 UTC-04:00
+.. date: 2018-04-16 10:41:03 UTC-04:00
 .. tags: itp, subtraction
 .. category:
 .. link:
