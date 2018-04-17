@@ -22,5 +22,7 @@ Of particular interest is Gaillard’s choices for Nightlife’s audio track. Ga
 Cyprien Gaillard is a French artist expressing themes of destruction and humankind’s interaction with nature. His piece Nightlife expresses these themes through film in ways that are subtle and powerful and demonstrate his skill as an artist.
 
 [1] Wikipedia contributors. "`Cyprien Gaillard <https://fr.wikipedia.org/wiki/Cyprien_Gaillard>`_." Wikipédia, l'encyclopédie libre. 18 Jan. 2018. Web. 18 Jan. 2018.
+
 [2] Artsy Editors. “`Cyprien Gaillard. <https://www.artsy.net/artist/cyprien-gaillard>`_” Artsy. 13 Apr. 2018. Web. 13 Apr. 2018.
+
 [3] Huff, Andrew. “`Cyprien Gaillard: Nightlife <https://gladstonegallery.com/exhibition/15198/installation-view#&panel1-1>`_.” Gladstone Gallery. 23 Feb. 2018. Print. 13 Apr. 2018.
