@@ -11,6 +11,8 @@ This week we put most of our efforts into designing the user interface. We put t
 
 More detail is available below.
 
+.. TEASER_END
+
 UX Design
 =========
 
