@@ -131,7 +131,7 @@ Here is the same video but with a style transfer applied to each frame. This vid
     :height: 400
     :align: center
 
-This is only 5 seconds because it takes a long time to create. I'll replace it with the full version in a few days.
+This is only 5 seconds because it takes a long time to create.
 
 Many Directions
 ===============
