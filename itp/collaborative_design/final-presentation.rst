@@ -11,4 +11,4 @@ Today was the final day of our class. Our team presented the reLive business we 
 
 I'm proud of our team and how well we worked together. We all had other classes and responsibilities competing for our time but we all pitched in and worked when we could and we were forgiving when others couldn't. We had a good dynamic and were able to explore ideas effectively and efficiently.
 
-The presentation is available `online <https://docs.google.com/presentation/d/10qQaOnN0DAVTBhCjgi0jkEF-CMMyMgQIovO7t7Xtu7g/edit?usp=sharing>`_.
+The presentation is available `online <https://docs.google.com/presentation/d/10qQaOnN0DAVTBhCjgi0jkEF-CMMyMgQIovO7t7Xtu7g/edit?usp=sharing>`_. The code for our prototype is available on `Github <https://github.com/hx2A/itp_collaborative_design_class>`_.
