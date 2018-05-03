@@ -205,6 +205,6 @@ The varnish seemed to make the two lines on the top of the box completely disapp
   /images/itp/subtraction/final/finished_open.jpg
   /images/itp/subtraction/final/finished_open_side_by_side.jpg
 
-One flaw with this is the way the box top and bottom fit together. The design is square so I should be able to rotate the box top and make the pieces fit together four different ways. Unfortunately for two of the four orientations the top and bottom don't fit together. I'm confused why that happened and will talk to Ben about that tomorrow.
+One flaw with this is the way the box top and bottom fit together. The design is square so I should be able to rotate the box top and make the pieces fit together four different ways. Unfortunately for two of the four orientations the top and bottom don't fit together. I examined my Vectorworks design and the fabricated box to understand why this is the case. My design is correct; every square is precisely a square in Vectorworks. The problem, which I discovered using digital calipers, is that the 4 axis mill did not mill precise squares. The square region where the bottom and the top meet is about 0.02" longer in the X direction than the Y direction. Thankfully the machine made the same error in both pieces so the fabricated box can still fit together.
 
 In any case I'm very happy with the end result. After the semester is over I am going to make a similar one with the piece of Purpleheart wood I have from my previous exotic wood end-cuts purchase. I'm looking forward to using this machine a lot more in the future.
