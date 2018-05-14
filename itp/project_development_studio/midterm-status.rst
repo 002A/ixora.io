@@ -27,7 +27,7 @@ Map Crawler
 
 The core part of my data acquisition strategy is a map crawler that navigates Google's data the same way a web crawler navigates the web. I wanted my code to be efficient and guarantee to not ever request the same data twice. I am limited to 25,000 requests a day and don't want to waste any of them.
 
-Below is a `graph <https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)>`_ of the locations I have data for in NYC. Linked locations are represented with lines connecting them. For this region I have downloaded all data within about 800 meters of ITP. Every day that circle will expand. It would take at least a month to download data for all of Manhattan if I used all of my quota for this task.
+Below is a `graph <https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)>`_ of the locations I have data for near ITP. Linked locations are represented with lines connecting them.
 
 .. image:: /images/itp/project_development_studio/midterm/nyc_graph.png
   :width: 100%
@@ -142,15 +142,13 @@ I can use the data to make compositions. Using the depth data for each location 
 
 Videos are based on a sequential series of pictures. There is no reason I need to limit myself to a linear structure. There are other interactive approaches that could link the panoramas together into a network of some kind.
 
-There are other far out ideas, like when I download the data for all of Manhattan and use the pictures to grow an entire city using a generative algorithm and a neural network. Maybe that will be my thesis project.
-
 There is also much to learn about machine learning. I very much want to delve into the programming aspect of this. I'm not going to use someone else's code to do style transfers. I should be doing that myself. I also want to move from style transfers to style generation. I have some ideas but I need to know more about deep learning to try them out.
 
 No matter what I am going to have to leverage cloud computing to complete this project. Luckily I have a lot of free credits for GCP and AWS that will expire soon. I am happy to use them for this project.
 
 Style transfers for 360 video is not an area of deep learning research that has been well explored. Based on my experience with this kind of imagery I have some ideas I'd like to try.
 
-I could apply object detection and instance segmentation algorithms to these images. A task like locating all the instances of dogs or food carts in Manhattan would be possible. I can also create masks to use as an input to a style transfer algorithm.
+I could apply object detection and instance segmentation algorithms to these images. I can also create masks to use as an input to a style transfer algorithm.
 
 Another dimension I could explore is marrying this dataset with other datasets. The sky's the limit.
 
