@@ -129,13 +129,13 @@ Cloud Computing
 
 The process of stylizing each frame of a video is very slow. For various reasons I didn't have a lot of time to create the actual videos I put in this show. To speed the process along I used cloud resources to accelerate the work. To manage the cost of those cloud resources and cope with shifting availability I used AWS, GCP, and Paperspace and moved each job from one location to another. This was a hassle but in retrospect it gives me an interesting opportunity to compare the cost and performance of the various resources.
 
-Here is a plot of the time to execute each frame of the animations shown above.
+.. Here is a plot of the time to execute each frame of the animations shown above.
 
-INSERT CHART
+.. INSERT CHART
 
-There are performance differences as I move from one platform to another. This is even more noticeable when I plot the ratio of optimization iterations to execution time. This shows the average time needed for each iteration.
+.. There are performance differences as I move from one platform to another. This is even more noticeable when I plot the ratio of optimization iterations to execution time. This shows the average time needed for each iteration.
 
-INSERT CHART
+.. INSERT CHART
 
 Interestingly Paperspace's `ML in a Box (VOLTA V100)` template ostensibly offers the same hardware as AWS' p3.2xlarge instance but my code ran 22% faster on AWS. Both setups provide 8 CPUs and one NVIDIA V100 GPU. While monitoring the machines I noticed that the CPUs were consistently above 90% utilization on Paperspace, suggesting that Paperspace offers inferior CPUs. The slower performance almost completely negates the lower cost of Paperspace.
 
