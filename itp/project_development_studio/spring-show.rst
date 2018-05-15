@@ -15,14 +15,14 @@ Google collects panorama photos from all around the world and makes them availab
 
 Here are two examples. The first is a trip down the Hudson River in the style of `Monet's Sunset on the Seine at Lavacourt (1880) <https://commons.wikimedia.org/wiki/File:Claude_Monet,_sunset-on-the-seine-at-lavacourt-winter-effect.jpg>`_. I also mixed in a small amount of a photograph by `Javan Ng <https://www.javanng.com/New-York/>`_ to give the result more structure.
 
-.. youtube:: 5DdeKOPhJuk
+.. youtube:: isfWmJNJaRw
     :width: 800
     :height: 400
     :align: center
 
 The second is a trip down US 12 in Idaho. The style is a mixture of `Picasso's Seated Nude (1909) <https://www.pablopicasso.org/seated-nude.jsp>`_ and a photograph by `Cat Connor <https://www.redbubble.com/people/catconnor/collections/154776-yosemite>`_ of a sunset at Yosemite National Park.
 
-.. youtube:: SF3ScvRXlUE
+.. youtube:: x2nBu9No_QE
     :width: 800
     :height: 400
     :align: center
