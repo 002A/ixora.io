@@ -1,6 +1,6 @@
 .. title: Spring Show
 .. slug: spring-show
-.. date: 2018-05-14 00:47:12 UTC-04:00
+.. date: 2018-05-15 10:27:12 UTC-04:00
 .. tags: itp, project development studio
 .. category:
 .. link:
