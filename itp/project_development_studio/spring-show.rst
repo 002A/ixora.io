@@ -15,19 +15,31 @@ Google collects panorama photos from all around the world and makes them availab
 
 Here are two examples. The first is a trip down the Hudson River in the style of `Monet's Sunset on the Seine at Lavacourt (1880) <https://commons.wikimedia.org/wiki/File:Claude_Monet,_sunset-on-the-seine-at-lavacourt-winter-effect.jpg>`_. I also mixed in a small amount of a photograph by `Javan Ng <https://www.javanng.com/New-York/>`_ to give the result more structure.
 
-.. youtube:: isfWmJNJaRw
+.. youtube:: 30z4afiX6e8
     :width: 800
     :height: 400
     :align: center
 
 The second is a trip down US 12 in Idaho. The style is a mixture of `Picasso's Seated Nude (1909) <https://www.pablopicasso.org/seated-nude.jsp>`_ and a photograph by `Cat Connor <https://www.redbubble.com/people/catconnor/collections/154776-yosemite>`_ of a sunset at Yosemite National Park.
 
-.. youtube:: x2nBu9No_QE
+.. youtube:: KunS-3qkNZ4
     :width: 800
     :height: 400
     :align: center
 
-The videos are available in a YouTube `playlist <https://www.youtube.com/playlist?list=PLSVcaQfvpHO448UyJS99qjhLuODSuSAum&disable_polymer=true>`_.
+Here are the stylized videos side by side with the original photos from Google Street View.
+
+.. youtube:: HLAjwoQZFtU
+    :width: 800
+    :height: 400
+    :align: center
+
+.. youtube:: EPmXcpITorE
+    :width: 800
+    :height: 400
+    :align: center
+
+All of these videos are available in a YouTube `playlist <https://www.youtube.com/playlist?list=PLSVcaQfvpHO448UyJS99qjhLuODSuSAum&disable_polymer=true>`_.
 
 Style Transfer Experimentation Tools
 ====================================
