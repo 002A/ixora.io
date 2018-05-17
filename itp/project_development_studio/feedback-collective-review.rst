@@ -35,7 +35,7 @@ For the above video I queried images from the highway US 12 in Idaho. I am not l
 Data Management
 ===============
 
-The `Google Street View API <https://developers.google.com/maps/documentation/streetview/intro>`_ allows 25,000 API requests per day so I am acquiring a lot of images quickly. This needs to be organized in a sensible and accessible fashion. I put a lot of work into figuring out how to best do this.
+The `Google Street View API <https://developers.google.com/maps/documentation/streetview/intro>`_ limits the number of API requests per day. Downloaded images need to be organized in a sensible and accessible fashion. I put a lot of work into figuring out how to best do this.
 
 Ultimately I created a convenient user interface using Python and matplotlib. I can visualize the graph of locations I have data for.
 

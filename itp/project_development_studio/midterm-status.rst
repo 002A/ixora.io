@@ -25,7 +25,7 @@ Happily I came up with a clever fix for this that doesn't involve content-based 
 Map Crawler
 ===========
 
-The core part of my data acquisition strategy is a map crawler that navigates Google's data the same way a web crawler navigates the web. I wanted my code to be efficient and guarantee to not ever request the same data twice. I am limited to 25,000 requests a day and don't want to waste any of them.
+The core part of my data acquisition strategy is a map crawler that navigates Google's data the same way a web crawler navigates the web. I wanted my code to be efficient and guarantee to not ever request the same data twice.
 
 Below is a `graph <https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)>`_ of the locations I have data for near ITP. Linked locations are represented with lines connecting them.
 
