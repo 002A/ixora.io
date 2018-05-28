@@ -677,10 +677,8 @@ REDIRECTIONS = [("happy-holidays/index.html", "/posts/happy-holidays-2016/")]
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {
-# TODO: don't forget custom error pages
-    'default': [
-        "aws s3 sync output/ s3://copy.ixora.io/",
-    ]
+    'aws': ["aws s3 sync --delete output/ s3://ixora.io/", ],
+    'gcloud': ["gsutil -m rsync -r -d output/ gs://ixora.io/", ],
 }
 
 # github_deploy configuration

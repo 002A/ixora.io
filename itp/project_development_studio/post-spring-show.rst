@@ -15,4 +15,4 @@ I enjoyed the show very much and am grateful for the people who stopped by to se
   :width: 80%
   :align: center
 
-I'm going to keep developing these ideas over the summer and will continue posting to this blog. Check back often!
+I'm going to keep developing these ideas over the summer and will continue posting to this blog. Check back often!!!
