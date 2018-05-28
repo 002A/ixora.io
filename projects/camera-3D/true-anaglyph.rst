@@ -12,16 +12,20 @@ I don't know why this kind of Anaglyph is called a "True Anaglyph," but that's w
 Start with these right and left images:
 
 .. image:: /images/camera3D/true_anaglyph/fourcubes-left-component.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/true_anaglyph/fourcubes-right-component.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Filter each image. For this Generator, all colors are mapped to a shade of red or a shade of blue.
 
 .. image:: /images/camera3D/true_anaglyph/fourcubes-left-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/true_anaglyph/fourcubes-right-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Add the two images together, yielding:
 

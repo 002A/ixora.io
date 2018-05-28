@@ -12,16 +12,20 @@ This Generator preserves blue and green colors. It works better than the gray an
 Start with the same right and left images:
 
 .. image:: /images/camera3D/halfcolor_anaglyph/fourcubes-left-component.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/halfcolor_anaglyph/fourcubes-right-component.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Filter each image. For this Generator, the left image maps all colors to a shade of red. In the right image, red is removed.
 
 .. image:: /images/camera3D/halfcolor_anaglyph/fourcubes-left-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/halfcolor_anaglyph/fourcubes-right-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Add the two images together, yielding:
 

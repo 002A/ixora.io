@@ -16,9 +16,11 @@ Here's a great `video <https://www.youtube.com/watch?v=B7qrgrrHry0>`_ on what ba
 Start with the same right and left images:
 
 .. image:: /images/camera3D/barrel_distortion/fourcubes-left-component.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/barrel_distortion/fourcubes-right-component.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Distort each image. Here is the left component:
 

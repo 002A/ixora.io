@@ -17,16 +17,20 @@ Consider this image:
 Render it twice with the camera shifted slightly to the right and left. The camera shift is not blatantly obvious in this case but you can see it if you look at the left side of the gray cube.
 
 .. image:: /images/camera3D/bitmask_redcyan_anaglyph/fourcubes-left-component.png
-   :width: 50%
+   :width: 47%
+   :align: left
 .. image:: /images/camera3D/bitmask_redcyan_anaglyph/fourcubes-right-component.png
-   :width: 50%
+   :width: 47%
+   :align: right
 
 Filter each image. You will notice that the left red filtered image makes the green and blue cubes look black. The cyan filtered image makes the red cube look black.
 
 .. image:: /images/camera3D/bitmask_redcyan_anaglyph/fourcubes-left-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/bitmask_redcyan_anaglyph/fourcubes-right-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Add the two images together. If you open both of those images in Photoshop as two layers and set the Layers Mode to Addition, you will get:
 
@@ -43,9 +47,11 @@ If you are wearing red-cyan :doc:`glasses` you will notice that only the gray cu
 This generator can also make anaglyphs suitable for magenta-green :doc:`glasses`. The left image is filtered red and blue (magenta) and the right image is filtered green.
 
 .. image:: /images/camera3D/bitmask_magentagreen_anaglyph/fourcubes-left-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/bitmask_magentagreen_anaglyph/fourcubes-right-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Adding them together yields:
 

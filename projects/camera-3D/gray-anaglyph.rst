@@ -12,16 +12,20 @@ This Generator maps all colors into some shade of gray. It works well if you are
 Start with the same right and left images:
 
 .. image:: /images/camera3D/gray_anaglyph/fourcubes-left-component.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/gray_anaglyph/fourcubes-right-component.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Filter each image. For this Generator, all colors are mapped to a shade of red or a shade of cyan.
 
 .. image:: /images/camera3D/gray_anaglyph/fourcubes-left-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/gray_anaglyph/fourcubes-right-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Add the two images together, yielding:
 

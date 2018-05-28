@@ -12,16 +12,20 @@ This is the most advanced Generator, based on a research paper written by `Erik 
 Start with the same right and left images:
 
 .. image:: /images/camera3D/dubois_redcyan_anaglyph/fourcubes-left-component.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/dubois_redcyan_anaglyph/fourcubes-right-component.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Filter each image. For this Generator, all colors are mapped to a shade of red or a shade of cyan.
 
 .. image:: /images/camera3D/dubois_redcyan_anaglyph/fourcubes-left-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/dubois_redcyan_anaglyph/fourcubes-right-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Add the two images together, yielding:
 
@@ -38,9 +42,11 @@ With red-cyan :doc:`glasses` the red and green cubes look yellow. The blue one d
 This Generator can make amber-blue anaglyphs. This is how the images are filtered:
 
 .. image:: /images/camera3D/dubois_amberblue_anaglyph/fourcubes-left-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: left
 .. image:: /images/camera3D/dubois_amberblue_anaglyph/fourcubes-right-component-modified.png
-   :width: 50%
+    :width: 47%
+    :align: right
 
 Add them together to make the anaglyph.
    
